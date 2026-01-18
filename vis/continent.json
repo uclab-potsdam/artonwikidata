@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "continent": "Europe",
+        "count": 37363,
+        "global_south": false
+      },
+      {
+        "continent": "North America",
+        "count": 5504,
+        "global_south": false
+      },
+      {
+        "continent": "Asia",
+        "count": 1865,
+        "global_south": true
+      },
+      {
+        "continent": "South America",
+        "count": 633,
+        "global_south": true
+      },
+      {
+        "continent": "Oceania",
+        "count": 593,
+        "global_south": true
+      },
+      {
+        "continent": "Oceania",
+        "count": 313,
+        "global_south": true
+      },
+      {
+        "continent": "Africa",
+        "count": 267,
+        "global_south": true
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "y": {
+      "field": "continent",
+      "type": "nominal",
+      "sort": "-x",
+      "title": ""
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    },
+    "color": {
+      "field": "global_south",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          true,
+          false
+        ],
+        "range": [
+          "#FF00D3",
+          "#999999"
+        ]
+      },
+      "legend": null
+    }
+  },
+  "width": 300,
+  "height": 200
+}

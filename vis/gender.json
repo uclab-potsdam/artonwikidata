@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "gender": "Male",
+        "count": 59538
+      },
+      {
+        "gender": "Female",
+        "count": 11241
+      },
+      {
+        "gender": "Other",
+        "count": 19
+      }
+    ]
+  },
+  "mark": {
+    "type": "arc",
+    "innerRadius": 75
+  },
+  "encoding": {
+    "theta": {
+      "field": "count",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "gender",
+      "type": "nominal",
+      "legend": {
+        "title": "Gender"
+      },
+      "scale": {
+        "domain": [
+          "Female",
+          "Male",
+          "Other"
+        ],
+        "range": [
+          "#999999",
+          "#CCCCCC",
+          "#FF00D3"
+        ]
+      }
+    }
+  },
+  "width": 300,
+  "height": 300
+}

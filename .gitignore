@@ -1,0 +1,7 @@
+*.DS_Store
+vv/data/1024/*
+vv/data/4096/*
+vv/data/images/*
+vv/data/tmp/*
+.vscode/settings.json
+wikidata_cache

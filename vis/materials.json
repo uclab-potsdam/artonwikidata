@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "material": "Oil Paint",
+        "count": 590990
+      },
+      {
+        "material": "Canvas",
+        "count": 483550
+      },
+      {
+        "material": "Panel",
+        "count": 87084
+      },
+      {
+        "material": "Paper",
+        "count": 36558
+      },
+      {
+        "material": "Watercolor Paint",
+        "count": 23717
+      },
+      {
+        "material": "Cardboard",
+        "count": 16333
+      },
+      {
+        "material": "Acrylic Paint",
+        "count": 10153
+      },
+      {
+        "material": "Tempera",
+        "count": 9240
+      },
+      {
+        "material": "Wood",
+        "count": 7246
+      },
+      {
+        "material": "Oak Panel",
+        "count": 6239
+      },
+      {
+        "material": "Gouache Paint",
+        "count": 5931
+      },
+      {
+        "material": "Copper",
+        "count": 5425
+      },
+      {
+        "material": "Ink",
+        "count": 5341
+      },
+      {
+        "material": "Pastel",
+        "count": 4738
+      },
+      {
+        "material": "Paint",
+        "count": 4638
+      },
+      {
+        "material": "Graphite",
+        "count": 4283
+      },
+      {
+        "material": "Wove Paper",
+        "count": 3772
+      },
+      {
+        "material": "Pencil",
+        "count": 2067
+      },
+      {
+        "material": "Ceramic",
+        "count": 1697
+      },
+      {
+        "material": "Ivory",
+        "count": 1522
+      },
+      {
+        "material": "Other",
+        "count": 32234
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#999999"
+  },
+  "encoding": {
+    "y": {
+      "field": "material",
+      "type": "nominal",
+      "sort": [
+        "Oil Paint",
+        "Canvas",
+        "Panel",
+        "Paper",
+        "Watercolor Paint",
+        "Cardboard",
+        "Acrylic Paint",
+        "Tempera",
+        "Wood",
+        "Oak Panel",
+        "Gouache Paint",
+        "Copper",
+        "Ink",
+        "Pastel",
+        "Paint",
+        "Graphite",
+        "Wove Paper",
+        "Pencil",
+        "Ceramic",
+        "Ivory",
+        "Other"
+      ],
+      "title": ""
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    }
+  },
+  "width": 300,
+  "height": 400
+}

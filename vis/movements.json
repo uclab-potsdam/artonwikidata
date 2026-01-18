@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "movement": "Baroque",
+        "count": 29261
+      },
+      {
+        "movement": "Expressionism",
+        "count": 21317
+      },
+      {
+        "movement": "Impressionism",
+        "count": 19378
+      },
+      {
+        "movement": "Realism",
+        "count": 19007
+      },
+      {
+        "movement": "Symbolism",
+        "count": 18116
+      },
+      {
+        "movement": "Romanticism",
+        "count": 14067
+      },
+      {
+        "movement": "Post-Impressionism",
+        "count": 11239
+      },
+      {
+        "movement": "Rococo",
+        "count": 7304
+      },
+      {
+        "movement": "Flemish Baroque",
+        "count": 6860
+      },
+      {
+        "movement": "Dutch Golden Age",
+        "count": 6641
+      },
+      {
+        "movement": "Surrealism",
+        "count": 6616
+      },
+      {
+        "movement": "Orientalism",
+        "count": 6340
+      },
+      {
+        "movement": "Cubism",
+        "count": 6060
+      },
+      {
+        "movement": "Neoclassicism",
+        "count": 6058
+      },
+      {
+        "movement": "Abstract Expressionism",
+        "count": 5515
+      },
+      {
+        "movement": "Mannerism",
+        "count": 5004
+      },
+      {
+        "movement": "Academic Art",
+        "count": 4741
+      },
+      {
+        "movement": "English",
+        "count": 4381
+      },
+      {
+        "movement": "Hague School",
+        "count": 4158
+      },
+      {
+        "movement": "Barbizon School",
+        "count": 3997
+      },
+      {
+        "movement": "Other",
+        "count": 131443
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#999999"
+  },
+  "encoding": {
+    "y": {
+      "field": "movement",
+      "type": "nominal",
+      "sort": [
+        "Baroque",
+        "Expressionism",
+        "Impressionism",
+        "Realism",
+        "Symbolism",
+        "Romanticism",
+        "Post-Impressionism",
+        "Rococo",
+        "Flemish Baroque",
+        "Dutch Golden Age",
+        "Surrealism",
+        "Orientalism",
+        "Cubism",
+        "Neoclassicism",
+        "Abstract Expressionism",
+        "Mannerism",
+        "Academic Art",
+        "English",
+        "Hague School",
+        "Barbizon School",
+        "Other"
+      ],
+      "title": ""
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    }
+  },
+  "width": 300,
+  "height": 400
+}

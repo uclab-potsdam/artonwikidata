@@ -1,0 +1,5846 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "lifespan": 78.05,
+        "works": 107,
+        "label": "William Quiller Orchardson"
+      },
+      {
+        "lifespan": 56.54,
+        "works": 228,
+        "label": "Robert Delaunay"
+      },
+      {
+        "lifespan": 77.66,
+        "works": 166,
+        "label": "Johann Zoffany"
+      },
+      {
+        "lifespan": 85.06,
+        "works": 191,
+        "label": "Martin Johnson Heade"
+      },
+      {
+        "lifespan": 49.7,
+        "works": 192,
+        "label": "John Phillip"
+      },
+      {
+        "lifespan": 76.55,
+        "works": 103,
+        "label": "André Lhote"
+      },
+      {
+        "lifespan": 85.75,
+        "works": 112,
+        "label": "František Kupka"
+      },
+      {
+        "lifespan": 73.34,
+        "works": 804,
+        "label": "Camille Pissarro"
+      },
+      {
+        "lifespan": 75.87,
+        "works": 271,
+        "label": "Guercino"
+      },
+      {
+        "lifespan": 44.77,
+        "works": 106,
+        "label": "Paul McPharlin"
+      },
+      {
+        "lifespan": 84.45,
+        "works": 301,
+        "label": "Hyacinthe Rigaud"
+      },
+      {
+        "lifespan": 84.38,
+        "works": 154,
+        "label": "Hendrik Willem Mesdag"
+      },
+      {
+        "lifespan": 69.03,
+        "works": 101,
+        "label": "Jan de Baen"
+      },
+      {
+        "lifespan": 29.37,
+        "works": 104,
+        "label": "Christopher Wood"
+      },
+      {
+        "lifespan": 69.92,
+        "works": 281,
+        "label": "John Smart"
+      },
+      {
+        "lifespan": 62.25,
+        "works": 132,
+        "label": "Wilhelm Marstrand"
+      },
+      {
+        "lifespan": 82.89,
+        "works": 257,
+        "label": "Claude Lorrain"
+      },
+      {
+        "lifespan": 43.5,
+        "works": 126,
+        "label": "Esaias van de Velde"
+      },
+      {
+        "lifespan": 37.33,
+        "works": 1023,
+        "label": "Vincent van Gogh"
+      },
+      {
+        "lifespan": 73.81,
+        "works": 108,
+        "label": "Jean-François Raffaëlli"
+      },
+      {
+        "lifespan": 75.58,
+        "works": 113,
+        "label": "Henry Carr"
+      },
+      {
+        "lifespan": 28.7,
+        "works": 102,
+        "label": "Brian Hatton"
+      },
+      {
+        "lifespan": 74.06,
+        "works": 359,
+        "label": "Giovanni Battista Tiepolo"
+      },
+      {
+        "lifespan": 76.48,
+        "works": 146,
+        "label": "Graham Sutherland"
+      },
+      {
+        "lifespan": 90.78,
+        "works": 202,
+        "label": "Ladislav Čemický"
+      },
+      {
+        "lifespan": 42.98,
+        "works": 106,
+        "label": "Francesco Bassano the Younger"
+      },
+      {
+        "lifespan": 67.18,
+        "works": 218,
+        "label": "John Everett Millais"
+      },
+      {
+        "lifespan": 65.49,
+        "works": 200,
+        "label": "Henry Thomas Alken"
+      },
+      {
+        "lifespan": 44.35,
+        "works": 166,
+        "label": "Hans Makart"
+      },
+      {
+        "lifespan": 79.27,
+        "works": 116,
+        "label": "Johan Heinrich Neuman"
+      },
+      {
+        "lifespan": 92.11,
+        "works": 104,
+        "label": "Zakhar Hatsyatryan"
+      },
+      {
+        "lifespan": 86.91,
+        "works": 196,
+        "label": "Giovanni Bellini"
+      },
+      {
+        "lifespan": 59.04,
+        "works": 110,
+        "label": "Frits Thaulow"
+      },
+      {
+        "lifespan": 85.0,
+        "works": 381,
+        "label": "Wang Hui"
+      },
+      {
+        "lifespan": 70.96,
+        "works": 113,
+        "label": "François-Xavier Fabre"
+      },
+      {
+        "lifespan": 62.67,
+        "works": 383,
+        "label": "William Etty"
+      },
+      {
+        "lifespan": 101.27,
+        "works": 1613,
+        "label": "Grandma Moses"
+      },
+      {
+        "lifespan": 54.31,
+        "works": 110,
+        "label": "Paul-Émile Borduas"
+      },
+      {
+        "lifespan": 86.49,
+        "works": 182,
+        "label": "Ivon Hitchens"
+      },
+      {
+        "lifespan": 73.12,
+        "works": 111,
+        "label": "Johann Köler"
+      },
+      {
+        "lifespan": 70.0,
+        "works": 393,
+        "label": "Abraham van Beijeren"
+      },
+      {
+        "lifespan": 78.76,
+        "works": 156,
+        "label": "Johan Hendrik Weissenbruch"
+      },
+      {
+        "lifespan": 71.57,
+        "works": 236,
+        "label": "Edwin Landseer"
+      },
+      {
+        "lifespan": 85.85,
+        "works": 195,
+        "label": "Charles Willson Peale"
+      },
+      {
+        "lifespan": 82.06,
+        "works": 154,
+        "label": "Mary Cassatt"
+      },
+      {
+        "lifespan": 55.54,
+        "works": 197,
+        "label": "David Wilkie"
+      },
+      {
+        "lifespan": 58.72,
+        "works": 255,
+        "label": "Jan Miense Molenaer"
+      },
+      {
+        "lifespan": 66.31,
+        "works": 171,
+        "label": "Arthur Dove"
+      },
+      {
+        "lifespan": 69.72,
+        "works": 142,
+        "label": "David von Krafft"
+      },
+      {
+        "lifespan": 73.93,
+        "works": 110,
+        "label": "François Marius Granet"
+      },
+      {
+        "lifespan": 46.91,
+        "works": 176,
+        "label": "Hans Holbein the Younger"
+      },
+      {
+        "lifespan": 75.71,
+        "works": 174,
+        "label": "Francis Grant"
+      },
+      {
+        "lifespan": 73.0,
+        "works": 241,
+        "label": "Wang Yuanqi"
+      },
+      {
+        "lifespan": 83.62,
+        "works": 269,
+        "label": "Jozef Kollár"
+      },
+      {
+        "lifespan": 66.29,
+        "works": 247,
+        "label": "Adamson-Eric"
+      },
+      {
+        "lifespan": 59.0,
+        "works": 113,
+        "label": "Hans Holbein the Elder"
+      },
+      {
+        "lifespan": 40.57,
+        "works": 158,
+        "label": "Jean-Baptiste Pater"
+      },
+      {
+        "lifespan": 72.59,
+        "works": 133,
+        "label": "Ernest Zobole"
+      },
+      {
+        "lifespan": 78.02,
+        "works": 474,
+        "label": "Wassily Kandinsky"
+      },
+      {
+        "lifespan": 79.0,
+        "works": 137,
+        "label": "Lan Ying"
+      },
+      {
+        "lifespan": 76.97,
+        "works": 202,
+        "label": "Jan Brueghel the Younger"
+      },
+      {
+        "lifespan": 73.2,
+        "works": 143,
+        "label": "Gustáv Mallý"
+      },
+      {
+        "lifespan": 92.77,
+        "works": 116,
+        "label": "Eduard Isabekyan"
+      },
+      {
+        "lifespan": 54.01,
+        "works": 146,
+        "label": "Bernard van Orley"
+      },
+      {
+        "lifespan": 63.27,
+        "works": 208,
+        "label": "Thomas Couture"
+      },
+      {
+        "lifespan": 81.22,
+        "works": 206,
+        "label": "Philip Wilson Steer"
+      },
+      {
+        "lifespan": 74.9,
+        "works": 481,
+        "label": "Hubert Robert"
+      },
+      {
+        "lifespan": 57.93,
+        "works": 119,
+        "label": "Anne-Louis Girodet de Roussy-Trioson"
+      },
+      {
+        "lifespan": 97.51,
+        "works": 151,
+        "label": "Eduard Ole"
+      },
+      {
+        "lifespan": 75.66,
+        "works": 197,
+        "label": "Anna Ancher"
+      },
+      {
+        "lifespan": 77.08,
+        "works": 143,
+        "label": "William Nicholson"
+      },
+      {
+        "lifespan": 80.77,
+        "works": 811,
+        "label": "Alfred Munnings"
+      },
+      {
+        "lifespan": 80.11,
+        "works": 1854,
+        "label": "Edvard Munch"
+      },
+      {
+        "lifespan": 38.77,
+        "works": 114,
+        "label": "Abraham Mignon"
+      },
+      {
+        "lifespan": 88.47,
+        "works": 325,
+        "label": "William Robinson Leigh"
+      },
+      {
+        "lifespan": 67.01,
+        "works": 118,
+        "label": "Thérèse Schwartze"
+      },
+      {
+        "lifespan": 80.5,
+        "works": 109,
+        "label": "Johan Kerkmeijer"
+      },
+      {
+        "lifespan": 46.53,
+        "works": 122,
+        "label": "Jan Stanisławski"
+      },
+      {
+        "lifespan": 83.37,
+        "works": 3511,
+        "label": "Nandalal Bose"
+      },
+      {
+        "lifespan": 70.88,
+        "works": 219,
+        "label": "Gerard de Lairesse"
+      },
+      {
+        "lifespan": 72.03,
+        "works": 383,
+        "label": "Gustave Moreau"
+      },
+      {
+        "lifespan": 45.95,
+        "works": 108,
+        "label": "Walter Gamerith"
+      },
+      {
+        "lifespan": 27.71,
+        "works": 153,
+        "label": "Thomas Girtin"
+      },
+      {
+        "lifespan": 72.47,
+        "works": 110,
+        "label": "Ford Madox Brown"
+      },
+      {
+        "lifespan": 77.51,
+        "works": 111,
+        "label": "Gustave Cariot"
+      },
+      {
+        "lifespan": 86.18,
+        "works": 285,
+        "label": "Ilya Repin"
+      },
+      {
+        "lifespan": 76.4,
+        "works": 192,
+        "label": "Arthur Streeton"
+      },
+      {
+        "lifespan": 75.51,
+        "works": 136,
+        "label": "Tom Roberts"
+      },
+      {
+        "lifespan": 88.01,
+        "works": 138,
+        "label": "Miklós Barabás"
+      },
+      {
+        "lifespan": 69.65,
+        "works": 262,
+        "label": "Lucebert"
+      },
+      {
+        "lifespan": 65.43,
+        "works": 164,
+        "label": "Constant Permeke"
+      },
+      {
+        "lifespan": 51.08,
+        "works": 132,
+        "label": "Petros Konturajyan"
+      },
+      {
+        "lifespan": 58.02,
+        "works": 133,
+        "label": "P. C. Skovgaard"
+      },
+      {
+        "lifespan": 83.74,
+        "works": 104,
+        "label": "Pehr Hilleström"
+      },
+      {
+        "lifespan": 73.79,
+        "works": 106,
+        "label": "Luca Signorelli"
+      },
+      {
+        "lifespan": 57.0,
+        "works": 296,
+        "label": "Yun Shouping"
+      },
+      {
+        "lifespan": 75.3,
+        "works": 338,
+        "label": "Joseph Vernet"
+      },
+      {
+        "lifespan": 75.56,
+        "works": 101,
+        "label": "Clyfford Still"
+      },
+      {
+        "lifespan": 63.41,
+        "works": 114,
+        "label": "Balthasar Denner"
+      },
+      {
+        "lifespan": 84.82,
+        "works": 112,
+        "label": "Albert Tucker"
+      },
+      {
+        "lifespan": 61.22,
+        "works": 651,
+        "label": "Thomas Gainsborough"
+      },
+      {
+        "lifespan": 50.76,
+        "works": 330,
+        "label": "Tadeusz Makowski"
+      },
+      {
+        "lifespan": 89.6,
+        "works": 230,
+        "label": "James Ensor"
+      },
+      {
+        "lifespan": 76.0,
+        "works": 149,
+        "label": "Li Shan"
+      },
+      {
+        "lifespan": 62.6,
+        "works": 102,
+        "label": "Pontormo"
+      },
+      {
+        "lifespan": 70.25,
+        "works": 153,
+        "label": "Antonio Jacobsen"
+      },
+      {
+        "lifespan": 74.6,
+        "works": 501,
+        "label": "Winslow Homer"
+      },
+      {
+        "lifespan": 66.88,
+        "works": 122,
+        "label": "Wilhelm Trübner"
+      },
+      {
+        "lifespan": 48.23,
+        "works": 102,
+        "label": "Frederic Remington"
+      },
+      {
+        "lifespan": 70.77,
+        "works": 184,
+        "label": "Thomas Rowlandson"
+      },
+      {
+        "lifespan": 66.8,
+        "works": 122,
+        "label": "Bonifazio Veronese"
+      },
+      {
+        "lifespan": 70.0,
+        "works": 110,
+        "label": "Jan de Bray"
+      },
+      {
+        "lifespan": 75.77,
+        "works": 103,
+        "label": "Peter Jacob Horemans"
+      },
+      {
+        "lifespan": 82.27,
+        "works": 109,
+        "label": "Adriaen van Stalbemt"
+      },
+      {
+        "lifespan": 62.76,
+        "works": 127,
+        "label": "Fritz von Uhde"
+      },
+      {
+        "lifespan": 50.31,
+        "works": 125,
+        "label": "Anselm Feuerbach"
+      },
+      {
+        "lifespan": 52.74,
+        "works": 242,
+        "label": "Jan van Kessel the Elder"
+      },
+      {
+        "lifespan": 80.0,
+        "works": 144,
+        "label": "Li Shizhuo"
+      },
+      {
+        "lifespan": 69.93,
+        "works": 411,
+        "label": "Miloš Alexander Bazovský"
+      },
+      {
+        "lifespan": 64.85,
+        "works": 246,
+        "label": "Hubert von Herkomer"
+      },
+      {
+        "lifespan": 45.0,
+        "works": 113,
+        "label": "Herri met de Bles"
+      },
+      {
+        "lifespan": 44.33,
+        "works": 126,
+        "label": "Jan Abrahamsz Beerstraaten"
+      },
+      {
+        "lifespan": 59.48,
+        "works": 126,
+        "label": "Artemisia Gentileschi"
+      },
+      {
+        "lifespan": 67.4,
+        "works": 522,
+        "label": "Franz von Lenbach"
+      },
+      {
+        "lifespan": 71.5,
+        "works": 173,
+        "label": "Herbert James Gunn"
+      },
+      {
+        "lifespan": 61.84,
+        "works": 329,
+        "label": "Gerrit Dou"
+      },
+      {
+        "lifespan": 66.01,
+        "works": 239,
+        "label": "Angelica Kauffmann"
+      },
+      {
+        "lifespan": 61.64,
+        "works": 294,
+        "label": "Jusepe de Ribera"
+      },
+      {
+        "lifespan": 55.69,
+        "works": 303,
+        "label": "Théodore Rousseau"
+      },
+      {
+        "lifespan": 88.02,
+        "works": 269,
+        "label": "Josef Albers"
+      },
+      {
+        "lifespan": 39.92,
+        "works": 149,
+        "label": "Tom Thomson"
+      },
+      {
+        "lifespan": 80.09,
+        "works": 218,
+        "label": "Jean-Baptiste-Siméon Chardin"
+      },
+      {
+        "lifespan": 60.29,
+        "works": 772,
+        "label": "Jan van Goyen"
+      },
+      {
+        "lifespan": 55.35,
+        "works": 189,
+        "label": "Jan Matejko"
+      },
+      {
+        "lifespan": 67.7,
+        "works": 117,
+        "label": "Vladimir Borovikovsky"
+      },
+      {
+        "lifespan": 67.36,
+        "works": 191,
+        "label": "Cornelis de Vos"
+      },
+      {
+        "lifespan": 85.41,
+        "works": 579,
+        "label": "Jacob Jordaens"
+      },
+      {
+        "lifespan": 58.11,
+        "works": 314,
+        "label": "Ernst Ludwig Kirchner"
+      },
+      {
+        "lifespan": 76.79,
+        "works": 153,
+        "label": "Imro Weiner-Kráľ"
+      },
+      {
+        "lifespan": 69.47,
+        "works": 238,
+        "label": "František Studený"
+      },
+      {
+        "lifespan": 63.0,
+        "works": 147,
+        "label": "Jiang Tingxi"
+      },
+      {
+        "lifespan": 89.87,
+        "works": 220,
+        "label": "Bernard Schultze"
+      },
+      {
+        "lifespan": 66.42,
+        "works": 104,
+        "label": "Sakai Hōitsu"
+      },
+      {
+        "lifespan": 57.2,
+        "works": 307,
+        "label": "Eugène Carrière"
+      },
+      {
+        "lifespan": 68.73,
+        "works": 297,
+        "label": "René Magritte"
+      },
+      {
+        "lifespan": 83.78,
+        "works": 116,
+        "label": "Erik Werenskiold"
+      },
+      {
+        "lifespan": 58.33,
+        "works": 276,
+        "label": "Peder Severin Krøyer"
+      },
+      {
+        "lifespan": 55.0,
+        "works": 121,
+        "label": "Wu Guxiang"
+      },
+      {
+        "lifespan": 63.95,
+        "works": 127,
+        "label": "Max Slevogt"
+      },
+      {
+        "lifespan": 83.82,
+        "works": 368,
+        "label": "Augustus John"
+      },
+      {
+        "lifespan": 33.2,
+        "works": 242,
+        "label": "William James Müller"
+      },
+      {
+        "lifespan": 82.0,
+        "works": 448,
+        "label": "Denman Ross"
+      },
+      {
+        "lifespan": 65.16,
+        "works": 142,
+        "label": "Dirck Hals"
+      },
+      {
+        "lifespan": 45.29,
+        "works": 118,
+        "label": "John Vanderbank"
+      },
+      {
+        "lifespan": 63.24,
+        "works": 105,
+        "label": "Gwen John"
+      },
+      {
+        "lifespan": 64.8,
+        "works": 270,
+        "label": "Edward Burne-Jones"
+      },
+      {
+        "lifespan": 77.01,
+        "works": 123,
+        "label": "Charles Towne"
+      },
+      {
+        "lifespan": 89.23,
+        "works": 117,
+        "label": "Richard Eurich"
+      },
+      {
+        "lifespan": 58.78,
+        "works": 101,
+        "label": "James Thornhill"
+      },
+      {
+        "lifespan": 80.37,
+        "works": 149,
+        "label": "Joost Cornelisz Droochsloot"
+      },
+      {
+        "lifespan": 76.54,
+        "works": 188,
+        "label": "Ants Laikmaa"
+      },
+      {
+        "lifespan": 74.24,
+        "works": 483,
+        "label": "André Derain"
+      },
+      {
+        "lifespan": 44.66,
+        "works": 127,
+        "label": "Alexandre-Jean Dubois-Drahonet"
+      },
+      {
+        "lifespan": 77.76,
+        "works": 124,
+        "label": "Auguste Herbin"
+      },
+      {
+        "lifespan": 67.82,
+        "works": 120,
+        "label": "Colin McCahon"
+      },
+      {
+        "lifespan": 80.0,
+        "works": 142,
+        "label": "William Herbert Allen"
+      },
+      {
+        "lifespan": 72.58,
+        "works": 107,
+        "label": "Joachim Wtewael"
+      },
+      {
+        "lifespan": 41.58,
+        "works": 123,
+        "label": "Reinier Nooms"
+      },
+      {
+        "lifespan": 40.13,
+        "works": 216,
+        "label": "Juan Gris"
+      },
+      {
+        "lifespan": 62.38,
+        "works": 118,
+        "label": "Miguelzinho Dutra"
+      },
+      {
+        "lifespan": 66.67,
+        "works": 447,
+        "label": "François Boucher"
+      },
+      {
+        "lifespan": 69.26,
+        "works": 646,
+        "label": "John Singer Sargent"
+      },
+      {
+        "lifespan": 55.97,
+        "works": 115,
+        "label": "Jan van de Cappelle"
+      },
+      {
+        "lifespan": 54.0,
+        "works": 115,
+        "label": "Li Liufang"
+      },
+      {
+        "lifespan": 87.36,
+        "works": 542,
+        "label": "George Frederic Watts"
+      },
+      {
+        "lifespan": 50.55,
+        "works": 102,
+        "label": "Jan Victors"
+      },
+      {
+        "lifespan": 66.81,
+        "works": 201,
+        "label": "Jan van Huysum"
+      },
+      {
+        "lifespan": 38.0,
+        "works": 122,
+        "label": "Jan Baptist Weenix"
+      },
+      {
+        "lifespan": 45.91,
+        "works": 194,
+        "label": "Frans van Mieris the Elder"
+      },
+      {
+        "lifespan": 68.63,
+        "works": 103,
+        "label": "Theodor Kern"
+      },
+      {
+        "lifespan": 85.02,
+        "works": 170,
+        "label": "Karel Appel"
+      },
+      {
+        "lifespan": 82.34,
+        "works": 104,
+        "label": "Giuseppe Maria Crespi"
+      },
+      {
+        "lifespan": 90.71,
+        "works": 350,
+        "label": "Félix Ziem"
+      },
+      {
+        "lifespan": 59.3,
+        "works": 115,
+        "label": "Paul Delaroche"
+      },
+      {
+        "lifespan": 59.61,
+        "works": 223,
+        "label": "Hans Memling"
+      },
+      {
+        "lifespan": 78.4,
+        "works": 110,
+        "label": "George Chinnery"
+      },
+      {
+        "lifespan": 88.31,
+        "works": 326,
+        "label": "Kyffin Williams"
+      },
+      {
+        "lifespan": 82.0,
+        "works": 197,
+        "label": "John Fleming"
+      },
+      {
+        "lifespan": 64.0,
+        "works": 140,
+        "label": "John Bratby"
+      },
+      {
+        "lifespan": 76.41,
+        "works": 112,
+        "label": "David Cox Jr."
+      },
+      {
+        "lifespan": 74.38,
+        "works": 262,
+        "label": "Jean-Honoré Fragonard"
+      },
+      {
+        "lifespan": 64.35,
+        "works": 107,
+        "label": "James Stark"
+      },
+      {
+        "lifespan": 66.58,
+        "works": 107,
+        "label": "Hieronymus Bosch"
+      },
+      {
+        "lifespan": 70.06,
+        "works": 110,
+        "label": "Philip van Dijk"
+      },
+      {
+        "lifespan": 58.85,
+        "works": 100,
+        "label": "Ján Mudroch"
+      },
+      {
+        "lifespan": 86.16,
+        "works": 100,
+        "label": "Reinier Lucassen"
+      },
+      {
+        "lifespan": 84.21,
+        "works": 206,
+        "label": "John Collier"
+      },
+      {
+        "lifespan": 72.6,
+        "works": 384,
+        "label": "Gilbert Stuart"
+      },
+      {
+        "lifespan": 27.73,
+        "works": 192,
+        "label": "August Macke"
+      },
+      {
+        "lifespan": 58.0,
+        "works": 133,
+        "label": "Giovanni Battista Cima da Conegliano"
+      },
+      {
+        "lifespan": 75.43,
+        "works": 316,
+        "label": "Marianne van der Heijden"
+      },
+      {
+        "lifespan": 83.52,
+        "works": 100,
+        "label": "Jean Hélion"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 139,
+        "label": "Carlo Crivelli"
+      },
+      {
+        "lifespan": 66.64,
+        "works": 134,
+        "label": "Willem Maris"
+      },
+      {
+        "lifespan": 56.96,
+        "works": 130,
+        "label": "Jean-Joseph Benjamin-Constant"
+      },
+      {
+        "lifespan": 73.88,
+        "works": 1202,
+        "label": "Roy Lichtenstein"
+      },
+      {
+        "lifespan": 73.63,
+        "works": 196,
+        "label": "Benedito Calixto"
+      },
+      {
+        "lifespan": 85.91,
+        "works": 112,
+        "label": "Hans Hofmann"
+      },
+      {
+        "lifespan": 72.52,
+        "works": 669,
+        "label": "El Greco"
+      },
+      {
+        "lifespan": 78.68,
+        "works": 111,
+        "label": "Benvenuto Tisi"
+      },
+      {
+        "lifespan": 67.76,
+        "works": 757,
+        "label": "Paul Cézanne"
+      },
+      {
+        "lifespan": 75.67,
+        "works": 440,
+        "label": "Jacopo Tintoretto"
+      },
+      {
+        "lifespan": 59.25,
+        "works": 651,
+        "label": "Alfred Sisley"
+      },
+      {
+        "lifespan": 56.88,
+        "works": 197,
+        "label": "Albrecht Dürer"
+      },
+      {
+        "lifespan": 54.0,
+        "works": 383,
+        "label": "Thomas Stuart Smith"
+      },
+      {
+        "lifespan": 46.26,
+        "works": 239,
+        "label": "Paul Burman"
+      },
+      {
+        "lifespan": 57.17,
+        "works": 114,
+        "label": "Paul Nash"
+      },
+      {
+        "lifespan": 69.2,
+        "works": 124,
+        "label": "Jan Toorop"
+      },
+      {
+        "lifespan": 84.8,
+        "works": 122,
+        "label": "Louis de Silvestre"
+      },
+      {
+        "lifespan": 81.79,
+        "works": 175,
+        "label": "Aleksander Vardi"
+      },
+      {
+        "lifespan": 56.19,
+        "works": 109,
+        "label": "William Owen"
+      },
+      {
+        "lifespan": 62.76,
+        "works": 178,
+        "label": "Carl Frederik Aagaard"
+      },
+      {
+        "lifespan": 70.55,
+        "works": 240,
+        "label": "Christoffer Wilhelm Eckersberg"
+      },
+      {
+        "lifespan": 78.75,
+        "works": 293,
+        "label": "Arthur Boyd"
+      },
+      {
+        "lifespan": 58.9,
+        "works": 151,
+        "label": "Thomas Creswick"
+      },
+      {
+        "lifespan": 73.56,
+        "works": 114,
+        "label": "Charles Howard Hodges"
+      },
+      {
+        "lifespan": 76.36,
+        "works": 181,
+        "label": "Johannes Hubertus Leonardus de Haas"
+      },
+      {
+        "lifespan": 75.05,
+        "works": 116,
+        "label": "Marcus Gheeraerts the Younger"
+      },
+      {
+        "lifespan": 59.47,
+        "works": 110,
+        "label": "Bernard Accama"
+      },
+      {
+        "lifespan": 86.06,
+        "works": 1221,
+        "label": "Claude Monet"
+      },
+      {
+        "lifespan": 81.68,
+        "works": 138,
+        "label": "Eastman Johnson"
+      },
+      {
+        "lifespan": 60.42,
+        "works": 139,
+        "label": "Charles-André van Loo"
+      },
+      {
+        "lifespan": 65.53,
+        "works": 102,
+        "label": "Adriaan de Lelie"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 133,
+        "label": "Matthias Stom"
+      },
+      {
+        "lifespan": 65.67,
+        "works": 218,
+        "label": "Caspar David Friedrich"
+      },
+      {
+        "lifespan": 56.99,
+        "works": 140,
+        "label": "Stanislas Lépine"
+      },
+      {
+        "lifespan": 63.87,
+        "works": 266,
+        "label": "Godfried Schalcken"
+      },
+      {
+        "lifespan": 41.34,
+        "works": 291,
+        "label": "George Morland"
+      },
+      {
+        "lifespan": 66.61,
+        "works": 158,
+        "label": "Jan Lievens"
+      },
+      {
+        "lifespan": 74.02,
+        "works": 115,
+        "label": "Eero Järnefelt"
+      },
+      {
+        "lifespan": 58.54,
+        "works": 387,
+        "label": "Andy Warhol"
+      },
+      {
+        "lifespan": 78.11,
+        "works": 110,
+        "label": "Johann Baptist von Lampi the Elder"
+      },
+      {
+        "lifespan": 49.51,
+        "works": 105,
+        "label": "Pierre Subleyras"
+      },
+      {
+        "lifespan": 84.33,
+        "works": 159,
+        "label": "Shibata Zeshin"
+      },
+      {
+        "lifespan": 90.15,
+        "works": 197,
+        "label": "Winston Churchill"
+      },
+      {
+        "lifespan": 56.01,
+        "works": 127,
+        "label": "Nikolai Triik"
+      },
+      {
+        "lifespan": 86.95,
+        "works": 267,
+        "label": "Élisabeth Louise Vigée Le Brun"
+      },
+      {
+        "lifespan": 53.73,
+        "works": 105,
+        "label": "Adriaen van Utrecht"
+      },
+      {
+        "lifespan": 68.9,
+        "works": 145,
+        "label": "James Wilson Carmichael"
+      },
+      {
+        "lifespan": 83.73,
+        "works": 112,
+        "label": "Carl Bille"
+      },
+      {
+        "lifespan": 76.59,
+        "works": 154,
+        "label": "Anton Graff"
+      },
+      {
+        "lifespan": 25.91,
+        "works": 172,
+        "label": "Richard Parkes Bonington"
+      },
+      {
+        "lifespan": 76.94,
+        "works": 182,
+        "label": "Henri Le Sidaner"
+      },
+      {
+        "lifespan": 60.73,
+        "works": 543,
+        "label": "Thomas Lawrence"
+      },
+      {
+        "lifespan": 71.87,
+        "works": 110,
+        "label": "Henri Lebasque"
+      },
+      {
+        "lifespan": 62.21,
+        "works": 624,
+        "label": "Peter Lely"
+      },
+      {
+        "lifespan": 80.96,
+        "works": 175,
+        "label": "Charles Jacque"
+      },
+      {
+        "lifespan": 92.16,
+        "works": 141,
+        "label": "Cedric Morris"
+      },
+      {
+        "lifespan": 56.0,
+        "works": 178,
+        "label": "Antonis Mor"
+      },
+      {
+        "lifespan": 56.4,
+        "works": 178,
+        "label": "Juraj Collinásy"
+      },
+      {
+        "lifespan": 81.88,
+        "works": 160,
+        "label": "George Stubbs"
+      },
+      {
+        "lifespan": 77.01,
+        "works": 247,
+        "label": "Alexej von Jawlensky"
+      },
+      {
+        "lifespan": 59.98,
+        "works": 544,
+        "label": "Nicolaes Maes"
+      },
+      {
+        "lifespan": 52.0,
+        "works": 175,
+        "label": "Johannes Lingelbach"
+      },
+      {
+        "lifespan": 83.21,
+        "works": 228,
+        "label": "Wu Chang-shuo"
+      },
+      {
+        "lifespan": 78.28,
+        "works": 693,
+        "label": "Michael Ancher"
+      },
+      {
+        "lifespan": 45.9,
+        "works": 226,
+        "label": "John Opie"
+      },
+      {
+        "lifespan": 85.0,
+        "works": 123,
+        "label": "Zhang Hong"
+      },
+      {
+        "lifespan": 97.7,
+        "works": 338,
+        "label": "Marc Chagall"
+      },
+      {
+        "lifespan": 72.53,
+        "works": 401,
+        "label": "Mária Medvecká"
+      },
+      {
+        "lifespan": 68.19,
+        "works": 115,
+        "label": "Pekka Halonen"
+      },
+      {
+        "lifespan": 85.72,
+        "works": 549,
+        "label": "Emanuel Fohn"
+      },
+      {
+        "lifespan": 46.83,
+        "works": 136,
+        "label": "Arnold Peter Weisz-Kubínčan"
+      },
+      {
+        "lifespan": 74.19,
+        "works": 387,
+        "label": "Ram Kinker Baij"
+      },
+      {
+        "lifespan": 64.83,
+        "works": 213,
+        "label": "Sandro Botticelli"
+      },
+      {
+        "lifespan": 48.7,
+        "works": 281,
+        "label": "Annibale Carracci"
+      },
+      {
+        "lifespan": 65.8,
+        "works": 322,
+        "label": "Francisco de Zurbarán"
+      },
+      {
+        "lifespan": 49.67,
+        "works": 117,
+        "label": "Abel Grimmer"
+      },
+      {
+        "lifespan": 69.26,
+        "works": 265,
+        "label": "George Inness"
+      },
+      {
+        "lifespan": 77.33,
+        "works": 167,
+        "label": "Jacques-Louis David"
+      },
+      {
+        "lifespan": 64.54,
+        "works": 103,
+        "label": "Charles Robert Leslie"
+      },
+      {
+        "lifespan": 60.55,
+        "works": 435,
+        "label": "Kurt Schwitters"
+      },
+      {
+        "lifespan": 48.99,
+        "works": 690,
+        "label": "Philips Wouwerman"
+      },
+      {
+        "lifespan": 80.12,
+        "works": 107,
+        "label": "Prunella Clough"
+      },
+      {
+        "lifespan": 71.47,
+        "works": 270,
+        "label": "نيكولا بوسان"
+      },
+      {
+        "lifespan": 76.91,
+        "works": 202,
+        "label": "Hovhannes Alkhazian"
+      },
+      {
+        "lifespan": 85.97,
+        "works": 224,
+        "label": "Nathaniel Hone the Younger"
+      },
+      {
+        "lifespan": 67.42,
+        "works": 108,
+        "label": "Pieter Aertsen"
+      },
+      {
+        "lifespan": 60.01,
+        "works": 200,
+        "label": "Leo Gestel"
+      },
+      {
+        "lifespan": 82.66,
+        "works": 179,
+        "label": "Rupert Bunny"
+      },
+      {
+        "lifespan": 79.34,
+        "works": 101,
+        "label": "Federico de Madrazo y Kuntz"
+      },
+      {
+        "lifespan": 59.0,
+        "works": 166,
+        "label": "John Ingleby"
+      },
+      {
+        "lifespan": 82.16,
+        "works": 188,
+        "label": "Alexandre-François Desportes"
+      },
+      {
+        "lifespan": 60.44,
+        "works": 145,
+        "label": "Gerrit Adriaenszoon Berckheyde"
+      },
+      {
+        "lifespan": 66.96,
+        "works": 207,
+        "label": "William Hogarth"
+      },
+      {
+        "lifespan": 77.86,
+        "works": 367,
+        "label": "Ludolf Bakhuizen"
+      },
+      {
+        "lifespan": 77.34,
+        "works": 130,
+        "label": "Jasper Francis Cropsey"
+      },
+      {
+        "lifespan": 69.64,
+        "works": 127,
+        "label": "Carlo Dolci"
+      },
+      {
+        "lifespan": 73.0,
+        "works": 133,
+        "label": "Upendra Maharathi"
+      },
+      {
+        "lifespan": 53.0,
+        "works": 106,
+        "label": "Gongshou Pan"
+      },
+      {
+        "lifespan": 63.29,
+        "works": 106,
+        "label": "Edmund John Niemann"
+      },
+      {
+        "lifespan": 90.19,
+        "works": 105,
+        "label": "Eugeniusz Eibisch"
+      },
+      {
+        "lifespan": 74.91,
+        "works": 264,
+        "label": "Verner Thomé"
+      },
+      {
+        "lifespan": 85.1,
+        "works": 240,
+        "label": "Hans Thoma"
+      },
+      {
+        "lifespan": 64.27,
+        "works": 118,
+        "label": "Antoine-Jean Gros"
+      },
+      {
+        "lifespan": 75.0,
+        "works": 130,
+        "label": "Emanuel de Witte"
+      },
+      {
+        "lifespan": 58.0,
+        "works": 132,
+        "label": "Bernardo Daddi"
+      },
+      {
+        "lifespan": 48.94,
+        "works": 116,
+        "label": "David Ryckaert III"
+      },
+      {
+        "lifespan": 57.08,
+        "works": 104,
+        "label": "Jacob Gerritsz. Cuyp"
+      },
+      {
+        "lifespan": 70.16,
+        "works": 100,
+        "label": "Ilmar Malin"
+      },
+      {
+        "lifespan": 69.7,
+        "works": 112,
+        "label": "Thijs Rinsema"
+      },
+      {
+        "lifespan": 77.76,
+        "works": 195,
+        "label": "Benozzo Gozzoli"
+      },
+      {
+        "lifespan": 83.51,
+        "works": 111,
+        "label": "Pietro Longhi"
+      },
+      {
+        "lifespan": 78.0,
+        "works": 110,
+        "label": "Oswald Achenbach"
+      },
+      {
+        "lifespan": 73.61,
+        "works": 340,
+        "label": "Cornelius van Poelenburgh"
+      },
+      {
+        "lifespan": 92.54,
+        "works": 101,
+        "label": "Rudolf von Alt"
+      },
+      {
+        "lifespan": 65.07,
+        "works": 135,
+        "label": "Dezider Milly"
+      },
+      {
+        "lifespan": 92.38,
+        "works": 148,
+        "label": "Henry William Pickersgill"
+      },
+      {
+        "lifespan": 57.26,
+        "works": 155,
+        "label": "Kazimir Malevich"
+      },
+      {
+        "lifespan": 57.47,
+        "works": 188,
+        "label": "Alexandre-Gabriel Decamps"
+      },
+      {
+        "lifespan": 62.19,
+        "works": 120,
+        "label": "Charles Cottet"
+      },
+      {
+        "lifespan": 74.46,
+        "works": 105,
+        "label": "Rogier van der Weyden"
+      },
+      {
+        "lifespan": 50.97,
+        "works": 115,
+        "label": "Consort Jin"
+      },
+      {
+        "lifespan": 78.77,
+        "works": 1274,
+        "label": "Pierre-Auguste Renoir"
+      },
+      {
+        "lifespan": 74.86,
+        "works": 394,
+        "label": "Aert van der Neer"
+      },
+      {
+        "lifespan": 83.5,
+        "works": 223,
+        "label": "Louis-Léopold Boilly"
+      },
+      {
+        "lifespan": 76.75,
+        "works": 174,
+        "label": "Maarten van Heemskerck"
+      },
+      {
+        "lifespan": 93.15,
+        "works": 190,
+        "label": "Maximilián Kurth"
+      },
+      {
+        "lifespan": 87.4,
+        "works": 105,
+        "label": "Marianna Schmidt"
+      },
+      {
+        "lifespan": 78.0,
+        "works": 351,
+        "label": "Issai Kulvianski"
+      },
+      {
+        "lifespan": 84.29,
+        "works": 155,
+        "label": "Nina M. Davies"
+      },
+      {
+        "lifespan": 49.0,
+        "works": 109,
+        "label": "Adriaen van Diest"
+      },
+      {
+        "lifespan": 61.53,
+        "works": 122,
+        "label": "Christopher Williams"
+      },
+      {
+        "lifespan": 92.52,
+        "works": 102,
+        "label": "Norman Wilkinson"
+      },
+      {
+        "lifespan": 65.65,
+        "works": 155,
+        "label": "Carl Larsson"
+      },
+      {
+        "lifespan": 86.5,
+        "works": 127,
+        "label": "Paul de Vos"
+      },
+      {
+        "lifespan": 69.65,
+        "works": 172,
+        "label": "Christian Aigens"
+      },
+      {
+        "lifespan": 82.61,
+        "works": 111,
+        "label": "Eugène Verboeckhoven"
+      },
+      {
+        "lifespan": 92.9,
+        "works": 126,
+        "label": "Willem de Kooning"
+      },
+      {
+        "lifespan": 64.0,
+        "works": 122,
+        "label": "Charles Jervas"
+      },
+      {
+        "lifespan": 54.01,
+        "works": 105,
+        "label": "Johann Heinrich Roos"
+      },
+      {
+        "lifespan": 93.26,
+        "works": 104,
+        "label": "David Cobb"
+      },
+      {
+        "lifespan": 76.48,
+        "works": 140,
+        "label": "Robert Motherwell"
+      },
+      {
+        "lifespan": 85.8,
+        "works": 100,
+        "label": "Michiel Coxie"
+      },
+      {
+        "lifespan": 72.64,
+        "works": 199,
+        "label": "Jozef Šturdík"
+      },
+      {
+        "lifespan": 39.05,
+        "works": 129,
+        "label": "Thomas Fearnley"
+      },
+      {
+        "lifespan": 88.03,
+        "works": 289,
+        "label": "Giovanni Boldini"
+      },
+      {
+        "lifespan": 64.17,
+        "works": 265,
+        "label": "Adriaen de Grijef"
+      },
+      {
+        "lifespan": 43.09,
+        "works": 148,
+        "label": "Mikuláš Galanda"
+      },
+      {
+        "lifespan": 71.0,
+        "works": 114,
+        "label": "Maerten de Vos"
+      },
+      {
+        "lifespan": 77.18,
+        "works": 279,
+        "label": "John Singleton Copley"
+      },
+      {
+        "lifespan": 82.12,
+        "works": 118,
+        "label": "Christian Blache"
+      },
+      {
+        "lifespan": 78.72,
+        "works": 128,
+        "label": "Jean-Louis Forain"
+      },
+      {
+        "lifespan": 80.9,
+        "works": 145,
+        "label": "Li Mei-shu"
+      },
+      {
+        "lifespan": 79.59,
+        "works": 440,
+        "label": "Bruno Liljefors"
+      },
+      {
+        "lifespan": 74.54,
+        "works": 685,
+        "label": "Fernand Léger"
+      },
+      {
+        "lifespan": 54.65,
+        "works": 102,
+        "label": "Francis Cadell"
+      },
+      {
+        "lifespan": 62.91,
+        "works": 114,
+        "label": "Giorgio Vasari"
+      },
+      {
+        "lifespan": 86.47,
+        "works": 119,
+        "label": "Jean-Étienne Liotard"
+      },
+      {
+        "lifespan": 81.59,
+        "works": 120,
+        "label": "Alexander Nasmyth"
+      },
+      {
+        "lifespan": 85.25,
+        "works": 103,
+        "label": "François de Troy"
+      },
+      {
+        "lifespan": 60.53,
+        "works": 422,
+        "label": "Paul Klee"
+      },
+      {
+        "lifespan": 87.03,
+        "works": 161,
+        "label": "Alfred Wallis"
+      },
+      {
+        "lifespan": 61.1,
+        "works": 412,
+        "label": "Gerardo Orakian"
+      },
+      {
+        "lifespan": 87.85,
+        "works": 185,
+        "label": "Otto Bache"
+      },
+      {
+        "lifespan": 29.9,
+        "works": 164,
+        "label": "Werner Holmberg"
+      },
+      {
+        "lifespan": 82.0,
+        "works": 158,
+        "label": "Shen Zhou"
+      },
+      {
+        "lifespan": 64.18,
+        "works": 165,
+        "label": "Balthasar van der Ast"
+      },
+      {
+        "lifespan": 28.16,
+        "works": 144,
+        "label": "Paulus Potter"
+      },
+      {
+        "lifespan": 66.83,
+        "works": 860,
+        "label": "Max Beckmann"
+      },
+      {
+        "lifespan": 77.77,
+        "works": 404,
+        "label": "Frans Snyders"
+      },
+      {
+        "lifespan": 74.45,
+        "works": 112,
+        "label": "Jacobus van Looy"
+      },
+      {
+        "lifespan": 88.74,
+        "works": 461,
+        "label": "Titian"
+      },
+      {
+        "lifespan": 84.19,
+        "works": 107,
+        "label": "Henry Fuseli"
+      },
+      {
+        "lifespan": 77.63,
+        "works": 202,
+        "label": "Carl Spitzweg"
+      },
+      {
+        "lifespan": 37.05,
+        "works": 147,
+        "label": "Théodore Chassériau"
+      },
+      {
+        "lifespan": 66.95,
+        "works": 144,
+        "label": "Philip Guston"
+      },
+      {
+        "lifespan": 62.76,
+        "works": 241,
+        "label": "Georges Kars"
+      },
+      {
+        "lifespan": 57.0,
+        "works": 110,
+        "label": "Daniël Mijtens"
+      },
+      {
+        "lifespan": 61.13,
+        "works": 435,
+        "label": "Nicolaes Pieterszoon Berchem"
+      },
+      {
+        "lifespan": 65.0,
+        "works": 159,
+        "label": "David Morier"
+      },
+      {
+        "lifespan": 37.7,
+        "works": 105,
+        "label": "Christen Købke"
+      },
+      {
+        "lifespan": 70.15,
+        "works": 243,
+        "label": "Anna Boberg"
+      },
+      {
+        "lifespan": 81.85,
+        "works": 156,
+        "label": "Vanessa Bell"
+      },
+      {
+        "lifespan": 51.8,
+        "works": 298,
+        "label": "John Hoppner"
+      },
+      {
+        "lifespan": 89.93,
+        "works": 105,
+        "label": "Bernardus Everhardus Akkerman"
+      },
+      {
+        "lifespan": 60.51,
+        "works": 335,
+        "label": "Anders Zorn"
+      },
+      {
+        "lifespan": 91.22,
+        "works": 189,
+        "label": "Thomas Daniell"
+      },
+      {
+        "lifespan": 65.0,
+        "works": 115,
+        "label": "Hans Baldung Grien"
+      },
+      {
+        "lifespan": 62.0,
+        "works": 201,
+        "label": "Bartholomaeus Bruyn the Elder"
+      },
+      {
+        "lifespan": 63.59,
+        "works": 185,
+        "label": "Bernardo Strozzi"
+      },
+      {
+        "lifespan": 72.42,
+        "works": 150,
+        "label": "John Graham Gilbert"
+      },
+      {
+        "lifespan": 53.09,
+        "works": 132,
+        "label": "Giovanni Battista Moroni"
+      },
+      {
+        "lifespan": 87.82,
+        "works": 217,
+        "label": "Ben Nicholson"
+      },
+      {
+        "lifespan": 78.78,
+        "works": 125,
+        "label": "Basuki Abdullah"
+      },
+      {
+        "lifespan": 58.19,
+        "works": 197,
+        "label": "Evan Walters"
+      },
+      {
+        "lifespan": 69.87,
+        "works": 109,
+        "label": "Bernard Blommers"
+      },
+      {
+        "lifespan": 80.4,
+        "works": 136,
+        "label": "Georges Michel"
+      },
+      {
+        "lifespan": 61.35,
+        "works": 527,
+        "label": "Frans Francken the Younger"
+      },
+      {
+        "lifespan": 65.73,
+        "works": 123,
+        "label": "Nicolai Abildgaard"
+      },
+      {
+        "lifespan": 68.23,
+        "works": 413,
+        "label": "Mane-Katz"
+      },
+      {
+        "lifespan": 75.53,
+        "works": 214,
+        "label": "Olga Boznańska"
+      },
+      {
+        "lifespan": 46.79,
+        "works": 160,
+        "label": "Konrad Mägi"
+      },
+      {
+        "lifespan": 37.0,
+        "works": 320,
+        "label": "Raphael"
+      },
+      {
+        "lifespan": 88.53,
+        "works": 119,
+        "label": "Katsushika Hokusai"
+      },
+      {
+        "lifespan": 45.02,
+        "works": 182,
+        "label": "Govert Flinck"
+      },
+      {
+        "lifespan": 79.19,
+        "works": 316,
+        "label": "Matthew Smith"
+      },
+      {
+        "lifespan": 77.3,
+        "works": 170,
+        "label": "Henry Lamb"
+      },
+      {
+        "lifespan": 85.15,
+        "works": 538,
+        "label": "Dolf Henkes"
+      },
+      {
+        "lifespan": 40.56,
+        "works": 1940,
+        "label": "Kalervo Palsa"
+      },
+      {
+        "lifespan": 57.03,
+        "works": 589,
+        "label": "Jan Brueghel the Elder"
+      },
+      {
+        "lifespan": 78.01,
+        "works": 108,
+        "label": "Matthijs Maris"
+      },
+      {
+        "lifespan": 61.11,
+        "works": 108,
+        "label": "Vardges Sureniants"
+      },
+      {
+        "lifespan": 47.53,
+        "works": 154,
+        "label": "Chen Shizeng"
+      },
+      {
+        "lifespan": 72.21,
+        "works": 387,
+        "label": "Albert Marquet"
+      },
+      {
+        "lifespan": 84.84,
+        "works": 663,
+        "label": "Henri Matisse"
+      },
+      {
+        "lifespan": 70.0,
+        "works": 118,
+        "label": "Anne Redpath"
+      },
+      {
+        "lifespan": 61.0,
+        "works": 185,
+        "label": "Adriaen Isenbrandt"
+      },
+      {
+        "lifespan": 90.81,
+        "works": 124,
+        "label": "William Powell Frith"
+      },
+      {
+        "lifespan": 84.19,
+        "works": 173,
+        "label": "Gaspar de Crayer"
+      },
+      {
+        "lifespan": 40.29,
+        "works": 105,
+        "label": "Charles Conder"
+      },
+      {
+        "lifespan": 47.85,
+        "works": 106,
+        "label": "François-Hubert Drouais"
+      },
+      {
+        "lifespan": 75.6,
+        "works": 258,
+        "label": "Sidney Nolan"
+      },
+      {
+        "lifespan": 82.05,
+        "works": 163,
+        "label": "Július Jakoby"
+      },
+      {
+        "lifespan": 64.0,
+        "works": 288,
+        "label": "Pieter Claesz"
+      },
+      {
+        "lifespan": 32.33,
+        "works": 214,
+        "label": "Théodore Géricault"
+      },
+      {
+        "lifespan": 71.81,
+        "works": 121,
+        "label": "Willem Bastiaan Tholen"
+      },
+      {
+        "lifespan": 61.12,
+        "works": 146,
+        "label": "Jan Veth"
+      },
+      {
+        "lifespan": 92.59,
+        "works": 174,
+        "label": "George Clausen"
+      },
+      {
+        "lifespan": 67.34,
+        "works": 487,
+        "label": "Henry Raeburn"
+      },
+      {
+        "lifespan": 84.79,
+        "works": 124,
+        "label": "David Murray"
+      },
+      {
+        "lifespan": 71.61,
+        "works": 563,
+        "label": "إدوارد فويار"
+      },
+      {
+        "lifespan": 65.14,
+        "works": 238,
+        "label": "Frederic Leighton"
+      },
+      {
+        "lifespan": 77.55,
+        "works": 112,
+        "label": "Efraim Allsalu"
+      },
+      {
+        "lifespan": 72.97,
+        "works": 165,
+        "label": "Émile Bernard"
+      },
+      {
+        "lifespan": 84.65,
+        "works": 194,
+        "label": "Willem van Mieris"
+      },
+      {
+        "lifespan": 64.48,
+        "works": 155,
+        "label": "Alfred Jacob Miller"
+      },
+      {
+        "lifespan": 51.63,
+        "works": 123,
+        "label": "Willem van Aelst"
+      },
+      {
+        "lifespan": 87.9,
+        "works": 527,
+        "label": "Otto B. de Kat"
+      },
+      {
+        "lifespan": 57.15,
+        "works": 117,
+        "label": "C. R. W. Nevinson"
+      },
+      {
+        "lifespan": 64.61,
+        "works": 147,
+        "label": "Charley Toorop"
+      },
+      {
+        "lifespan": 70.97,
+        "works": 135,
+        "label": "Erasmus Quellinus II"
+      },
+      {
+        "lifespan": 55.13,
+        "works": 275,
+        "label": "Fra Angelico"
+      },
+      {
+        "lifespan": 83.75,
+        "works": 149,
+        "label": "Friedrich von Amerling"
+      },
+      {
+        "lifespan": 66.79,
+        "works": 374,
+        "label": "Guido Reni"
+      },
+      {
+        "lifespan": 75.62,
+        "works": 135,
+        "label": "Daniel Macnee"
+      },
+      {
+        "lifespan": 41.2,
+        "works": 103,
+        "label": "Nicolas de Staël"
+      },
+      {
+        "lifespan": 81.0,
+        "works": 153,
+        "label": "Geoffrey Scowcroft Fletcher"
+      },
+      {
+        "lifespan": 80.52,
+        "works": 117,
+        "label": "Gustaf Wilhelm Palm"
+      },
+      {
+        "lifespan": 91.0,
+        "works": 128,
+        "label": "Pieter Neefs the Elder"
+      },
+      {
+        "lifespan": 85.13,
+        "works": 118,
+        "label": "Albert André"
+      },
+      {
+        "lifespan": 72.92,
+        "works": 152,
+        "label": "Juhan Nõmmik"
+      },
+      {
+        "lifespan": 81.0,
+        "works": 230,
+        "label": "Dong Qichang"
+      },
+      {
+        "lifespan": 82.12,
+        "works": 196,
+        "label": "Jacopo Bassano"
+      },
+      {
+        "lifespan": 86.89,
+        "works": 250,
+        "label": "John Duncan Fergusson"
+      },
+      {
+        "lifespan": 66.28,
+        "works": 151,
+        "label": "Henri Rousseau"
+      },
+      {
+        "lifespan": 83.17,
+        "works": 122,
+        "label": "Andreas Schelfhout"
+      },
+      {
+        "lifespan": 84.81,
+        "works": 300,
+        "label": "Edward Hopper"
+      },
+      {
+        "lifespan": 70.84,
+        "works": 169,
+        "label": "Corneille de Lyon"
+      },
+      {
+        "lifespan": 100.15,
+        "works": 104,
+        "label": "Gustavo Torner"
+      },
+      {
+        "lifespan": 71.03,
+        "works": 450,
+        "label": "Fritz Winter"
+      },
+      {
+        "lifespan": 78.98,
+        "works": 984,
+        "label": "George Catlin"
+      },
+      {
+        "lifespan": 66.0,
+        "works": 240,
+        "label": "Gao Fenghan"
+      },
+      {
+        "lifespan": 36.07,
+        "works": 222,
+        "label": "Franz Marc"
+      },
+      {
+        "lifespan": 90.93,
+        "works": 227,
+        "label": "Victor Vasarely"
+      },
+      {
+        "lifespan": 82.0,
+        "works": 361,
+        "label": "Robert Lillie"
+      },
+      {
+        "lifespan": 55.05,
+        "works": 121,
+        "label": "Magnus Enckell"
+      },
+      {
+        "lifespan": 78.12,
+        "works": 132,
+        "label": "Antonio Mancini"
+      },
+      {
+        "lifespan": 58.56,
+        "works": 735,
+        "label": "Gustave Courbet"
+      },
+      {
+        "lifespan": 76.87,
+        "works": 114,
+        "label": "William Scott"
+      },
+      {
+        "lifespan": 69.71,
+        "works": 215,
+        "label": "William Blake"
+      },
+      {
+        "lifespan": 59.48,
+        "works": 123,
+        "label": "Domenichino"
+      },
+      {
+        "lifespan": 86.73,
+        "works": 173,
+        "label": "Jean Béraud"
+      },
+      {
+        "lifespan": 84.79,
+        "works": 166,
+        "label": "Jan Maurits Quinkhard"
+      },
+      {
+        "lifespan": 53.41,
+        "works": 125,
+        "label": "Cornelis Troost"
+      },
+      {
+        "lifespan": 60.57,
+        "works": 100,
+        "label": "Sarkis Katchadourian"
+      },
+      {
+        "lifespan": 86.38,
+        "works": 268,
+        "label": "Jean-Auguste-Dominique Ingres"
+      },
+      {
+        "lifespan": 52.15,
+        "works": 192,
+        "label": "Karel Dujardin"
+      },
+      {
+        "lifespan": 75.65,
+        "works": 370,
+        "label": "Frans Hals"
+      },
+      {
+        "lifespan": 70.73,
+        "works": 458,
+        "label": "Sir Francis Cook, 4th Baronet"
+      },
+      {
+        "lifespan": 69.94,
+        "works": 140,
+        "label": "Richard Ansdell"
+      },
+      {
+        "lifespan": 73.3,
+        "works": 397,
+        "label": "Willem van de Velde the Younger"
+      },
+      {
+        "lifespan": 72.45,
+        "works": 105,
+        "label": "Thomas Cantrell Dugdale"
+      },
+      {
+        "lifespan": 55.38,
+        "works": 136,
+        "label": "David Vinckboons"
+      },
+      {
+        "lifespan": 93.97,
+        "works": 200,
+        "label": "Oskar Kokoschka"
+      },
+      {
+        "lifespan": 68.19,
+        "works": 184,
+        "label": "Pierre-Henri de Valenciennes"
+      },
+      {
+        "lifespan": 68.05,
+        "works": 122,
+        "label": "Gevorg Bashinjaghian"
+      },
+      {
+        "lifespan": 78.43,
+        "works": 159,
+        "label": "Hans Gude"
+      },
+      {
+        "lifespan": 53.15,
+        "works": 125,
+        "label": "Johannes Saal"
+      },
+      {
+        "lifespan": 77.19,
+        "works": 311,
+        "label": "Rosa Bonheur"
+      },
+      {
+        "lifespan": 57.74,
+        "works": 117,
+        "label": "Pieter van der Werff"
+      },
+      {
+        "lifespan": 50.14,
+        "works": 110,
+        "label": "Henn Roode"
+      },
+      {
+        "lifespan": 35.22,
+        "works": 255,
+        "label": "Adriaen van de Velde"
+      },
+      {
+        "lifespan": 58.9,
+        "works": 199,
+        "label": "Jacob de Wit"
+      },
+      {
+        "lifespan": 47.54,
+        "works": 128,
+        "label": "Vilmos Aba-Novák"
+      },
+      {
+        "lifespan": 57.74,
+        "works": 248,
+        "label": "Salvator Rosa"
+      },
+      {
+        "lifespan": 72.6,
+        "works": 114,
+        "label": "Jakob Smits"
+      },
+      {
+        "lifespan": 70.64,
+        "works": 100,
+        "label": "Jacopo Amigoni"
+      },
+      {
+        "lifespan": 42.24,
+        "works": 129,
+        "label": "Joan Eardley"
+      },
+      {
+        "lifespan": 81.63,
+        "works": 146,
+        "label": "D. Howard Hitchcock"
+      },
+      {
+        "lifespan": 67.81,
+        "works": 286,
+        "label": "Cornelis Janssens van Ceulen"
+      },
+      {
+        "lifespan": 73.17,
+        "works": 169,
+        "label": "Christian Krohg"
+      },
+      {
+        "lifespan": 78.09,
+        "works": 150,
+        "label": "George Hayter"
+      },
+      {
+        "lifespan": 76.44,
+        "works": 108,
+        "label": "Nathaniel Dance-Holland"
+      },
+      {
+        "lifespan": 62.03,
+        "works": 190,
+        "label": "Adolph Tidemand"
+      },
+      {
+        "lifespan": 73.39,
+        "works": 184,
+        "label": "Lajos Csordák"
+      },
+      {
+        "lifespan": 86.36,
+        "works": 222,
+        "label": "Armand Guillaumin"
+      },
+      {
+        "lifespan": 78.0,
+        "works": 462,
+        "label": "Dong Gao"
+      },
+      {
+        "lifespan": 59.47,
+        "works": 197,
+        "label": "سيمون فويه"
+      },
+      {
+        "lifespan": 80.24,
+        "works": 416,
+        "label": "Francesco Guardi"
+      },
+      {
+        "lifespan": 74.79,
+        "works": 218,
+        "label": "Sebastiano Ricci"
+      },
+      {
+        "lifespan": 94.11,
+        "works": 129,
+        "label": "Olga Terri"
+      },
+      {
+        "lifespan": 76.42,
+        "works": 186,
+        "label": "John Watson Gordon"
+      },
+      {
+        "lifespan": 56.5,
+        "works": 109,
+        "label": "Johannes Cornelisz Verspronck"
+      },
+      {
+        "lifespan": 52.2,
+        "works": 140,
+        "label": "Simon de Vlieger"
+      },
+      {
+        "lifespan": 68.61,
+        "works": 451,
+        "label": "Henri Fantin-Latour"
+      },
+      {
+        "lifespan": 48.0,
+        "works": 102,
+        "label": "Jacob Ochtervelt"
+      },
+      {
+        "lifespan": 88.92,
+        "works": 188,
+        "label": "Carel Weight"
+      },
+      {
+        "lifespan": 65.83,
+        "works": 104,
+        "label": "Ernst Wilhelm Nay"
+      },
+      {
+        "lifespan": 49.78,
+        "works": 139,
+        "label": "Morris Louis"
+      },
+      {
+        "lifespan": 73.86,
+        "works": 160,
+        "label": "Pierre Puvis de Chavannes"
+      },
+      {
+        "lifespan": 86.89,
+        "works": 131,
+        "label": "Marcello Bacciarelli"
+      },
+      {
+        "lifespan": 85.13,
+        "works": 280,
+        "label": "William Beechey"
+      },
+      {
+        "lifespan": 74.0,
+        "works": 222,
+        "label": "Hua Yan"
+      },
+      {
+        "lifespan": 28.39,
+        "works": 139,
+        "label": "Egon Schiele"
+      },
+      {
+        "lifespan": 70.0,
+        "works": 115,
+        "label": "Frederick William Hayes"
+      },
+      {
+        "lifespan": 64.46,
+        "works": 197,
+        "label": "Karol Baron"
+      },
+      {
+        "lifespan": 75.94,
+        "works": 171,
+        "label": "Jean-Louis-Ernest Meissonier"
+      },
+      {
+        "lifespan": 64.96,
+        "works": 212,
+        "label": "Gene Davis"
+      },
+      {
+        "lifespan": 80.25,
+        "works": 108,
+        "label": "Rabindranath Tagore"
+      },
+      {
+        "lifespan": 68.6,
+        "works": 865,
+        "label": "Joshua Reynolds"
+      },
+      {
+        "lifespan": 89.04,
+        "works": 427,
+        "label": "Karin Luts"
+      },
+      {
+        "lifespan": 88.0,
+        "works": 182,
+        "label": "Frederick William Elwell"
+      },
+      {
+        "lifespan": 87.7,
+        "works": 159,
+        "label": "Frank O. Salisbury"
+      },
+      {
+        "lifespan": 54.88,
+        "works": 613,
+        "label": "Jan Ciągliński"
+      },
+      {
+        "lifespan": 74.58,
+        "works": 135,
+        "label": "Willem Kalf"
+      },
+      {
+        "lifespan": 68.09,
+        "works": 154,
+        "label": "Augustin Théodule Ribot"
+      },
+      {
+        "lifespan": 70.0,
+        "works": 152,
+        "label": "Egbert van Heemskerck"
+      },
+      {
+        "lifespan": 78.5,
+        "works": 222,
+        "label": "Jules Dupré"
+      },
+      {
+        "lifespan": 64.85,
+        "works": 113,
+        "label": "Leandro Bassano"
+      },
+      {
+        "lifespan": 76.14,
+        "works": 137,
+        "label": "Jozef Fabini"
+      },
+      {
+        "lifespan": 55.0,
+        "works": 190,
+        "label": "Ambrosius Benson"
+      },
+      {
+        "lifespan": 31.69,
+        "works": 106,
+        "label": "Willem Wissing"
+      },
+      {
+        "lifespan": 83.13,
+        "works": 178,
+        "label": "Vasily Polenov"
+      },
+      {
+        "lifespan": 65.81,
+        "works": 498,
+        "label": "James Tissot"
+      },
+      {
+        "lifespan": 58.45,
+        "works": 204,
+        "label": "James Wilson Morrice"
+      },
+      {
+        "lifespan": 95.42,
+        "works": 117,
+        "label": "Evald Okas"
+      },
+      {
+        "lifespan": 45.61,
+        "works": 117,
+        "label": "Domenico Ghirlandaio"
+      },
+      {
+        "lifespan": 79.0,
+        "works": 136,
+        "label": "Wang Jian"
+      },
+      {
+        "lifespan": 56.0,
+        "works": 224,
+        "label": "Ren Bonian"
+      },
+      {
+        "lifespan": 55.0,
+        "works": 275,
+        "label": "Joos van Cleve"
+      },
+      {
+        "lifespan": 65.18,
+        "works": 267,
+        "label": "Ferdinand Hodler"
+      },
+      {
+        "lifespan": 87.43,
+        "works": 161,
+        "label": "John Trumbull"
+      },
+      {
+        "lifespan": 44.51,
+        "works": 157,
+        "label": "Antonio da Correggio"
+      },
+      {
+        "lifespan": 85.76,
+        "works": 101,
+        "label": "Thomas Hart Benton"
+      },
+      {
+        "lifespan": 70.31,
+        "works": 316,
+        "label": "Lucas Cranach the Younger"
+      },
+      {
+        "lifespan": 84.11,
+        "works": 107,
+        "label": "Vilhelm Kyhn"
+      },
+      {
+        "lifespan": 82.61,
+        "works": 139,
+        "label": "Rembrandt Peale"
+      },
+      {
+        "lifespan": 57.62,
+        "works": 152,
+        "label": "Jens Juel"
+      },
+      {
+        "lifespan": 63.35,
+        "works": 298,
+        "label": "Ary Scheffer"
+      },
+      {
+        "lifespan": 64.02,
+        "works": 226,
+        "label": "Ferdinand Bol"
+      },
+      {
+        "lifespan": 99.93,
+        "works": 128,
+        "label": "June Mendoza"
+      },
+      {
+        "lifespan": 69.93,
+        "works": 144,
+        "label": "Othon Friesz"
+      },
+      {
+        "lifespan": 64.7,
+        "works": 117,
+        "label": "Joseph Beuys"
+      },
+      {
+        "lifespan": 63.48,
+        "works": 315,
+        "label": "Gerard van Honthorst"
+      },
+      {
+        "lifespan": 78.04,
+        "works": 105,
+        "label": "Jan Baptist Bosschaert"
+      },
+      {
+        "lifespan": 50.57,
+        "works": 215,
+        "label": "Chaïm Soutine"
+      },
+      {
+        "lifespan": 75.39,
+        "works": 1268,
+        "label": "Jan Sluijters"
+      },
+      {
+        "lifespan": 35.83,
+        "works": 108,
+        "label": "Spencer Gore"
+      },
+      {
+        "lifespan": 54.41,
+        "works": 102,
+        "label": "George Barret, Sr."
+      },
+      {
+        "lifespan": 85.26,
+        "works": 103,
+        "label": "Walter William Ouless"
+      },
+      {
+        "lifespan": 61.71,
+        "works": 330,
+        "label": "Adolphe Joseph Thomas Monticelli"
+      },
+      {
+        "lifespan": 69.02,
+        "works": 272,
+        "label": "James McNeill Whistler"
+      },
+      {
+        "lifespan": 70.03,
+        "works": 201,
+        "label": "John Frederick Herring, Sr."
+      },
+      {
+        "lifespan": 63.11,
+        "works": 114,
+        "label": "Jean-Baptiste Monnoyer"
+      },
+      {
+        "lifespan": 56.73,
+        "works": 105,
+        "label": "John Frederick Kensett"
+      },
+      {
+        "lifespan": 82.74,
+        "works": 174,
+        "label": "Charles Hamilton Smith"
+      },
+      {
+        "lifespan": 64.0,
+        "works": 107,
+        "label": "Jan Provoost"
+      },
+      {
+        "lifespan": 87.54,
+        "works": 306,
+        "label": "Jozef Israëls"
+      },
+      {
+        "lifespan": 81.42,
+        "works": 313,
+        "label": "Benjamin West"
+      },
+      {
+        "lifespan": 44.61,
+        "works": 129,
+        "label": "Patrick Nasmyth"
+      },
+      {
+        "lifespan": 78.07,
+        "works": 292,
+        "label": "Thomas Hudson"
+      },
+      {
+        "lifespan": 79.3,
+        "works": 755,
+        "label": "Pierre Bonnard"
+      },
+      {
+        "lifespan": 44.0,
+        "works": 186,
+        "label": "František Hübel"
+      },
+      {
+        "lifespan": 83.78,
+        "works": 304,
+        "label": "Jean Dubuffet"
+      },
+      {
+        "lifespan": 81.84,
+        "works": 151,
+        "label": "Arent de Gelder"
+      },
+      {
+        "lifespan": 76.66,
+        "works": 136,
+        "label": "Janko Alexy"
+      },
+      {
+        "lifespan": 84.73,
+        "works": 161,
+        "label": "James Northcote"
+      },
+      {
+        "lifespan": 83.27,
+        "works": 205,
+        "label": "Henri-Jean Guillaume Martin"
+      },
+      {
+        "lifespan": 69.07,
+        "works": 669,
+        "label": "William H. Johnson"
+      },
+      {
+        "lifespan": 83.54,
+        "works": 154,
+        "label": "Helene Schjerfbeck"
+      },
+      {
+        "lifespan": 33.3,
+        "works": 158,
+        "label": "Luigi Balugani"
+      },
+      {
+        "lifespan": 89.73,
+        "works": 122,
+        "label": "Ethel Walker"
+      },
+      {
+        "lifespan": 60.96,
+        "works": 120,
+        "label": "Carl Frederik Sørensen"
+      },
+      {
+        "lifespan": 73.0,
+        "works": 1065,
+        "label": "John Everett"
+      },
+      {
+        "lifespan": 87.09,
+        "works": 154,
+        "label": "Jan Frans van Bloemen"
+      },
+      {
+        "lifespan": 38.81,
+        "works": 182,
+        "label": "Gabriel Metsu"
+      },
+      {
+        "lifespan": 71.59,
+        "works": 106,
+        "label": "Endel Kõks"
+      },
+      {
+        "lifespan": 90.0,
+        "works": 104,
+        "label": "Francesco Hayez"
+      },
+      {
+        "lifespan": 61.48,
+        "works": 198,
+        "label": "Christian Wilhelm Ernst Dietrich"
+      },
+      {
+        "lifespan": 33.0,
+        "works": 210,
+        "label": "Adriaen Brouwer"
+      },
+      {
+        "lifespan": 56.11,
+        "works": 109,
+        "label": "Wilhelm Leibl"
+      },
+      {
+        "lifespan": 53.91,
+        "works": 116,
+        "label": "Dante Gabriel Rossetti"
+      },
+      {
+        "lifespan": 58.89,
+        "works": 127,
+        "label": "Bartholomeus Breenbergh"
+      },
+      {
+        "lifespan": 76.0,
+        "works": 109,
+        "label": "Floris van Schooten"
+      },
+      {
+        "lifespan": 58.0,
+        "works": 125,
+        "label": "Qiu Ying"
+      },
+      {
+        "lifespan": 88.0,
+        "works": 140,
+        "label": "Harold Hopps"
+      },
+      {
+        "lifespan": 74.0,
+        "works": 136,
+        "label": "Jan van Bijlert"
+      },
+      {
+        "lifespan": 60.53,
+        "works": 488,
+        "label": "Canaletto"
+      },
+      {
+        "lifespan": 67.07,
+        "works": 109,
+        "label": "Jacob Duck"
+      },
+      {
+        "lifespan": 69.33,
+        "works": 114,
+        "label": "Sigmar Polke"
+      },
+      {
+        "lifespan": 75.0,
+        "works": 200,
+        "label": "Pietro Perugino"
+      },
+      {
+        "lifespan": 68.56,
+        "works": 124,
+        "label": "Rudolf Levy"
+      },
+      {
+        "lifespan": 87.98,
+        "works": 137,
+        "label": "Frank Stella"
+      },
+      {
+        "lifespan": 47.52,
+        "works": 228,
+        "label": "Theo van Doesburg"
+      },
+      {
+        "lifespan": 69.24,
+        "works": 471,
+        "label": "Narcisse Virgilio Díaz"
+      },
+      {
+        "lifespan": 90.07,
+        "works": 238,
+        "label": "Asher Brown Durand"
+      },
+      {
+        "lifespan": 86.92,
+        "works": 100,
+        "label": "Elihu Vedder"
+      },
+      {
+        "lifespan": 69.09,
+        "works": 156,
+        "label": "Ado Vabbe"
+      },
+      {
+        "lifespan": 58.85,
+        "works": 1035,
+        "label": "Marianne North"
+      },
+      {
+        "lifespan": 62.0,
+        "works": 102,
+        "label": "Vincenzo Carducci"
+      },
+      {
+        "lifespan": 75.06,
+        "works": 214,
+        "label": "Jan van der Heyden"
+      },
+      {
+        "lifespan": 52.33,
+        "works": 148,
+        "label": "John Crome"
+      },
+      {
+        "lifespan": 85.37,
+        "works": 124,
+        "label": "Mark Tobey"
+      },
+      {
+        "lifespan": 41.98,
+        "works": 117,
+        "label": "Carl Blechen"
+      },
+      {
+        "lifespan": 77.9,
+        "works": 114,
+        "label": "Louis Eilshemius"
+      },
+      {
+        "lifespan": 77.72,
+        "works": 221,
+        "label": "Jan Weenix"
+      },
+      {
+        "lifespan": 78.02,
+        "works": 233,
+        "label": "Jan Davidsz. de Heem"
+      },
+      {
+        "lifespan": 86.0,
+        "works": 168,
+        "label": "Jozef Bendík"
+      },
+      {
+        "lifespan": 57.96,
+        "works": 200,
+        "label": "Bartholomeus van der Helst"
+      },
+      {
+        "lifespan": 73.55,
+        "works": 187,
+        "label": "Horace Vernet"
+      },
+      {
+        "lifespan": 56.64,
+        "works": 123,
+        "label": "Peter Michal Bohúň"
+      },
+      {
+        "lifespan": 79.62,
+        "works": 157,
+        "label": "Carolus-Duran"
+      },
+      {
+        "lifespan": 76.49,
+        "works": 158,
+        "label": "Apollinary Vasnetsov"
+      },
+      {
+        "lifespan": 59.0,
+        "works": 373,
+        "label": "Benjamin Haughton"
+      },
+      {
+        "lifespan": 72.39,
+        "works": 112,
+        "label": "Alessandro Allori"
+      },
+      {
+        "lifespan": 43.2,
+        "works": 140,
+        "label": "Andrea del Sarto"
+      },
+      {
+        "lifespan": 41.0,
+        "works": 103,
+        "label": "Louis de Caullery"
+      },
+      {
+        "lifespan": 84.45,
+        "works": 423,
+        "label": "William Catto"
+      },
+      {
+        "lifespan": 72.96,
+        "works": 650,
+        "label": "Empress Dowager Cixi"
+      },
+      {
+        "lifespan": 61.95,
+        "works": 251,
+        "label": "Jacob Maris"
+      },
+      {
+        "lifespan": 62.99,
+        "works": 294,
+        "label": "Joseph Wright of Derby"
+      },
+      {
+        "lifespan": 60.3,
+        "works": 398,
+        "label": "Paolo Veronese"
+      },
+      {
+        "lifespan": 89.17,
+        "works": 151,
+        "label": "Adolph von Menzel"
+      },
+      {
+        "lifespan": 62.99,
+        "works": 190,
+        "label": "N. C. Wyeth"
+      },
+      {
+        "lifespan": 94.0,
+        "works": 148,
+        "label": "Július Muška"
+      },
+      {
+        "lifespan": 91.09,
+        "works": 113,
+        "label": "Ernest Hébert"
+      },
+      {
+        "lifespan": 69.65,
+        "works": 168,
+        "label": "Antonio Zucchi"
+      },
+      {
+        "lifespan": 71.27,
+        "works": 278,
+        "label": "George Reid"
+      },
+      {
+        "lifespan": 63.77,
+        "works": 105,
+        "label": "Filippo Lippi"
+      },
+      {
+        "lifespan": 61.0,
+        "works": 155,
+        "label": "Xiang Shengmo"
+      },
+      {
+        "lifespan": 71.76,
+        "works": 216,
+        "label": "Paul Signac"
+      },
+      {
+        "lifespan": 56.2,
+        "works": 132,
+        "label": "Mihály Munkácsy"
+      },
+      {
+        "lifespan": 72.97,
+        "works": 339,
+        "label": "Maurice Denis"
+      },
+      {
+        "lifespan": 93.0,
+        "works": 135,
+        "label": "Alfred Worthington"
+      },
+      {
+        "lifespan": 54.57,
+        "works": 2197,
+        "label": "Stanisław Ignacy Witkiewicz"
+      },
+      {
+        "lifespan": 100.0,
+        "works": 122,
+        "label": "Master of the Legend of the Magdalene"
+      },
+      {
+        "lifespan": 72.19,
+        "works": 157,
+        "label": "Edward Mitchell Bannister"
+      },
+      {
+        "lifespan": 71.16,
+        "works": 111,
+        "label": "Henny Protzen-Kundmüller"
+      },
+      {
+        "lifespan": 36.79,
+        "works": 275,
+        "label": "Henri de Toulouse-Lautrec"
+      },
+      {
+        "lifespan": 75.43,
+        "works": 134,
+        "label": "Arthur Devis"
+      },
+      {
+        "lifespan": 36.86,
+        "works": 156,
+        "label": "Zoltán Palugyay"
+      },
+      {
+        "lifespan": 66.71,
+        "works": 120,
+        "label": "Gustave De Smet"
+      },
+      {
+        "lifespan": 80.06,
+        "works": 1574,
+        "label": "Mary Vaux Walcott"
+      },
+      {
+        "lifespan": 68.19,
+        "works": 123,
+        "label": "William James Glackens"
+      },
+      {
+        "lifespan": 88.48,
+        "works": 151,
+        "label": "Hubert Salentin"
+      },
+      {
+        "lifespan": 53.93,
+        "works": 123,
+        "label": "John Pettie"
+      },
+      {
+        "lifespan": 79.86,
+        "works": 224,
+        "label": "Pierre Daura"
+      },
+      {
+        "lifespan": 67.85,
+        "works": 136,
+        "label": "John William Waterhouse"
+      },
+      {
+        "lifespan": 86.0,
+        "works": 140,
+        "label": "Donald McIntyre"
+      },
+      {
+        "lifespan": 55.44,
+        "works": 117,
+        "label": "William Morris Hunt"
+      },
+      {
+        "lifespan": 87.61,
+        "works": 111,
+        "label": "Matilda Čechová"
+      },
+      {
+        "lifespan": 89.22,
+        "works": 163,
+        "label": "Léon Bonnat"
+      },
+      {
+        "lifespan": 89.5,
+        "works": 152,
+        "label": "Francesco Solimena"
+      },
+      {
+        "lifespan": 82.55,
+        "works": 113,
+        "label": "Francesco Albani"
+      },
+      {
+        "lifespan": 35.53,
+        "works": 295,
+        "label": "Amedeo Modigliani"
+      },
+      {
+        "lifespan": 71.19,
+        "works": 147,
+        "label": "John Bellany"
+      },
+      {
+        "lifespan": 51.08,
+        "works": 411,
+        "label": "Albert Edelfelt"
+      },
+      {
+        "lifespan": 65.52,
+        "works": 130,
+        "label": "Franz Stuck"
+      },
+      {
+        "lifespan": 68.62,
+        "works": 160,
+        "label": "William Daniell"
+      },
+      {
+        "lifespan": 72.43,
+        "works": 173,
+        "label": "William Trost Richards"
+      },
+      {
+        "lifespan": 75.13,
+        "works": 114,
+        "label": "Paul Joseph Constantin Gabriël"
+      },
+      {
+        "lifespan": 70.23,
+        "works": 160,
+        "label": "Frank Duveneck"
+      },
+      {
+        "lifespan": 82.46,
+        "works": 151,
+        "label": "Alfred Pellan"
+      },
+      {
+        "lifespan": 66.99,
+        "works": 1108,
+        "label": "Lovis Corinth"
+      },
+      {
+        "lifespan": 80.42,
+        "works": 123,
+        "label": "Giambattista Pittoni"
+      },
+      {
+        "lifespan": 87.38,
+        "works": 123,
+        "label": "Cecilia Beaux"
+      },
+      {
+        "lifespan": 65.0,
+        "works": 265,
+        "label": "Shitao"
+      },
+      {
+        "lifespan": 67.37,
+        "works": 106,
+        "label": "Domenico Beccafumi"
+      },
+      {
+        "lifespan": 72.0,
+        "works": 331,
+        "label": "Daniel Lysons"
+      },
+      {
+        "lifespan": 74.18,
+        "works": 104,
+        "label": "Peter Snayers"
+      },
+      {
+        "lifespan": 38.49,
+        "works": 144,
+        "label": "Giuseppe De Nittis"
+      },
+      {
+        "lifespan": 72.65,
+        "works": 101,
+        "label": "Carl Baagøe"
+      },
+      {
+        "lifespan": 76.15,
+        "works": 150,
+        "label": "Július Nemčík"
+      },
+      {
+        "lifespan": 77.79,
+        "works": 100,
+        "label": "Hendrik Gerritsz Pot"
+      },
+      {
+        "lifespan": 65.31,
+        "works": 126,
+        "label": "Maurice Prendergast"
+      },
+      {
+        "lifespan": 74.97,
+        "works": 147,
+        "label": "Alexander Roslin"
+      },
+      {
+        "lifespan": 68.0,
+        "works": 259,
+        "label": "Bian Shoumin"
+      },
+      {
+        "lifespan": 70.0,
+        "works": 402,
+        "label": "Dong Bangda"
+      },
+      {
+        "lifespan": 93.3,
+        "works": 277,
+        "label": "Duncan Grant"
+      },
+      {
+        "lifespan": 66.04,
+        "works": 157,
+        "label": "Jean Baptiste Vanmour"
+      },
+      {
+        "lifespan": 76.32,
+        "works": 120,
+        "label": "Eilif Peterssen"
+      },
+      {
+        "lifespan": 34.29,
+        "works": 109,
+        "label": "Domenico Fetti"
+      },
+      {
+        "lifespan": 54.13,
+        "works": 198,
+        "label": "Berthe Morisot"
+      },
+      {
+        "lifespan": 42.0,
+        "works": 102,
+        "label": "Jan Asselijn"
+      },
+      {
+        "lifespan": 74.86,
+        "works": 128,
+        "label": "فرانسيس پيكابيا"
+      },
+      {
+        "lifespan": 53.0,
+        "works": 117,
+        "label": "John Jackson"
+      },
+      {
+        "lifespan": 75.03,
+        "works": 103,
+        "label": "Robert Lefèvre"
+      },
+      {
+        "lifespan": 59.79,
+        "works": 106,
+        "label": "Arnold Boonen"
+      },
+      {
+        "lifespan": 74.48,
+        "works": 129,
+        "label": "Erich von Kügelgen"
+      },
+      {
+        "lifespan": 56.26,
+        "works": 126,
+        "label": "Hans Heyerdahl"
+      },
+      {
+        "lifespan": 36.77,
+        "works": 168,
+        "label": "Jean-Antoine Watteau"
+      },
+      {
+        "lifespan": 58.68,
+        "works": 121,
+        "label": "Howard Pyle"
+      },
+      {
+        "lifespan": 82.33,
+        "works": 323,
+        "label": "Vilhelm Arnesen"
+      },
+      {
+        "lifespan": 81.0,
+        "works": 186,
+        "label": "William Gunning King"
+      },
+      {
+        "lifespan": 75.17,
+        "works": 105,
+        "label": "Willem Roelofs"
+      },
+      {
+        "lifespan": 67.0,
+        "works": 114,
+        "label": "Lepo Mikko"
+      },
+      {
+        "lifespan": 67.67,
+        "works": 177,
+        "label": "János Tornyai"
+      },
+      {
+        "lifespan": 71.0,
+        "works": 279,
+        "label": "Joos de Momper the Younger"
+      },
+      {
+        "lifespan": 85.28,
+        "works": 124,
+        "label": "Gerard Hoet"
+      },
+      {
+        "lifespan": 65.93,
+        "works": 120,
+        "label": "Evert Collier"
+      },
+      {
+        "lifespan": 80.07,
+        "works": 117,
+        "label": "Konstantin Süvalo"
+      },
+      {
+        "lifespan": 56.86,
+        "works": 131,
+        "label": "Jacob de Wet II"
+      },
+      {
+        "lifespan": 92.55,
+        "works": 122,
+        "label": "William Shayer"
+      },
+      {
+        "lifespan": 91.82,
+        "works": 114,
+        "label": "أندريه ماسون"
+      },
+      {
+        "lifespan": 61.62,
+        "works": 121,
+        "label": "Hans Rottenhammer"
+      },
+      {
+        "lifespan": 57.98,
+        "works": 521,
+        "label": "Richard Sagrits"
+      },
+      {
+        "lifespan": 76.0,
+        "works": 161,
+        "label": "Herman Saftleven"
+      },
+      {
+        "lifespan": 65.73,
+        "works": 378,
+        "label": "George Hendrik Breitner"
+      },
+      {
+        "lifespan": 62.91,
+        "works": 156,
+        "label": "Paul Sérusier"
+      },
+      {
+        "lifespan": 72.11,
+        "works": 545,
+        "label": "Albert Bierstadt"
+      },
+      {
+        "lifespan": 77.23,
+        "works": 256,
+        "label": "Pieter Defesche"
+      },
+      {
+        "lifespan": 68.0,
+        "works": 252,
+        "label": "Hongwu"
+      },
+      {
+        "lifespan": 82.11,
+        "works": 179,
+        "label": "Alessandro Magnasco"
+      },
+      {
+        "lifespan": 47.03,
+        "works": 188,
+        "label": "Thomas Cole"
+      },
+      {
+        "lifespan": 59.8,
+        "works": 251,
+        "label": "Bernardo Bellotto"
+      },
+      {
+        "lifespan": 92.03,
+        "works": 151,
+        "label": "Benjamin Williams Leader"
+      },
+      {
+        "lifespan": 64.06,
+        "works": 142,
+        "label": "Théo van Rysselberghe"
+      },
+      {
+        "lifespan": 98.36,
+        "works": 195,
+        "label": "Thomas Sidney Cooper"
+      },
+      {
+        "lifespan": 83.29,
+        "works": 159,
+        "label": "Alfred Stevens"
+      },
+      {
+        "lifespan": 45.04,
+        "works": 324,
+        "label": "Caspar Netscher"
+      },
+      {
+        "lifespan": 73.25,
+        "works": 229,
+        "label": "Arnold Böcklin"
+      },
+      {
+        "lifespan": 70.83,
+        "works": 260,
+        "label": "Allan Ramsay"
+      },
+      {
+        "lifespan": 68.22,
+        "works": 307,
+        "label": "Franz Xaver Winterhalter"
+      },
+      {
+        "lifespan": 82.05,
+        "works": 547,
+        "label": "Francisco Goya"
+      },
+      {
+        "lifespan": 79.66,
+        "works": 135,
+        "label": "Hendrik Frans van Lint"
+      },
+      {
+        "lifespan": 77.65,
+        "works": 105,
+        "label": "Otto Dix"
+      },
+      {
+        "lifespan": 74.18,
+        "works": 166,
+        "label": "انطوان بيسنى"
+      },
+      {
+        "lifespan": 79.72,
+        "works": 341,
+        "label": "William-Adolphe Bouguereau"
+      },
+      {
+        "lifespan": 78.29,
+        "works": 708,
+        "label": "Eliseu Visconti"
+      },
+      {
+        "lifespan": 63.0,
+        "works": 207,
+        "label": "Roelant Savery"
+      },
+      {
+        "lifespan": 70.1,
+        "works": 101,
+        "label": "Niclas Lafrensen"
+      },
+      {
+        "lifespan": 34.34,
+        "works": 103,
+        "label": "Ren Xiong"
+      },
+      {
+        "lifespan": 66.16,
+        "works": 965,
+        "label": "Ferdinand Bauer"
+      },
+      {
+        "lifespan": 79.36,
+        "works": 1394,
+        "label": "David Teniers the Younger"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 107,
+        "label": "Abraham Hondius"
+      },
+      {
+        "lifespan": 71.86,
+        "works": 284,
+        "label": "Maurice Utrillo"
+      },
+      {
+        "lifespan": 48.31,
+        "works": 176,
+        "label": "Pieter Coecke van Aelst"
+      },
+      {
+        "lifespan": 84.79,
+        "works": 131,
+        "label": "Palma il Giovane"
+      },
+      {
+        "lifespan": 56.12,
+        "works": 148,
+        "label": "Moustafa Farroukh"
+      },
+      {
+        "lifespan": 71.07,
+        "works": 179,
+        "label": "Anthonie Palamedesz."
+      },
+      {
+        "lifespan": 70.08,
+        "works": 132,
+        "label": "François Bonvin"
+      },
+      {
+        "lifespan": 48.69,
+        "works": 274,
+        "label": "George Dawe"
+      },
+      {
+        "lifespan": 70.15,
+        "works": 104,
+        "label": "James Holland"
+      },
+      {
+        "lifespan": 54.92,
+        "works": 516,
+        "label": "Paul Gauguin"
+      },
+      {
+        "lifespan": 69.68,
+        "works": 563,
+        "label": "Isaac Israëls"
+      },
+      {
+        "lifespan": 71.43,
+        "works": 119,
+        "label": "Thomas de Keyser"
+      },
+      {
+        "lifespan": 53.0,
+        "works": 138,
+        "label": "Adam Pynacker"
+      },
+      {
+        "lifespan": 28.37,
+        "works": 178,
+        "label": "Isaac van Ostade"
+      },
+      {
+        "lifespan": 91.63,
+        "works": 301,
+        "label": "Wilhelmina Barns-Graham"
+      },
+      {
+        "lifespan": 48.38,
+        "works": 131,
+        "label": "Philipp Peter Roos"
+      },
+      {
+        "lifespan": 74.34,
+        "works": 238,
+        "label": "Giovanni Paolo Panini"
+      },
+      {
+        "lifespan": 52.06,
+        "works": 255,
+        "label": "Jan Wijnants"
+      },
+      {
+        "lifespan": 65.05,
+        "works": 188,
+        "label": "Reginald Grenville Eves"
+      },
+      {
+        "lifespan": 55.56,
+        "works": 140,
+        "label": "Gustav Klimt"
+      },
+      {
+        "lifespan": 78.14,
+        "works": 106,
+        "label": "Augustus Vincent Tack"
+      },
+      {
+        "lifespan": 65.08,
+        "works": 146,
+        "label": "Paul Raud"
+      },
+      {
+        "lifespan": 72.12,
+        "works": 111,
+        "label": "Johan Gustaf Sandberg"
+      },
+      {
+        "lifespan": 77.18,
+        "works": 118,
+        "label": "John Michael Wright"
+      },
+      {
+        "lifespan": 40.66,
+        "works": 132,
+        "label": "Benjamin Gerritsz Cuyp"
+      },
+      {
+        "lifespan": 79.03,
+        "works": 535,
+        "label": "Gevorg Grigoryan"
+      },
+      {
+        "lifespan": 78.13,
+        "works": 498,
+        "label": "Vincent Hložník"
+      },
+      {
+        "lifespan": 74.07,
+        "works": 884,
+        "label": "Eugène Louis Boudin"
+      },
+      {
+        "lifespan": 74.66,
+        "works": 334,
+        "label": "Boris Chaliapin"
+      },
+      {
+        "lifespan": 89.44,
+        "works": 298,
+        "label": "Nicolas de Largillière"
+      },
+      {
+        "lifespan": 36.44,
+        "works": 100,
+        "label": "Mariano Fortuny Marsal"
+      },
+      {
+        "lifespan": 89.97,
+        "works": 118,
+        "label": "Ján Želibský"
+      },
+      {
+        "lifespan": 76.51,
+        "works": 133,
+        "label": "Giovanni Domenico Tiepolo"
+      },
+      {
+        "lifespan": 82.76,
+        "works": 198,
+        "label": "Eugène Isabey"
+      },
+      {
+        "lifespan": 72.49,
+        "works": 102,
+        "label": "José Malhoa"
+      },
+      {
+        "lifespan": 38.01,
+        "works": 132,
+        "label": "Bonaventura Peeters the Elder"
+      },
+      {
+        "lifespan": 44.16,
+        "works": 122,
+        "label": "Francis Cotes"
+      },
+      {
+        "lifespan": 83.7,
+        "works": 181,
+        "label": "Lou Albert-Lasard"
+      },
+      {
+        "lifespan": 67.15,
+        "works": 237,
+        "label": "Ivan Shishkin"
+      },
+      {
+        "lifespan": 73.0,
+        "works": 128,
+        "label": "Jean-François de Troy"
+      },
+      {
+        "lifespan": 84.81,
+        "works": 460,
+        "label": "John Lavery"
+      },
+      {
+        "lifespan": 69.65,
+        "works": 107,
+        "label": "James Baker Pyne"
+      },
+      {
+        "lifespan": 79.0,
+        "works": 103,
+        "label": "James 'Clock' Shaw"
+      },
+      {
+        "lifespan": 67.35,
+        "works": 143,
+        "label": "Jan van Scorel"
+      },
+      {
+        "lifespan": 58.76,
+        "works": 158,
+        "label": "Adam Frans van der Meulen"
+      },
+      {
+        "lifespan": 64.94,
+        "works": 333,
+        "label": "Gerard ter Borch"
+      },
+      {
+        "lifespan": 70.77,
+        "works": 154,
+        "label": "Paul Bril"
+      },
+      {
+        "lifespan": 79.71,
+        "works": 187,
+        "label": "Edith Collier"
+      },
+      {
+        "lifespan": 67.89,
+        "works": 613,
+        "label": "George Romney"
+      },
+      {
+        "lifespan": 54.89,
+        "works": 145,
+        "label": "Jacques Courtois"
+      },
+      {
+        "lifespan": 54.75,
+        "works": 141,
+        "label": "Jan Gossaert"
+      },
+      {
+        "lifespan": 66.0,
+        "works": 110,
+        "label": "Gaspar Peeter Verbruggen the Younger"
+      },
+      {
+        "lifespan": 90.36,
+        "works": 179,
+        "label": "Giorgio de Chirico"
+      },
+      {
+        "lifespan": 53.09,
+        "works": 494,
+        "label": "Jan Steen"
+      },
+      {
+        "lifespan": 79.29,
+        "works": 158,
+        "label": "Albert Anker"
+      },
+      {
+        "lifespan": 51.05,
+        "works": 122,
+        "label": "Gustave Doré"
+      },
+      {
+        "lifespan": 83.19,
+        "works": 146,
+        "label": "Anton Jasusch"
+      },
+      {
+        "lifespan": 74.39,
+        "works": 188,
+        "label": "Sidney Sime"
+      },
+      {
+        "lifespan": 81.64,
+        "works": 210,
+        "label": "Jean-Marc Nattier"
+      },
+      {
+        "lifespan": 71.36,
+        "works": 175,
+        "label": "Philip James de Loutherbourg"
+      },
+      {
+        "lifespan": 83.19,
+        "works": 485,
+        "label": "Edgar Degas"
+      },
+      {
+        "lifespan": 69.97,
+        "works": 138,
+        "label": "George Harvey"
+      },
+      {
+        "lifespan": 85.47,
+        "works": 245,
+        "label": "Jan van Ravesteyn"
+      },
+      {
+        "lifespan": 70.91,
+        "works": 113,
+        "label": "Július Lörincz"
+      },
+      {
+        "lifespan": 48.58,
+        "works": 108,
+        "label": "Palma Vecchio"
+      },
+      {
+        "lifespan": 79.07,
+        "works": 337,
+        "label": "Laurits Andersen Ring"
+      },
+      {
+        "lifespan": 64.0,
+        "works": 159,
+        "label": "Quinten Metsys"
+      },
+      {
+        "lifespan": 72.39,
+        "works": 215,
+        "label": "Carlos de Haes"
+      },
+      {
+        "lifespan": 66.69,
+        "works": 204,
+        "label": "François Gérard"
+      },
+      {
+        "lifespan": 79.66,
+        "works": 288,
+        "label": "Jean-Léon Gérôme"
+      },
+      {
+        "lifespan": 93.92,
+        "works": 279,
+        "label": "Joseph Henry Sharp"
+      },
+      {
+        "lifespan": 55.27,
+        "works": 193,
+        "label": "Sébastien Bourdon"
+      },
+      {
+        "lifespan": 64.52,
+        "works": 135,
+        "label": "Robert Wilhelm Ekman"
+      },
+      {
+        "lifespan": 60.29,
+        "works": 282,
+        "label": "Jean-François Millet"
+      },
+      {
+        "lifespan": 40.01,
+        "works": 197,
+        "label": "Karel Albert Schmidt"
+      },
+      {
+        "lifespan": 52.0,
+        "works": 164,
+        "label": "Bernardino Luini"
+      },
+      {
+        "lifespan": 81.16,
+        "works": 151,
+        "label": "Charles Cundall"
+      },
+      {
+        "lifespan": 59.26,
+        "works": 262,
+        "label": "Melchior d'Hondecoeter"
+      },
+      {
+        "lifespan": 75.0,
+        "works": 300,
+        "label": "William George Gillies"
+      },
+      {
+        "lifespan": 74.51,
+        "works": 197,
+        "label": "Thomas Phillips"
+      },
+      {
+        "lifespan": 70.75,
+        "works": 168,
+        "label": "Henry Scott Tuke"
+      },
+      {
+        "lifespan": 66.66,
+        "works": 165,
+        "label": "Marsden Hartley"
+      },
+      {
+        "lifespan": 81.52,
+        "works": 158,
+        "label": "Rosalba Carriera"
+      },
+      {
+        "lifespan": 69.75,
+        "works": 100,
+        "label": "William Stewart MacGeorge"
+      },
+      {
+        "lifespan": 74.88,
+        "works": 106,
+        "label": "Maria Wiik"
+      },
+      {
+        "lifespan": 81.24,
+        "works": 106,
+        "label": "John George Brown"
+      },
+      {
+        "lifespan": 62.4,
+        "works": 232,
+        "label": "Gaspard Dughet"
+      },
+      {
+        "lifespan": 75.8,
+        "works": 393,
+        "label": "Raoul Dufy"
+      },
+      {
+        "lifespan": 53.0,
+        "works": 109,
+        "label": "Hongren"
+      },
+      {
+        "lifespan": 40.25,
+        "works": 101,
+        "label": "Morland Lewis"
+      },
+      {
+        "lifespan": 66.51,
+        "works": 107,
+        "label": "Giovanni Antonio Pellegrini"
+      },
+      {
+        "lifespan": 61.17,
+        "works": 212,
+        "label": "Diego Velázquez"
+      },
+      {
+        "lifespan": 65.36,
+        "works": 496,
+        "label": "Yeghishe Tadevosyan"
+      },
+      {
+        "lifespan": 57.63,
+        "works": 175,
+        "label": "Théodore Ralli"
+      },
+      {
+        "lifespan": 88.68,
+        "works": 196,
+        "label": "Emil Nolde"
+      },
+      {
+        "lifespan": 82.52,
+        "works": 336,
+        "label": "Maurice de Vlaminck"
+      },
+      {
+        "lifespan": 68.91,
+        "works": 110,
+        "label": "Carl Theodor Protzen"
+      },
+      {
+        "lifespan": 72.42,
+        "works": 175,
+        "label": "Emily Eden"
+      },
+      {
+        "lifespan": 88.31,
+        "works": 217,
+        "label": "L. S. Lowry"
+      },
+      {
+        "lifespan": 42.81,
+        "works": 141,
+        "label": "Egbert van der Poel"
+      },
+      {
+        "lifespan": 66.15,
+        "works": 142,
+        "label": "Ramon Casas"
+      },
+      {
+        "lifespan": 87.37,
+        "works": 898,
+        "label": "Qianlong Emperor"
+      },
+      {
+        "lifespan": 88.98,
+        "works": 109,
+        "label": "Stanley Cursiter"
+      },
+      {
+        "lifespan": 89.0,
+        "works": 103,
+        "label": "Elza Sunderland"
+      },
+      {
+        "lifespan": 52.67,
+        "works": 171,
+        "label": "Pieter Boel"
+      },
+      {
+        "lifespan": 76.14,
+        "works": 206,
+        "label": "Georges van Houten"
+      },
+      {
+        "lifespan": 86.0,
+        "works": 167,
+        "label": "Willem Claesz. Heda"
+      },
+      {
+        "lifespan": 79.03,
+        "works": 219,
+        "label": "Pompeo Batoni"
+      },
+      {
+        "lifespan": 64.05,
+        "works": 131,
+        "label": "Robert Henri"
+      },
+      {
+        "lifespan": 54.48,
+        "works": 243,
+        "label": "Constant Troyon"
+      },
+      {
+        "lifespan": 98.31,
+        "works": 199,
+        "label": "喬治亞·歐姬芙"
+      },
+      {
+        "lifespan": 76.46,
+        "works": 189,
+        "label": "Lawrence Alma-Tadema"
+      },
+      {
+        "lifespan": 97.17,
+        "works": 191,
+        "label": "Henri Harpignies"
+      },
+      {
+        "lifespan": 66.08,
+        "works": 110,
+        "label": "Arthur Bowen Davies"
+      },
+      {
+        "lifespan": 73.92,
+        "works": 159,
+        "label": "Frederic Edwin Church"
+      },
+      {
+        "lifespan": 84.06,
+        "works": 225,
+        "label": "Michael Dahl"
+      },
+      {
+        "lifespan": 45.0,
+        "works": 127,
+        "label": "John Riley"
+      },
+      {
+        "lifespan": 70.8,
+        "works": 642,
+        "label": "Alphonse Hoppenbrouwers"
+      },
+      {
+        "lifespan": 71.1,
+        "works": 191,
+        "label": "Meindert Hobbema"
+      },
+      {
+        "lifespan": 80.94,
+        "works": 104,
+        "label": "George Peter Alexander Healy"
+      },
+      {
+        "lifespan": 76.0,
+        "works": 116,
+        "label": "Sano di Pietro"
+      },
+      {
+        "lifespan": 53.0,
+        "works": 107,
+        "label": "Frederik de Moucheron"
+      },
+      {
+        "lifespan": 67.34,
+        "works": 148,
+        "label": "Milan Paštéka"
+      },
+      {
+        "lifespan": 66.42,
+        "works": 349,
+        "label": "马克·罗斯科"
+      },
+      {
+        "lifespan": 84.49,
+        "works": 137,
+        "label": "Lyonel Feininger"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 421,
+        "label": "Félix Vallotton"
+      },
+      {
+        "lifespan": 78.55,
+        "works": 132,
+        "label": "Ruskin Spear"
+      },
+      {
+        "lifespan": 45.51,
+        "works": 248,
+        "label": "Gustave Caillebotte"
+      },
+      {
+        "lifespan": 89.08,
+        "works": 270,
+        "label": "Frank Brangwyn"
+      },
+      {
+        "lifespan": 83.14,
+        "works": 118,
+        "label": "Per Gustaf von Heideken"
+      },
+      {
+        "lifespan": 74.44,
+        "works": 172,
+        "label": "William McTaggart"
+      },
+      {
+        "lifespan": 88.58,
+        "works": 146,
+        "label": "Carlo Maratta"
+      },
+      {
+        "lifespan": 77.74,
+        "works": 186,
+        "label": "Antônio Parreiras"
+      },
+      {
+        "lifespan": 71.07,
+        "works": 459,
+        "label": "Aelbert Cuyp"
+      },
+      {
+        "lifespan": 62.28,
+        "works": 137,
+        "label": "Johann Friedrich August Tischbein"
+      },
+      {
+        "lifespan": 66.0,
+        "works": 151,
+        "label": "Luo Ping"
+      },
+      {
+        "lifespan": 68.52,
+        "works": 780,
+        "label": "Hmayak Hakobyan"
+      },
+      {
+        "lifespan": 68.33,
+        "works": 105,
+        "label": "Hendrik van Steenwijk II"
+      },
+      {
+        "lifespan": 81.66,
+        "works": 184,
+        "label": "Jacques-Émile Blanche"
+      },
+      {
+        "lifespan": 64.87,
+        "works": 159,
+        "label": "Pierre-Paul Prud'hon"
+      },
+      {
+        "lifespan": 53.13,
+        "works": 134,
+        "label": "Frans Pourbus the Younger"
+      },
+      {
+        "lifespan": 86.37,
+        "works": 130,
+        "label": "Francesco Zuccarelli"
+      },
+      {
+        "lifespan": 67.76,
+        "works": 169,
+        "label": "Hans Agersnap"
+      },
+      {
+        "lifespan": 70.91,
+        "works": 156,
+        "label": "Daniel Seghers"
+      },
+      {
+        "lifespan": 84.71,
+        "works": 137,
+        "label": "Leon Wyczółkowski"
+      },
+      {
+        "lifespan": 61.8,
+        "works": 101,
+        "label": "Edmund Gwerk"
+      },
+      {
+        "lifespan": 63.0,
+        "works": 156,
+        "label": "David de Coninck"
+      },
+      {
+        "lifespan": 92.29,
+        "works": 116,
+        "label": "Enn Põldroos"
+      },
+      {
+        "lifespan": 85.34,
+        "works": 225,
+        "label": "Ernest Zmeták"
+      },
+      {
+        "lifespan": 81.3,
+        "works": 373,
+        "label": "Georges Braque"
+      },
+      {
+        "lifespan": 79.0,
+        "works": 153,
+        "label": "Huang Shen"
+      },
+      {
+        "lifespan": 83.71,
+        "works": 129,
+        "label": "Philip Connard"
+      },
+      {
+        "lifespan": 54.26,
+        "works": 209,
+        "label": "Pieter de Hooch"
+      },
+      {
+        "lifespan": 76.11,
+        "works": 185,
+        "label": "David Cox"
+      },
+      {
+        "lifespan": 92.08,
+        "works": 251,
+        "label": "Ernest Rákosi"
+      },
+      {
+        "lifespan": 67.65,
+        "works": 455,
+        "label": "Khachatur Yesayan"
+      },
+      {
+        "lifespan": 70.96,
+        "works": 210,
+        "label": "Honoré Daumier"
+      },
+      {
+        "lifespan": 87.72,
+        "works": 156,
+        "label": "Joseph Highmore"
+      },
+      {
+        "lifespan": 89.54,
+        "works": 261,
+        "label": "Thomas Moran"
+      },
+      {
+        "lifespan": 93.52,
+        "works": 139,
+        "label": "Alan Davie"
+      },
+      {
+        "lifespan": 74.39,
+        "works": 508,
+        "label": "Adriaen van Ostade"
+      },
+      {
+        "lifespan": 31.32,
+        "works": 151,
+        "label": "Georges Seurat"
+      },
+      {
+        "lifespan": 82.2,
+        "works": 267,
+        "label": "Richard Mortensen"
+      },
+      {
+        "lifespan": 85.0,
+        "works": 225,
+        "label": "Max Ernst"
+      },
+      {
+        "lifespan": 51.27,
+        "works": 383,
+        "label": "Édouard Manet"
+      },
+      {
+        "lifespan": 40.0,
+        "works": 105,
+        "label": "Joachim Beuckelaer"
+      },
+      {
+        "lifespan": 70.19,
+        "works": 135,
+        "label": "Jacob van Es"
+      },
+      {
+        "lifespan": 66.53,
+        "works": 153,
+        "label": "Mary Beale"
+      },
+      {
+        "lifespan": 62.92,
+        "works": 2133,
+        "label": "Peter Paul Rubens"
+      },
+      {
+        "lifespan": 65.3,
+        "works": 523,
+        "label": "Eugène Delacroix"
+      },
+      {
+        "lifespan": 69.64,
+        "works": 602,
+        "label": "Johan Christian Dahl"
+      },
+      {
+        "lifespan": 66.45,
+        "works": 270,
+        "label": "Alfred Delaunois"
+      },
+      {
+        "lifespan": 80.33,
+        "works": 220,
+        "label": "Abanindranath Tagore"
+      },
+      {
+        "lifespan": 80.64,
+        "works": 114,
+        "label": "Martin Archer Shee"
+      },
+      {
+        "lifespan": 76.21,
+        "works": 365,
+        "label": "Odilon Redon"
+      },
+      {
+        "lifespan": 76.14,
+        "works": 638,
+        "label": "Panos Terlemezyan"
+      },
+      {
+        "lifespan": 74.0,
+        "works": 178,
+        "label": "Alexander Adriaenssen"
+      },
+      {
+        "lifespan": 34.0,
+        "works": 222,
+        "label": "Jan Both"
+      },
+      {
+        "lifespan": 57.19,
+        "works": 156,
+        "label": "Sedrak Arakelyan"
+      },
+      {
+        "lifespan": 58.48,
+        "works": 109,
+        "label": "Barend Cornelis Koekkoek"
+      },
+      {
+        "lifespan": 74.71,
+        "works": 134,
+        "label": "Emile Claus"
+      },
+      {
+        "lifespan": 73.95,
+        "works": 144,
+        "label": "Laurits Tuxen"
+      },
+      {
+        "lifespan": 78.36,
+        "works": 162,
+        "label": "Thomas Luny"
+      },
+      {
+        "lifespan": 44.54,
+        "works": 230,
+        "label": "Jackson Pollock"
+      },
+      {
+        "lifespan": 82.5,
+        "works": 136,
+        "label": "Francis Bacon"
+      },
+      {
+        "lifespan": 81.64,
+        "works": 384,
+        "label": "Walter Sickert"
+      },
+      {
+        "lifespan": 68.97,
+        "works": 199,
+        "label": "Edward Atkinson Hornel"
+      },
+      {
+        "lifespan": 51.27,
+        "works": 198,
+        "label": "Anton Raphael Mengs"
+      },
+      {
+        "lifespan": 71.92,
+        "works": 263,
+        "label": "Thomas Eakins"
+      },
+      {
+        "lifespan": 87.18,
+        "works": 107,
+        "label": "Harriet Backer"
+      },
+      {
+        "lifespan": 82.76,
+        "works": 381,
+        "label": "Ivan Aivazovsky"
+      },
+      {
+        "lifespan": 76.0,
+        "works": 190,
+        "label": "لورينزو لوتو"
+      },
+      {
+        "lifespan": 67.58,
+        "works": 119,
+        "label": "Erna von Brinckmann"
+      },
+      {
+        "lifespan": 86.0,
+        "works": 122,
+        "label": "Zou Yigui"
+      },
+      {
+        "lifespan": 73.04,
+        "works": 124,
+        "label": "William Rothenstein"
+      },
+      {
+        "lifespan": 74.75,
+        "works": 119,
+        "label": "Martin van Meytens"
+      },
+      {
+        "lifespan": 69.12,
+        "works": 205,
+        "label": "Jean-Baptiste Oudry"
+      },
+      {
+        "lifespan": 38.23,
+        "works": 106,
+        "label": "Isidre Nonell"
+      },
+      {
+        "lifespan": 74.3,
+        "works": 190,
+        "label": "Sebastiaen Vrancx"
+      },
+      {
+        "lifespan": 67.89,
+        "works": 150,
+        "label": "Nándor Katona"
+      },
+      {
+        "lifespan": 90.31,
+        "works": 115,
+        "label": "George Elgar Hicks"
+      },
+      {
+        "lifespan": 79.82,
+        "works": 108,
+        "label": "Milton Avery"
+      },
+      {
+        "lifespan": 73.93,
+        "works": 110,
+        "label": "Roy De Maistre"
+      },
+      {
+        "lifespan": 75.86,
+        "works": 185,
+        "label": "Childe Hassam"
+      },
+      {
+        "lifespan": 72.11,
+        "works": 172,
+        "label": "Janus la Cour"
+      },
+      {
+        "lifespan": 73.46,
+        "works": 132,
+        "label": "Clarkson Frederick Stanfield"
+      },
+      {
+        "lifespan": 53.99,
+        "works": 111,
+        "label": "Henri-Edmond Cross"
+      },
+      {
+        "lifespan": 38.45,
+        "works": 116,
+        "label": "Eustache Le Sueur"
+      },
+      {
+        "lifespan": 74.57,
+        "works": 125,
+        "label": "Johannes Bosboom"
+      },
+      {
+        "lifespan": 58.94,
+        "works": 187,
+        "label": "Elmar Kits"
+      },
+      {
+        "lifespan": 63.14,
+        "works": 153,
+        "label": "Pieter van Bloemen"
+      },
+      {
+        "lifespan": 67.18,
+        "works": 207,
+        "label": "Paulus Moreelse"
+      },
+      {
+        "lifespan": 60.76,
+        "works": 100,
+        "label": "Karel van Mander III"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 253,
+        "label": "Oreste Sercelli"
+      },
+      {
+        "lifespan": 72.38,
+        "works": 331,
+        "label": "Pieter Brueghel the Younger"
+      },
+      {
+        "lifespan": 71.0,
+        "works": 110,
+        "label": "Dominic Serres"
+      },
+      {
+        "lifespan": 53.11,
+        "works": 141,
+        "label": "Gerbrand van den Eeckhout"
+      },
+      {
+        "lifespan": 49.38,
+        "works": 204,
+        "label": "Anton Mauve"
+      },
+      {
+        "lifespan": 73.98,
+        "works": 123,
+        "label": "Fyodor Rokotov"
+      },
+      {
+        "lifespan": 56.71,
+        "works": 102,
+        "label": "Cornelius Krieghoff"
+      },
+      {
+        "lifespan": 65.32,
+        "works": 115,
+        "label": "Alexandre Cabanel"
+      },
+      {
+        "lifespan": 77.92,
+        "works": 105,
+        "label": "Henry Ossawa Tanner"
+      },
+      {
+        "lifespan": 79.0,
+        "works": 138,
+        "label": "Bada Shanren"
+      },
+      {
+        "lifespan": 71.9,
+        "works": 973,
+        "label": "Piet Mondrian"
+      },
+      {
+        "lifespan": 65.86,
+        "works": 430,
+        "label": "Akseli Gallen-Kallela"
+      },
+      {
+        "lifespan": 67.35,
+        "works": 115,
+        "label": "Antoine Vollon"
+      },
+      {
+        "lifespan": 87.02,
+        "works": 148,
+        "label": "Joseph Lindon Smith"
+      },
+      {
+        "lifespan": 68.56,
+        "works": 297,
+        "label": "Philip de László"
+      },
+      {
+        "lifespan": 63.81,
+        "works": 233,
+        "label": "Adriaen van der Werff"
+      },
+      {
+        "lifespan": 64.11,
+        "works": 110,
+        "label": "Cornelis de Heem"
+      },
+      {
+        "lifespan": 52.84,
+        "works": 283,
+        "label": "William Orpen"
+      },
+      {
+        "lifespan": 68.84,
+        "works": 352,
+        "label": "Salomon van Ruysdael"
+      },
+      {
+        "lifespan": 82.4,
+        "works": 101,
+        "label": "Louis Valtat"
+      },
+      {
+        "lifespan": 51.75,
+        "works": 127,
+        "label": "Frans Floris"
+      },
+      {
+        "lifespan": 89.38,
+        "works": 283,
+        "label": "Thomas Sully"
+      },
+      {
+        "lifespan": 64.58,
+        "works": 113,
+        "label": "John Martin"
+      },
+      {
+        "lifespan": 70.09,
+        "works": 297,
+        "label": "David Klöcker Ehrenstrahl"
+      },
+      {
+        "lifespan": 53.84,
+        "works": 176,
+        "label": "Stephen Bone"
+      },
+      {
+        "lifespan": 82.38,
+        "works": 441,
+        "label": "Alphonse Osbert"
+      },
+      {
+        "lifespan": 62.67,
+        "works": 295,
+        "label": "Willem Witsen"
+      },
+      {
+        "lifespan": 63.98,
+        "works": 310,
+        "label": "Abraham Storck"
+      },
+      {
+        "lifespan": 78.94,
+        "works": 145,
+        "label": "Thomas Barker"
+      },
+      {
+        "lifespan": 80.22,
+        "works": 140,
+        "label": "David Young Cameron"
+      },
+      {
+        "lifespan": 45.18,
+        "works": 188,
+        "label": "Жюль Паскин"
+      },
+      {
+        "lifespan": 66.98,
+        "works": 197,
+        "label": "William Merritt Chase"
+      },
+      {
+        "lifespan": 53.81,
+        "works": 105,
+        "label": "Alexandre Calame"
+      },
+      {
+        "lifespan": 84.27,
+        "works": 234,
+        "label": "Ferdinand Hložník"
+      },
+      {
+        "lifespan": 81.05,
+        "works": 155,
+        "label": "Anders Andersen-Lundby"
+      },
+      {
+        "lifespan": 61.0,
+        "works": 140,
+        "label": "Thomas Wijck"
+      },
+      {
+        "lifespan": 87.0,
+        "works": 343,
+        "label": "Xie Zhiliu"
+      },
+      {
+        "lifespan": 68.78,
+        "works": 333,
+        "label": "Richard Wilson"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 124,
+        "label": "Artus Wolffort"
+      },
+      {
+        "lifespan": 64.71,
+        "works": 222,
+        "label": "Samuel Peploe"
+      },
+      {
+        "lifespan": 65.0,
+        "works": 174,
+        "label": "Ashot Zorian"
+      },
+      {
+        "lifespan": 91.34,
+        "works": 179,
+        "label": "Kees van Dongen"
+      },
+      {
+        "lifespan": 73.49,
+        "works": 149,
+        "label": "Max Pechstein"
+      },
+      {
+        "lifespan": 96.54,
+        "works": 131,
+        "label": "Ester Šimerová-Martinčeková"
+      },
+      {
+        "lifespan": 95.26,
+        "works": 606,
+        "label": "Kees Verwey"
+      },
+      {
+        "lifespan": 55.0,
+        "works": 103,
+        "label": "Jacob Adriaensz Bellevois"
+      },
+      {
+        "lifespan": 42.71,
+        "works": 1716,
+        "label": "Anthony van Dyck"
+      },
+      {
+        "lifespan": 79.0,
+        "works": 141,
+        "label": "Giovanni di Paolo"
+      },
+      {
+        "lifespan": 53.75,
+        "works": 102,
+        "label": "Tang Yin"
+      },
+      {
+        "lifespan": 85.04,
+        "works": 240,
+        "label": "Jamini Roy"
+      },
+      {
+        "lifespan": 82.92,
+        "works": 333,
+        "label": "Theodor Werner"
+      },
+      {
+        "lifespan": 75.79,
+        "works": 130,
+        "label": "Jacob Axel Gillberg"
+      },
+      {
+        "lifespan": 75.23,
+        "works": 374,
+        "label": "Jacek Malczewski"
+      },
+      {
+        "lifespan": 87.0,
+        "works": 217,
+        "label": "Josep Sancho Piqué"
+      },
+      {
+        "lifespan": 67.0,
+        "works": 114,
+        "label": "Joshua Johnson"
+      },
+      {
+        "lifespan": 72.61,
+        "works": 242,
+        "label": "Ferdinand Georg Waldmüller"
+      },
+      {
+        "lifespan": 62.74,
+        "works": 325,
+        "label": "Victor Brauner"
+      },
+      {
+        "lifespan": 56.86,
+        "works": 131,
+        "label": "Samuel Bough"
+      },
+      {
+        "lifespan": 90.16,
+        "works": 104,
+        "label": "Huang Binhong"
+      },
+      {
+        "lifespan": 86.49,
+        "works": 141,
+        "label": "Erich Heckel"
+      },
+      {
+        "lifespan": 69.62,
+        "works": 180,
+        "label": "Jacob Philipp Hackert"
+      },
+      {
+        "lifespan": 91.45,
+        "works": 1855,
+        "label": "Pablo Picasso"
+      },
+      {
+        "lifespan": 66.41,
+        "works": 406,
+        "label": "Józef Chełmoński"
+      },
+      {
+        "lifespan": 45.26,
+        "works": 134,
+        "label": "Michiel Sweerts"
+      },
+      {
+        "lifespan": 64.3,
+        "works": 100,
+        "label": "Jan Boeckhorst"
+      },
+      {
+        "lifespan": 84.98,
+        "works": 255,
+        "label": "H. A. Brendekilde"
+      },
+      {
+        "lifespan": 83.57,
+        "works": 123,
+        "label": "Justus Sustermans"
+      },
+      {
+        "lifespan": 78.71,
+        "works": 108,
+        "label": "Marcel Gromaire"
+      },
+      {
+        "lifespan": 61.01,
+        "works": 496,
+        "label": "Charles-François Daubigny"
+      },
+      {
+        "lifespan": 75.7,
+        "works": 117,
+        "label": "Andrea Mantegna"
+      },
+      {
+        "lifespan": 87.26,
+        "works": 108,
+        "label": "Adam Willaerts"
+      },
+      {
+        "lifespan": 94.51,
+        "works": 168,
+        "label": "Andreas Achenbach"
+      },
+      {
+        "lifespan": 62.54,
+        "works": 162,
+        "label": "Hendrick van Balen the Elder"
+      },
+      {
+        "lifespan": 43.0,
+        "works": 127,
+        "label": "Osias Beert"
+      },
+      {
+        "lifespan": 90.31,
+        "works": 253,
+        "label": "Johan Marinus de Vries"
+      },
+      {
+        "lifespan": 60.0,
+        "works": 150,
+        "label": "James Webb"
+      },
+      {
+        "lifespan": 28.85,
+        "works": 111,
+        "label": "Amrita Sher-Gil"
+      },
+      {
+        "lifespan": 43.0,
+        "works": 117,
+        "label": "Master of Messkirch"
+      },
+      {
+        "lifespan": 66.7,
+        "works": 142,
+        "label": "David Bomberg"
+      },
+      {
+        "lifespan": 76.0,
+        "works": 104,
+        "label": "Pieter Nason"
+      },
+      {
+        "lifespan": 57.02,
+        "works": 125,
+        "label": "Maxime Maufra"
+      },
+      {
+        "lifespan": 84.37,
+        "works": 106,
+        "label": "Ferdinand von Wright"
+      },
+      {
+        "lifespan": 82.9,
+        "works": 239,
+        "label": "Maximilien Luce"
+      },
+      {
+        "lifespan": 62.64,
+        "works": 122,
+        "label": "William Nicholson"
+      },
+      {
+        "lifespan": 72.6,
+        "works": 135,
+        "label": "Marie Laurencin"
+      },
+      {
+        "lifespan": 78.72,
+        "works": 120,
+        "label": "Johannes Võerahansu"
+      },
+      {
+        "lifespan": 46.02,
+        "works": 113,
+        "label": "Ülo Sooster"
+      },
+      {
+        "lifespan": 90.78,
+        "works": 111,
+        "label": "Friedrich Carl von Scheidlin"
+      },
+      {
+        "lifespan": 93.71,
+        "works": 419,
+        "label": "Qi Baishi"
+      },
+      {
+        "lifespan": 81.39,
+        "works": 123,
+        "label": "Lucien Pissarro"
+      },
+      {
+        "lifespan": 80.7,
+        "works": 146,
+        "label": "Johannes Uiga"
+      },
+      {
+        "lifespan": 66.98,
+        "works": 493,
+        "label": "László Mednyánszky"
+      },
+      {
+        "lifespan": 73.86,
+        "works": 159,
+        "label": "Adriaen van de Venne"
+      },
+      {
+        "lifespan": 76.66,
+        "works": 3730,
+        "label": "J. M. W. Turner"
+      },
+      {
+        "lifespan": 73.62,
+        "works": 138,
+        "label": "Gerard David"
+      },
+      {
+        "lifespan": 92.22,
+        "works": 189,
+        "label": "Martiros Saryan"
+      },
+      {
+        "lifespan": 72.64,
+        "works": 267,
+        "label": "Alexey Bogolyubov"
+      },
+      {
+        "lifespan": 44.0,
+        "works": 115,
+        "label": "Adriaen Thomasz. Key"
+      },
+      {
+        "lifespan": 77.2,
+        "works": 841,
+        "label": "Godfrey Kneller"
+      },
+      {
+        "lifespan": 68.34,
+        "works": 117,
+        "label": "Bernhard Strigel"
+      },
+      {
+        "lifespan": 85.62,
+        "works": 123,
+        "label": "Jan van Huchtenburgh"
+      },
+      {
+        "lifespan": 76.86,
+        "works": 334,
+        "label": "Cornelis van Haarlem"
+      },
+      {
+        "lifespan": 77.98,
+        "works": 126,
+        "label": "Ľudovít Fulla"
+      },
+      {
+        "lifespan": 66.33,
+        "works": 104,
+        "label": "Jan Wiegers"
+      },
+      {
+        "lifespan": 51.74,
+        "works": 125,
+        "label": "Vilhelm Hammershøi"
+      },
+      {
+        "lifespan": 90.68,
+        "works": 321,
+        "label": "Joan Miró"
+      },
+      {
+        "lifespan": 54.19,
+        "works": 635,
+        "label": "Jacob van Ruisdael"
+      },
+      {
+        "lifespan": 42.41,
+        "works": 200,
+        "label": "George Bellows"
+      },
+      {
+        "lifespan": 66.89,
+        "works": 157,
+        "label": "Johann Heinrich Tischbein"
+      },
+      {
+        "lifespan": 72.1,
+        "works": 189,
+        "label": "Oswald Birley"
+      },
+      {
+        "lifespan": 57.79,
+        "works": 175,
+        "label": "Julius Caesar Ibbetson"
+      },
+      {
+        "lifespan": 59.33,
+        "works": 600,
+        "label": "Edwin Austin Abbey"
+      },
+      {
+        "lifespan": 70.21,
+        "works": 436,
+        "label": "Luca Giordano"
+      },
+      {
+        "lifespan": 49.51,
+        "works": 123,
+        "label": "José Ferraz de Almeida Júnior"
+      },
+      {
+        "lifespan": 64.89,
+        "works": 100,
+        "label": "Johannes Greenberg"
+      },
+      {
+        "lifespan": 60.8,
+        "works": 563,
+        "label": "John Constable"
+      },
+      {
+        "lifespan": 70.02,
+        "works": 167,
+        "label": "Giotto"
+      },
+      {
+        "lifespan": 78.69,
+        "works": 110,
+        "label": "Thomas Stothard"
+      },
+      {
+        "lifespan": 91.51,
+        "works": 155,
+        "label": "A. Y. Jackson"
+      },
+      {
+        "lifespan": 79.29,
+        "works": 148,
+        "label": "Yirawala"
+      },
+      {
+        "lifespan": 50.49,
+        "works": 398,
+        "label": "Jan Fyt"
+      },
+      {
+        "lifespan": 23.62,
+        "works": 124,
+        "label": "Fyodor Vasilyev"
+      },
+      {
+        "lifespan": 85.86,
+        "works": 103,
+        "label": "Mattia Preti"
+      },
+      {
+        "lifespan": 82.54,
+        "works": 189,
+        "label": "Pierre Mignard I"
+      },
+      {
+        "lifespan": 54.64,
+        "works": 191,
+        "label": "Nicolas Lancret"
+      },
+      {
+        "lifespan": 75.05,
+        "works": 101,
+        "label": "Johannes Hinderikus Egenberger"
+      },
+      {
+        "lifespan": 59.46,
+        "works": 183,
+        "label": "Samuel Davis"
+      },
+      {
+        "lifespan": 90.07,
+        "works": 140,
+        "label": "James Ward"
+      },
+      {
+        "lifespan": 75.15,
+        "works": 329,
+        "label": "Michiel Jansz. van Mierevelt"
+      },
+      {
+        "lifespan": 87.88,
+        "works": 111,
+        "label": "Terry Frost"
+      },
+      {
+        "lifespan": 68.17,
+        "works": 119,
+        "label": "Willem Bartel van der Kooi"
+      },
+      {
+        "lifespan": 69.54,
+        "works": 110,
+        "label": "Paris Bordone"
+      },
+      {
+        "lifespan": 91.69,
+        "works": 127,
+        "label": "Karl Schmidt-Rottluff"
+      },
+      {
+        "lifespan": 54.0,
+        "works": 128,
+        "label": "Allaert van Everdingen"
+      },
+      {
+        "lifespan": 85.95,
+        "works": 107,
+        "label": "William Hoare"
+      },
+      {
+        "lifespan": 79.58,
+        "works": 320,
+        "label": "Jean-Baptiste Greuze"
+      },
+      {
+        "lifespan": 60.07,
+        "works": 116,
+        "label": "Hendrik Martenszoon Sorgh"
+      },
+      {
+        "lifespan": 84.7,
+        "works": 1074,
+        "label": "Salvador Dalí"
+      },
+      {
+        "lifespan": 72.54,
+        "works": 123,
+        "label": "Suzanne Valadon"
+      },
+      {
+        "lifespan": 92.57,
+        "works": 136,
+        "label": "Ellsworth Kelly"
+      },
+      {
+        "lifespan": 89.59,
+        "works": 240,
+        "label": "John Linnell"
+      },
+      {
+        "lifespan": 85.82,
+        "works": 118,
+        "label": "Mher Abeghyan"
+      },
+      {
+        "lifespan": 63.22,
+        "works": 879,
+        "label": "Rembrandt"
+      },
+      {
+        "lifespan": 46.0,
+        "works": 221,
+        "label": "Quirijn van Brekelenkam"
+      },
+      {
+        "lifespan": 55.5,
+        "works": 193,
+        "label": "Julio Romero de Torres"
+      },
+      {
+        "lifespan": 64.33,
+        "works": 364,
+        "label": "Bartolomé Esteban Murillo"
+      },
+      {
+        "lifespan": 52.0,
+        "works": 107,
+        "label": "Pieter de Grebber"
+      },
+      {
+        "lifespan": 78.51,
+        "works": 137,
+        "label": "Ronald Ossory Dunlop"
+      },
+      {
+        "lifespan": 81.03,
+        "works": 1084,
+        "label": "Lucas Cranach the Elder"
+      },
+      {
+        "lifespan": 76.48,
+        "works": 136,
+        "label": "Karl Hofer"
+      },
+      {
+        "lifespan": 54.0,
+        "works": 140,
+        "label": "Chen Hongshou"
+      },
+      {
+        "lifespan": 76.36,
+        "works": 596,
+        "label": "Jean-Jacques Henner"
+      },
+      {
+        "lifespan": 83.68,
+        "works": 122,
+        "label": "J.C.J. Vanderheyden"
+      },
+      {
+        "lifespan": 52.0,
+        "works": 287,
+        "label": "Qian Weicheng"
+      },
+      {
+        "lifespan": 78.6,
+        "works": 1148,
+        "label": "Jean-Baptiste Camille Corot"
+      },
+      {
+        "lifespan": 72.21,
+        "works": 273,
+        "label": "Philippe de Champaigne"
+      },
+      {
+        "lifespan": 68.46,
+        "works": 207,
+        "label": "Stanley Spencer"
+      },
+      {
+        "lifespan": 68.09,
+        "works": 174,
+        "label": "David Roberts"
+      },
+      {
+        "lifespan": 88.0,
+        "works": 100,
+        "label": "Wang Shimin"
+      },
+      {
+        "lifespan": 69.02,
+        "works": 146,
+        "label": "Bronzino"
+      },
+      {
+        "lifespan": 86.09,
+        "works": 179,
+        "label": "Abraham Bloemaert"
+      },
+      {
+        "lifespan": 88.04,
+        "works": 164,
+        "label": "Christian Rohlfs"
+      },
+      {
+        "lifespan": 86.71,
+        "works": 449,
+        "label": "جورج رووه"
+      },
+      {
+        "lifespan": 82.0,
+        "works": 106,
+        "label": "William Henry Hope"
+      },
+      {
+        "lifespan": 82.76,
+        "works": 118,
+        "label": "Jacob Lawrence"
+      },
+      {
+        "lifespan": 71.68,
+        "works": 186,
+        "label": "Johan Jongkind"
+      },
+      {
+        "lifespan": 68.33,
+        "works": 172,
+        "label": "Milan Thomka Mitrovský"
+      },
+      {
+        "lifespan": 82.77,
+        "works": 199,
+        "label": "Martin Benka"
+      },
+      {
+        "lifespan": 86.19,
+        "works": 124,
+        "label": "Rachel Ruysch"
+      },
+      {
+        "lifespan": 67.4,
+        "works": 107,
+        "label": "Balthasar Beschey"
+      },
+      {
+        "lifespan": 81.64,
+        "works": 124,
+        "label": "Eduard Karsen"
+      },
+      {
+        "lifespan": 87.55,
+        "works": 252,
+        "label": "Max Liebermann"
+      },
+      {
+        "lifespan": 67.74,
+        "works": 125,
+        "label": "Roger Fry"
+      },
+      {
+        "lifespan": 80.0,
+        "works": 178,
+        "label": "Olaf Carl Seltzer"
+      },
+      {
+        "lifespan": 66.79,
+        "works": 146,
+        "label": "Ferdinand Erfmann"
+      },
+      {
+        "lifespan": 82.4,
+        "works": 113,
+        "label": "James Peale"
+      },
+      {
+        "lifespan": 87.44,
+        "works": 106,
+        "label": "Gottfried Lindauer"
+      },
+      {
+        "lifespan": 88.59,
+        "works": 1235,
+        "label": "Jef Diederen"
+      },
+      {
+        "lifespan": 70.3,
+        "works": 123,
+        "label": "Santiago Rusiñol i Prats"
+      },
+      {
+        "lifespan": 60.45,
+        "works": 356,
+        "label": "Joaquín Sorolla"
+      },
+      {
+        "lifespan": 82.98,
+        "works": 104,
+        "label": "Nikolai Kormashov"
+      },
+      {
+        "lifespan": 77.0,
+        "works": 128,
+        "label": "Xu Shixue"
+      },
+      {
+        "lifespan": 43.65,
+        "works": 125,
+        "label": "Jacob Adriaensz Backer"
+      },
+      {
+        "lifespan": 65.62,
+        "works": 129,
+        "label": "Floris Verster"
+      },
+      {
+        "lifespan": 88.33,
+        "works": 180,
+        "label": "Wen Zhengming"
+      },
+      {
+        "lifespan": 73.89,
+        "works": 128,
+        "label": "Nicaise de Keyser"
+      },
+      {
+        "lifespan": 70.99,
+        "works": 155,
+        "label": "Charles Le Brun"
+      },
+      {
+        "lifespan": 38.8,
+        "works": 124,
+        "label": "Caravaggio"
+      },
+      {
+        "lifespan": 62.27,
+        "works": 100,
+        "label": "Moïse Kisling"
+      },
+      {
+        "lifespan": 78.84,
+        "works": 135,
+        "label": "Pieter Codde"
+      }
+    ]
+  },
+  "mark": {
+    "type": "circle",
+    "opacity": 0.5,
+    "color": "#000000",
+    "size": 10
+  },
+  "encoding": {
+    "x": {
+      "field": "lifespan",
+      "type": "quantitative",
+      "title": "Lifespan (years)",
+      "scale": {
+        "domain": [
+          20,
+          105
+        ]
+      }
+    },
+    "y": {
+      "field": "works",
+      "type": "quantitative",
+      "title": "Paintings in dataset",
+      "scale": {
+        "domain": [
+          0,
+          4000
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "label",
+        "type": "nominal",
+        "title": "Artist"
+      },
+      {
+        "field": "lifespan",
+        "type": "quantitative",
+        "title": "Lifespan"
+      },
+      {
+        "field": "works",
+        "type": "quantitative",
+        "title": "Paintings"
+      }
+    ]
+  },
+  "width": 400,
+  "height": 300
+}

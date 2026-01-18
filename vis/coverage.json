@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "property": "Creator",
+        "percentage": 69.0
+      },
+      {
+        "property": "Inception",
+        "percentage": 64.6
+      },
+      {
+        "property": "Material",
+        "percentage": 62.3
+      },
+      {
+        "property": "Genre",
+        "percentage": 33.7
+      },
+      {
+        "property": "Movement",
+        "percentage": 22.0
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#999999",
+    "height": 20
+  },
+  "encoding": {
+    "y": {
+      "field": "property",
+      "type": "nominal",
+      "sort": [
+        "Creator",
+        "Inception",
+        "Material",
+        "Genre",
+        "Movement"
+      ],
+      "title": ""
+    },
+    "x": {
+      "field": "percentage",
+      "type": "quantitative",
+      "title": "",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "axis": {
+        "format": ".0f"
+      }
+    }
+  },
+  "width": 300,
+  "height": 200
+}

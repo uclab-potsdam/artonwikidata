@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "genre": "Portrait",
+        "count": 139598
+      },
+      {
+        "genre": "Religious Art",
+        "count": 78190
+      },
+      {
+        "genre": "Landscape Painting",
+        "count": 51792
+      },
+      {
+        "genre": "Still Life",
+        "count": 24419
+      },
+      {
+        "genre": "Genre Art",
+        "count": 17058
+      },
+      {
+        "genre": "Self-Portrait",
+        "count": 8602
+      },
+      {
+        "genre": "Marine Art",
+        "count": 8304
+      },
+      {
+        "genre": "Mythological Painting",
+        "count": 8253
+      },
+      {
+        "genre": "Fan Painting",
+        "count": 6818
+      },
+      {
+        "genre": "Cityscape",
+        "count": 4464
+      },
+      {
+        "genre": "History Painting",
+        "count": 4330
+      },
+      {
+        "genre": "Allegory",
+        "count": 4036
+      },
+      {
+        "genre": "Nude",
+        "count": 3366
+      },
+      {
+        "genre": "Animal Art",
+        "count": 3161
+      },
+      {
+        "genre": "Abstract Art",
+        "count": 1415
+      },
+      {
+        "genre": "Miniature",
+        "count": 1324
+      },
+      {
+        "genre": "Floral Painting",
+        "count": 1062
+      },
+      {
+        "genre": "Public Art",
+        "count": 1050
+      },
+      {
+        "genre": "Ink And Color Painting",
+        "count": 1025
+      },
+      {
+        "genre": "Group Portrait",
+        "count": 741
+      },
+      {
+        "genre": "Other",
+        "count": 11802
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#999999"
+  },
+  "encoding": {
+    "y": {
+      "field": "genre",
+      "type": "nominal",
+      "sort": [
+        "Portrait",
+        "Religious Art",
+        "Landscape Painting",
+        "Still Life",
+        "Genre Art",
+        "Self-Portrait",
+        "Marine Art",
+        "Mythological Painting",
+        "Fan Painting",
+        "Cityscape",
+        "History Painting",
+        "Allegory",
+        "Nude",
+        "Animal Art",
+        "Abstract Art",
+        "Miniature",
+        "Floral Painting",
+        "Public Art",
+        "Ink And Color Painting",
+        "Group Portrait",
+        "Other"
+      ],
+      "title": ""
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    }
+  },
+  "width": 300,
+  "height": 400
+}

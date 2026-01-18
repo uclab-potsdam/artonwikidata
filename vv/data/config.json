@@ -1,0 +1,126 @@
+{
+  "project": {
+    "name": "Wikidata: State of the Art",
+    "quality": 1
+  },
+  "filter": {
+    "type": "hierarchical"
+  },
+  "loader": {
+    "info": "data/info.md",
+    "items": "data/data.csv",
+    "timeline": "data/timeline.csv",
+    "textures": {
+      "medium": {
+        "size": 96,
+        "url": "https://vikusviewer.fh-potsdam.de/artonwikidata/data/sprites/spritesheet.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "https://vikusviewer.fh-potsdam.de/artonwikidata/data/1024/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "https://vikusviewer.fh-potsdam.de/artonwikidata/data/4096/"
+      }
+    },
+    "layouts": [
+      {
+        "title": "year",
+        "type": "group",
+        "groupKey": "year"
+      }
+    ]
+  },
+  "style": {
+    "selectionColor": "#00FF00",
+    "fontColor": "#2b2b2b",
+    "fontColorActive": "#ffffff",
+    "fontBackground": "#2b2b2b",
+    "textShadow": "none",
+    "canvasBackground": "#ffffff",
+    "timelineBackground": "#f8f9fa",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#fffefa",
+    "detailBackground": "#f8f9fa",
+    "infoBackground": "#bdbebf",
+    "infoFontColor": "#2b2b2b",
+    "searchbarBackground": "#353535",
+	"annotationLineColor": "#FF00D3",
+	"annotationBorderColor": "#FF00D3"	
+  },
+  "projection": {
+    "columns": 5
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "Title",
+        "source": "_title",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Artist",
+        "source": "_artist",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Country",
+        "source": "_country",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Creation",
+        "source": "_creation",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Depicts",
+        "source": "_depicts",
+        "display": "wide",
+        "type": "text"
+      },      
+      {
+        "name": "Genre",
+        "source": "_genre",
+        "display": "wide",
+        "type": "text"
+      },	  
+      {
+        "name": "Material",
+        "source": "_material",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Movement",
+        "source": "_movement",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Museum",
+        "source": "_museum",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "QID",
+        "source": "id",
+        "display": "wide",
+        "type": "text"
+      },      
+      {
+        "name": "Wikidata page",
+        "source": "'<a href=https://www.wikidata.org/wiki/' + column.id + '>' + 'Wikidata' + '</a>'",
+        "display": "wide",
+        "type": "function"
+      }
+    ]
+  }
+}

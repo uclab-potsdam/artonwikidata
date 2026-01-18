@@ -1,0 +1,381 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "decade": 1500,
+        "percentage": 0.42,
+        "female": 1,
+        "total": 238
+      },
+      {
+        "decade": 1510,
+        "percentage": 1.18,
+        "female": 1,
+        "total": 85
+      },
+      {
+        "decade": 1520,
+        "percentage": 3.09,
+        "female": 3,
+        "total": 97
+      },
+      {
+        "decade": 1530,
+        "percentage": 1.87,
+        "female": 2,
+        "total": 107
+      },
+      {
+        "decade": 1540,
+        "percentage": 1.85,
+        "female": 2,
+        "total": 108
+      },
+      {
+        "decade": 1550,
+        "percentage": 3.68,
+        "female": 6,
+        "total": 163
+      },
+      {
+        "decade": 1560,
+        "percentage": 0.66,
+        "female": 1,
+        "total": 151
+      },
+      {
+        "decade": 1570,
+        "percentage": 0.96,
+        "female": 2,
+        "total": 208
+      },
+      {
+        "decade": 1580,
+        "percentage": 0.78,
+        "female": 2,
+        "total": 256
+      },
+      {
+        "decade": 1590,
+        "percentage": 1.64,
+        "female": 5,
+        "total": 305
+      },
+      {
+        "decade": 1600,
+        "percentage": 3.34,
+        "female": 15,
+        "total": 449
+      },
+      {
+        "decade": 1610,
+        "percentage": 2.22,
+        "female": 10,
+        "total": 450
+      },
+      {
+        "decade": 1620,
+        "percentage": 2.3,
+        "female": 10,
+        "total": 435
+      },
+      {
+        "decade": 1630,
+        "percentage": 3.02,
+        "female": 13,
+        "total": 431
+      },
+      {
+        "decade": 1640,
+        "percentage": 4.36,
+        "female": 14,
+        "total": 321
+      },
+      {
+        "decade": 1650,
+        "percentage": 3.42,
+        "female": 11,
+        "total": 322
+      },
+      {
+        "decade": 1660,
+        "percentage": 4.47,
+        "female": 13,
+        "total": 291
+      },
+      {
+        "decade": 1670,
+        "percentage": 4.15,
+        "female": 9,
+        "total": 217
+      },
+      {
+        "decade": 1680,
+        "percentage": 2.1,
+        "female": 6,
+        "total": 286
+      },
+      {
+        "decade": 1690,
+        "percentage": 2.8,
+        "female": 7,
+        "total": 250
+      },
+      {
+        "decade": 1700,
+        "percentage": 4.04,
+        "female": 13,
+        "total": 322
+      },
+      {
+        "decade": 1710,
+        "percentage": 3.07,
+        "female": 10,
+        "total": 326
+      },
+      {
+        "decade": 1720,
+        "percentage": 4.32,
+        "female": 16,
+        "total": 370
+      },
+      {
+        "decade": 1730,
+        "percentage": 3.39,
+        "female": 15,
+        "total": 442
+      },
+      {
+        "decade": 1740,
+        "percentage": 5.81,
+        "female": 30,
+        "total": 516
+      },
+      {
+        "decade": 1750,
+        "percentage": 5.65,
+        "female": 38,
+        "total": 672
+      },
+      {
+        "decade": 1760,
+        "percentage": 8.73,
+        "female": 53,
+        "total": 607
+      },
+      {
+        "decade": 1770,
+        "percentage": 8.67,
+        "female": 58,
+        "total": 669
+      },
+      {
+        "decade": 1780,
+        "percentage": 8.54,
+        "female": 71,
+        "total": 831
+      },
+      {
+        "decade": 1790,
+        "percentage": 8.36,
+        "female": 87,
+        "total": 1041
+      },
+      {
+        "decade": 1800,
+        "percentage": 6.3,
+        "female": 109,
+        "total": 1730
+      },
+      {
+        "decade": 1810,
+        "percentage": 5.24,
+        "female": 108,
+        "total": 2061
+      },
+      {
+        "decade": 1820,
+        "percentage": 6.17,
+        "female": 137,
+        "total": 2221
+      },
+      {
+        "decade": 1830,
+        "percentage": 7.74,
+        "female": 155,
+        "total": 2002
+      },
+      {
+        "decade": 1840,
+        "percentage": 10.6,
+        "female": 249,
+        "total": 2348
+      },
+      {
+        "decade": 1850,
+        "percentage": 12.07,
+        "female": 379,
+        "total": 3141
+      },
+      {
+        "decade": 1860,
+        "percentage": 15.12,
+        "female": 559,
+        "total": 3697
+      },
+      {
+        "decade": 1870,
+        "percentage": 16.31,
+        "female": 583,
+        "total": 3574
+      },
+      {
+        "decade": 1880,
+        "percentage": 16.46,
+        "female": 590,
+        "total": 3584
+      },
+      {
+        "decade": 1890,
+        "percentage": 16.98,
+        "female": 617,
+        "total": 3633
+      },
+      {
+        "decade": 1900,
+        "percentage": 20.34,
+        "female": 796,
+        "total": 3913
+      },
+      {
+        "decade": 1910,
+        "percentage": 18.99,
+        "female": 623,
+        "total": 3281
+      },
+      {
+        "decade": 1920,
+        "percentage": 18.11,
+        "female": 713,
+        "total": 3937
+      },
+      {
+        "decade": 1930,
+        "percentage": 19.24,
+        "female": 753,
+        "total": 3913
+      },
+      {
+        "decade": 1940,
+        "percentage": 25.61,
+        "female": 1088,
+        "total": 4249
+      },
+      {
+        "decade": 1950,
+        "percentage": 28.56,
+        "female": 1004,
+        "total": 3515
+      },
+      {
+        "decade": 1960,
+        "percentage": 35.75,
+        "female": 837,
+        "total": 2341
+      },
+      {
+        "decade": 1970,
+        "percentage": 35.77,
+        "female": 519,
+        "total": 1451
+      },
+      {
+        "decade": 1980,
+        "percentage": 42.71,
+        "female": 249,
+        "total": 583
+      },
+      {
+        "decade": 1990,
+        "percentage": 46.77,
+        "female": 29,
+        "total": 62
+      },
+      {
+        "decade": 2000,
+        "percentage": 40.0,
+        "female": 4,
+        "total": 10
+      }
+    ]
+  },
+  "transform": [
+    {
+      "filter": "datum.decade < 2000"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "color": "#FF00D3",
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "quantitative",
+      "title": "",
+      "scale": {
+        "domain": [
+          1500,
+          2000
+        ]
+      },
+      "axis": {
+        "format": "d",
+        "tickCount": 6
+      }
+    },
+    "y": {
+      "field": "percentage",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "format": ".0f"
+      },
+      "scale": {
+        "domain": [
+          0,
+          50
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "decade",
+        "type": "ordinal",
+        "title": "Decade"
+      },
+      {
+        "field": "percentage",
+        "type": "quantitative",
+        "title": "% Female",
+        "format": ".1f"
+      },
+      {
+        "field": "female",
+        "type": "quantitative",
+        "title": "Female painters",
+        "format": ","
+      },
+      {
+        "field": "total",
+        "type": "quantitative",
+        "title": "Total painters",
+        "format": ","
+      }
+    ]
+  },
+  "width": 400,
+  "height": 300
+}

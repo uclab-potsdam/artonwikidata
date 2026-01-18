@@ -1,0 +1,1570 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "decade": 1500,
+        "count": 29,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1500,
+        "count": 5,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1500,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1500,
+        "count": 1,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1500,
+        "count": 4,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1500,
+        "count": 3,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1510,
+        "count": 2,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1510,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1510,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1510,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1510,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1510,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1520,
+        "count": 7,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1520,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1520,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1520,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1520,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1520,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1530,
+        "count": 10,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1530,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1530,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1530,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1530,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1530,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1550,
+        "count": 41,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1550,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1550,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1550,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1550,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1550,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1560,
+        "count": 5,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1560,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1560,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1560,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1560,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1560,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1570,
+        "count": 5,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1570,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1570,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1570,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1570,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1570,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1580,
+        "count": 99,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1580,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1580,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1580,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1580,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1580,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1590,
+        "count": 170,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1590,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1590,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1590,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1590,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1590,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1600,
+        "count": 790,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1600,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1600,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1600,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1600,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1600,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1610,
+        "count": 1486,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1610,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1610,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1610,
+        "count": 0,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1610,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1610,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1620,
+        "count": 2330,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1620,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1620,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1620,
+        "count": 1,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1620,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1620,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1630,
+        "count": 3565,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1630,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1630,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1630,
+        "count": 4,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1630,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1630,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1640,
+        "count": 2843,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1640,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1640,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1640,
+        "count": 33,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1640,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1640,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1650,
+        "count": 4327,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1650,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1650,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1650,
+        "count": 99,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1650,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1650,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1660,
+        "count": 2499,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1660,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1660,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1660,
+        "count": 44,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1660,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1660,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1670,
+        "count": 1563,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1670,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1670,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1670,
+        "count": 69,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1670,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1670,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1680,
+        "count": 860,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1680,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1680,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1680,
+        "count": 95,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1680,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1680,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1690,
+        "count": 618,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1690,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1690,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1690,
+        "count": 111,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1690,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1690,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1700,
+        "count": 985,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1700,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1700,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1700,
+        "count": 138,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1700,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1700,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1710,
+        "count": 531,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1710,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1710,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1710,
+        "count": 114,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1710,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1710,
+        "count": 1,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1720,
+        "count": 538,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1720,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1720,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1720,
+        "count": 88,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1720,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1720,
+        "count": 0,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1730,
+        "count": 397,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1730,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1730,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1730,
+        "count": 162,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1730,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1730,
+        "count": 1,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1740,
+        "count": 245,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1740,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1740,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1740,
+        "count": 143,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1740,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1740,
+        "count": 4,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1750,
+        "count": 368,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1750,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1750,
+        "count": 1,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1750,
+        "count": 207,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1750,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1750,
+        "count": 22,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1760,
+        "count": 113,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1760,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1760,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1760,
+        "count": 150,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1760,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1760,
+        "count": 81,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1770,
+        "count": 46,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1770,
+        "count": 2,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1770,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1770,
+        "count": 130,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1770,
+        "count": 1,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1770,
+        "count": 207,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1780,
+        "count": 34,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1780,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1780,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1780,
+        "count": 67,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1780,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1780,
+        "count": 289,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1790,
+        "count": 36,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1790,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1790,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1790,
+        "count": 41,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1790,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1790,
+        "count": 605,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1800,
+        "count": 82,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1800,
+        "count": 5,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1800,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1800,
+        "count": 137,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1800,
+        "count": 6,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1800,
+        "count": 793,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1810,
+        "count": 8,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1810,
+        "count": 0,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1810,
+        "count": 1,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1810,
+        "count": 164,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1810,
+        "count": 0,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1810,
+        "count": 923,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1820,
+        "count": 5,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1820,
+        "count": 1,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1820,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1820,
+        "count": 430,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1820,
+        "count": 6,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1820,
+        "count": 1312,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1830,
+        "count": 3,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1830,
+        "count": 26,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1830,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1830,
+        "count": 741,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1830,
+        "count": 19,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1830,
+        "count": 1053,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1840,
+        "count": 5,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1840,
+        "count": 20,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1840,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1840,
+        "count": 652,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1840,
+        "count": 140,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1840,
+        "count": 1011,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1850,
+        "count": 21,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1850,
+        "count": 172,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1850,
+        "count": 2,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1850,
+        "count": 1065,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1850,
+        "count": 487,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1850,
+        "count": 952,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1860,
+        "count": 7,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1860,
+        "count": 751,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1860,
+        "count": 0,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1860,
+        "count": 1903,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1860,
+        "count": 757,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1860,
+        "count": 537,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1870,
+        "count": 3,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1870,
+        "count": 2436,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1870,
+        "count": 38,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1870,
+        "count": 2077,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1870,
+        "count": 1226,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1870,
+        "count": 314,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1880,
+        "count": 5,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1880,
+        "count": 3388,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1880,
+        "count": 1303,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1880,
+        "count": 1978,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1880,
+        "count": 2244,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1880,
+        "count": 370,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1890,
+        "count": 2,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1890,
+        "count": 3382,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1890,
+        "count": 688,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1890,
+        "count": 2017,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1890,
+        "count": 2875,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1890,
+        "count": 353,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1900,
+        "count": 4,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1900,
+        "count": 2970,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1900,
+        "count": 2219,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1900,
+        "count": 1406,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1900,
+        "count": 3378,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1900,
+        "count": 267,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1910,
+        "count": 2,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1910,
+        "count": 2524,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1910,
+        "count": 4591,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1910,
+        "count": 520,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1910,
+        "count": 2271,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1910,
+        "count": 119,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1920,
+        "count": 4,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1920,
+        "count": 1286,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1920,
+        "count": 4243,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1920,
+        "count": 299,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1920,
+        "count": 1396,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1920,
+        "count": 48,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1930,
+        "count": 4,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1930,
+        "count": 354,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1930,
+        "count": 3392,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1930,
+        "count": 135,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1930,
+        "count": 794,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1930,
+        "count": 6,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1940,
+        "count": 3,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1940,
+        "count": 163,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1940,
+        "count": 1291,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1940,
+        "count": 129,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1940,
+        "count": 310,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1940,
+        "count": 4,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1950,
+        "count": 3,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1950,
+        "count": 60,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1950,
+        "count": 1008,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1950,
+        "count": 114,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1950,
+        "count": 220,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1950,
+        "count": 4,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1960,
+        "count": 2,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1960,
+        "count": 8,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1960,
+        "count": 547,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1960,
+        "count": 130,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1960,
+        "count": 73,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1960,
+        "count": 1,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1970,
+        "count": 1,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1970,
+        "count": 10,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1970,
+        "count": 207,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1970,
+        "count": 141,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1970,
+        "count": 1,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1970,
+        "count": 1,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1980,
+        "count": 0,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1980,
+        "count": 4,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1980,
+        "count": 120,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1980,
+        "count": 93,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1980,
+        "count": 4,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1980,
+        "count": 3,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 1990,
+        "count": 0,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 1990,
+        "count": 4,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 1990,
+        "count": 58,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 1990,
+        "count": 28,
+        "movement": "Realism"
+      },
+      {
+        "decade": 1990,
+        "count": 1,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 1990,
+        "count": 5,
+        "movement": "Romanticism"
+      },
+      {
+        "decade": 2000,
+        "count": 3,
+        "movement": "Baroque"
+      },
+      {
+        "decade": 2000,
+        "count": 30,
+        "movement": "Impressionism"
+      },
+      {
+        "decade": 2000,
+        "count": 60,
+        "movement": "Expressionism"
+      },
+      {
+        "decade": 2000,
+        "count": 67,
+        "movement": "Realism"
+      },
+      {
+        "decade": 2000,
+        "count": 22,
+        "movement": "Symbolism"
+      },
+      {
+        "decade": 2000,
+        "count": 5,
+        "movement": "Romanticism"
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "format": "d",
+        "tickCount": 10
+      },
+      "scale": {
+        "domain": [
+          1500,
+          2000
+        ]
+      }
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "format": "d",
+        "tickCount": 10
+      }
+    },
+    "color": {
+      "field": "movement",
+      "type": "nominal",
+      "title": "Movement",
+      "scale": {
+        "domain": [
+          "Baroque",
+          "Impressionism",
+          "Expressionism",
+          "Realism",
+          "Symbolism",
+          "Romanticism"
+        ],
+        "range": [
+          "rgba(119, 119, 119, 0.5)",
+          "rgba(119, 119, 119, 0.5)",
+          "rgba(119, 119, 119, 0.5)",
+          "#FF00D3",
+          "rgba(119, 119, 119, 0.5)",
+          "rgba(119, 119, 119, 0.5)"
+        ]
+      },
+      "legend": null
+    },
+    "strokeWidth": {
+      "condition": {
+        "test": "datum.movement === 'Realism'",
+        "value": 2
+      },
+      "value": 1.5
+    }
+  },
+  "width": 400,
+  "height": 300
+}

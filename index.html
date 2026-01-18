@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%221em%22%20font-size%3D%2290%22%3E%F0%9F%93%84%3C%2Ftext%3E%3C%2Fsvg%3E">
+
+    <title>Data on Paintings: A Visual Essay About the State of Art on Wikidata</title>
+    <meta property="og:url" content="https://uclab.fh-potsdam.de/inflect/artonwikidata/">
+    <meta property="og:title" content="Data on Paintings">
+    <meta property="og:description" content="A Visual Essay About the State of Art on Wikidata">
+    <meta property="og:image" content="https://uclab.fh-potsdam.de/inflect/artonwikidata/img/cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <script src="src/marked.min.js"></script>
+    
+    <style>
+
+        @font-face {
+            font-family: "Atkinson";
+            src: url("src/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "AtkinsonMono";
+            src: url("src/fonts/AtkinsonHyperlegibleMono-Medium.woff2") format("woff2-variations");
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "AtkinsonMono";
+            src: url("src/fonts/AtkinsonHyperlegibleMono-Bold.woff2") format("woff2-variations");
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;  
+            text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: "Atkinson", sans-serif;
+            font-weight: 250;			
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        code, pre, kbd, samp, tt, textarea {
+            font-family: "AtkinsonMono", monospace;
+        } 
+
+        a.img {
+            float: left; width: 0; height: 0;            
+        }
+
+        section img {
+            max-width: 100%;
+        }
+
+        strong { font-weight: 500; }
+
+        iframe {
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 66vw;
+            position: absolute;
+            background-color: #fff;
+            border: 0;
+            margin: 0;
+            padding: 0;
+            transition: opacity 0.1s ease-in-out;
+            z-index: 1;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        iframe.active {
+            z-index: 10;
+            opacity: 1;
+            pointer-events: none;
+        }
+
+        #ifwrap {
+            top: 0;
+            position: fixed;
+            background-color: white;
+            z-index: 2; 
+            width: 66vw;
+            height: 100vh;
+        }
+
+        #ifoverlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            background: transparent;
+        }
+
+        h1 { font-size: 2.25rem; font-weight: 200; margin-bottom: 0;}
+        h2 { font-size: 1.5rem; }
+        h3 { font-size: 1.4rem; }
+        h4 { font-size: 1.2rem; }
+        h2, h3, h4 { font-weight: 500; }
+        h1, h2, h3, h4 { margin: .25rem 0; }
+
+        main {
+            background-color: rgb(242, 242, 242);
+            box-sizing: border-box;
+            position: absolute;
+            right: 0;
+            width: 34vw; 
+            padding: 0 1.5vw 0 3vw;
+            margin: 0;
+        }
+
+        section {
+            padding: 1vh 0 0 0;
+            margin: 0 0 10vh 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;           
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            margin: .5rem 0;
+        }
+        
+        a {
+            color: #000;
+        }
+
+        ul, ol {
+            padding-left: 1.25rem;
+            margin: .5rem 0;
+        }
+
+        li {
+            padding-bottom: 0.5rem;
+        }
+
+        li li {
+            padding-bottom: 0;         
+        }
+
+        a.dontinflect { color: #555;}
+        a.dontinflect:hover { color: #000;}
+
+        a.active {
+            cursor: default;
+            text-decoration: none;
+        }
+
+        footer {
+            bottom: 0;
+            display: block;
+            width: 100%;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+            opacity: 0.33;
+            height: 7vh;
+            font-size: .85rem;
+        }
+
+        footer a.dontinflect { color: #333;}
+
+        #scroll-hint {
+            position: fixed;
+            color: #000;
+            bottom: 0;
+            right: 0;
+            width: 33%;
+            height: 6vh;
+            font-size: 1.25rem;
+            z-index: 5;            
+            text-align: center;            
+            opacity: 0;
+            transition: opacity .5s, color .25s;
+            display: block;            
+        }
+        
+        #scroll-hint.animated {
+            animation: bounce 2s infinite;
+            opacity: .15;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(-0.5rem); }
+            66% { transform: translateY(0rem); }
+        }
+
+        .hamburger-icon {
+            pointer-events: all;
+            position: fixed;
+            height: 1.75rem;
+            width: 2rem;
+            z-index: 1000;
+            cursor: pointer;
+            transition: all 0.2s;
+            right: 0;
+            top: 0;
+        }
+
+        .icon-1, .icon-2, .icon-3 {
+            position: absolute;
+            left: .33rem;
+            top: .85rem;
+            width: 1.25rem;
+            height: .1rem;
+            background-color: #bbb;
+            transition: all 0.2s;
+        }
+
+        .hamburger-icon:hover div { background-color: #000; }
+
+        body.menu-open .hamburger-icon:hover div { background-color: #fff; }
+
+        .menu-open .icon-1, .menu-open .icon-2, .menu-open .icon-3 {
+            background-color: #ccc;
+        }
+
+        .icon-1 {
+            transform: translateY(-.33rem);
+        }
+
+        .icon-3 {
+            transform: translateY(.33rem);
+        }
+
+        .icon-1.a {
+            transform: rotate(45deg);
+        }
+
+        .icon-3.b {
+            transform: rotate(-45deg);
+        }
+
+        .icon-2.c {
+            opacity: 0;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #menu {
+            z-index: 0;
+            position: fixed;
+            text-align: left;
+            pointer-events: none;
+            font-size: 1em;
+            top: 0;
+            right: 0;
+            width: 34vw;
+            height: 100vh;
+            background-color: #444;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            overflow-y: auto;
+            padding: 3rem;
+            box-sizing: border-box;
+        }
+
+        #menu.active {
+            z-index: 500;
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        body.menu-open {
+            overflow: hidden;
+        }
+
+        #anchors {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        #anchors a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.35rem;
+            padding: 0.25rem 0;
+            opacity: 0.66;
+            transition: opacity 0.2s;
+        }
+
+        #anchors a:hover {
+            opacity: 1;
+        }
+
+        #anchors a.active {
+            font-weight: 500;
+        }
+
+        .open-icon {
+            pointer-events: all;
+            position: fixed;
+            height: 1.75rem;
+            width: 2rem;
+            z-index: 400;
+            cursor: pointer;
+            transition: all 0.2s;
+            left: 65.25vw;
+            top: 0rem;
+        }
+
+        .open-icon .arrow-stem {
+            position: absolute;
+            left: .425rem;
+            top: .5rem;
+            width: 1rem;
+            height: .1rem;
+            background-color: #bbb;
+            transition: all 0.2s;
+            transform: rotate(-45deg);
+            transform-origin: right center;
+        }
+
+        .open-icon .arrow-head-1,
+        .open-icon .arrow-head-2 {
+            position: absolute;
+            right: .575rem;
+            top: .45rem;
+            width: .6rem;
+            height: .1rem;
+            background-color: #bbb;
+            transition: all 0.2s;
+        }
+
+        .open-icon .arrow-head-1 {
+            transform: rotate(-90deg);
+            transform-origin: right top;
+            top: .45rem;
+
+        }
+
+        .open-icon .arrow-head-2 {
+            transform: rotate(0deg);
+            transform-origin: right top;
+            right: .475rem;    
+
+        }
+
+        .open-icon:hover .arrow-stem,
+        .open-icon:hover .arrow-head-1,
+        .open-icon:hover .arrow-head-2 {
+            background-color: #000;
+        }
+
+        .open-icon.nudge .arrow-stem,
+        .open-icon.nudge .arrow-head-1,
+        .open-icon.nudge .arrow-head-2 {
+            transform: translate(.15rem, -.15rem);
+        }
+
+        .open-icon.nudge .arrow-stem {
+            transform: translate(.15rem, -.15rem) rotate(-45deg);
+        }
+
+        .open-icon.nudge .arrow-head-1 {
+            transform: translate(.15rem, -.15rem) rotate(-90deg);
+        }
+        
+
+        @media (max-width: 1000px) and (orientation: portrait) {
+            #scroll-hint { width: 100%; font-size: 2rem;}
+
+            iframe {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%; 
+                height: 50vh; 
+                z-index: 100;
+            }
+
+            iframe.active {
+                z-index: 110;
+            }
+
+            #ifwrap { width: 100vw; height: 50vh; }
+
+            main {
+                position: relative; 
+                width: 100%; 
+                right: auto;        
+                padding: 0 7.5vw;                
+                margin-top: 50vh;
+                z-index: 1;
+            }
+
+            .hamburger-icon {
+                right: 0rem;
+                top: 0rem;
+                z-index: 1000;  
+                background-color: white;              
+            }
+
+            .menu-open .hamburger-icon {
+                background-color: transparent;
+            }
+
+            #menu {
+                width: 100%;
+                top: 0;
+                height: 100vh;
+                padding: 5rem;
+            }
+
+            .open-icon {
+                left: unset;
+                right: 0rem;
+                top: calc(50vh);                
+                z-index: 400;
+            }
+
+            .open-icon .arrow-stem {
+                transform: rotate(-45deg);
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div id="scroll-hint" class="animated">▼</div>
+
+<div class="hamburger-icon" id="icon" onclick="toggleMenu()">
+    <div class="icon-1" id="a"></div>
+    <div class="icon-2" id="b"></div>
+    <div class="icon-3" id="c"></div>
+    <div class="clear"></div>
+</div>
+
+<a class="open-icon" id="open-link" title="Open iframe in new tab" href="#" target="_blank">
+    <div class="arrow-stem"></div>
+    <div class="arrow-head-1"></div>
+    <div class="arrow-head-2"></div>
+</a>
+
+<div id="menu">
+    <div id="anchors"></div>
+</div>
+
+<div id="ifwrap"><div id="ifoverlay"></div></div>
+
+<main></main>
+
+<script>
+    const iframesByBaseUrl = new Map();
+    let activeIframe = null;
+    let activeBaseUrl = null;
+    const ifwrap = document.getElementById('ifwrap');
+    let ifUpdateTimeout = null;
+    var fs = 16;
+    
+    function toggleMenu() {
+        document.getElementById("a").classList.toggle('a');
+        document.getElementById("b").classList.toggle('c');
+        document.getElementById("c").classList.toggle('b');
+        document.getElementById('menu').classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+    }
+
+    function slugify(text) {
+        return text
+            .toString()
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, '-')
+            .replace(/[^\w\-]+/g, '')
+            .replace(/\-\-+/g, '-')
+            .replace(/^-+/, '')
+            .replace(/-+$/, '');
+    }
+
+    function buildNavigation() {
+        const anchorsContainer = document.getElementById('anchors');
+        anchorsContainer.innerHTML = '';
+
+        // Add "Start" link
+        const startLink = document.createElement('a');
+        startLink.href = '#';
+        startLink.textContent = 'Start';
+        startLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'instant' });
+            clearSectionHash();
+            toggleMenu();
+        });
+        anchorsContainer.appendChild(startLink);
+
+        // Get all sections and assign chapters
+        const sections = document.querySelectorAll('main section');
+        let currentChapter = null;
+        
+        sections.forEach((section, index) => {
+            if (index === 0) {
+                section.dataset.chapter = '';
+                return;
+            }
+
+            const h2 = section.querySelector('h2');
+            if (h2) {
+                const slug = 'sec_' + slugify(h2.textContent);
+                section.id = slug;
+                currentChapter = slug;
+
+                const link = document.createElement('a');
+                link.href = '#' + slug;
+                link.textContent = h2.textContent;
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+                    if (isMobilePortrait) {
+                        const rect = section.getBoundingClientRect();
+                        const scrollTop = window.scrollY + rect.top - (window.innerHeight / 2);
+                        window.scrollTo({ top: scrollTop, behavior: 'instant' });
+                    } else {
+                        section.scrollIntoView({ behavior: 'instant' });
+                    }
+                    updateHashWithSection(slug);
+                    toggleMenu();
+                });
+                anchorsContainer.appendChild(link);
+            }
+            
+            section.dataset.chapter = currentChapter || '';
+        });
+
+        initializeSectionObserver();
+    }
+    function clearSectionHash() {
+        const { file } = parseHash();
+        if (file) {
+            history.replaceState(null, '', '#' + file);
+        } else {
+            history.replaceState(null, '', window.location.pathname);
+        }
+    }
+
+    function updateHashWithSection(sectionId) {
+        const { file } = parseHash();
+        let newHash = sectionId;
+        if (file) {
+            newHash = sectionId + '&' + file;
+        }
+        history.replaceState(null, '', '#' + newHash);
+    }
+
+    function parseHash() {
+        const hash = window.location.hash.substring(1);
+        if (!hash) return { section: null, file: null };
+        
+        const parts = hash.split('&');
+        let section = null;
+        let file = null;
+        
+        parts.forEach(part => {
+            if (part.startsWith('sec_')) {
+                section = part;
+            } else if (part) {
+                file = part;
+            }
+        });
+        
+        return { section, file };
+    }
+
+    let currentActiveSection = null;
+
+    function initializeSectionObserver() {
+        const sections = document.querySelectorAll('main section');
+        const visibleSectionIndices = new Set();
+        
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const index = Array.from(sections).indexOf(entry.target);
+                if (entry.isIntersecting) {
+                    visibleSectionIndices.add(index);
+                } else {
+                    visibleSectionIndices.delete(index);
+                }
+            });
+            
+            // Find the topmost visible section
+            let topmostIndex = null;
+            let topmostTop = Infinity;
+            visibleSectionIndices.forEach(index => {
+                const el = sections[index];
+                if (el) {
+                    const rect = el.getBoundingClientRect();
+                    if (rect.top < topmostTop) {
+                        topmostTop = rect.top;
+                        topmostIndex = index;
+                    }
+                }
+            });
+            
+            // Get the chapter for this section
+            const chapter = topmostIndex !== null ? sections[topmostIndex].dataset.chapter : null;
+            currentActiveSection = chapter || null;
+            updateActiveMenuItem(currentActiveSection);
+        }, {
+            rootMargin: '-20% 0px -60% 0px'
+        });
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+        
+        updateActiveMenuItem(null);
+    }
+
+    function updateActiveMenuItem(sectionId) {
+        const anchors = document.querySelectorAll('#anchors a');
+        anchors.forEach((anchor, index) => {
+            anchor.classList.remove('active');
+            if (index === 0 && !sectionId) {
+                anchor.classList.add('active');
+            } else if (sectionId && anchor.getAttribute('href') === '#' + sectionId) {
+                anchor.classList.add('active');
+            }
+        });
+    }
+
+    // Check if at top to highlight Start
+    function checkIfAtTop() {
+        if (window.scrollY < 100) {
+            currentActiveSection = null;
+            updateActiveMenuItem(null);
+        }
+    }
+
+    function getBaseUrl(href) {
+        const url = new URL(href, window.location.href);
+        url.hash = '';
+        return url.href;
+    }
+
+    function getOrCreateIframe(baseUrl, initialSrc) {
+        if (iframesByBaseUrl.has(baseUrl)) return iframesByBaseUrl.get(baseUrl);        
+        const iframe = document.createElement('iframe');
+        iframe.src = initialSrc;  // <-- set src with full URL including hash
+        ifwrap.appendChild(iframe);
+        iframesByBaseUrl.set(baseUrl, iframe);
+        return iframe;
+    }
+
+    const iframeResetTimeouts = new Map();
+    
+    function switchToIframe(newIframe, newBaseUrl) {
+        if (activeIframe === newIframe) return;
+        
+        // Clear any pending reset for the iframe we're switching TO
+        if (iframeResetTimeouts.has(newIframe)) {
+            clearTimeout(iframeResetTimeouts.get(newIframe));
+            iframeResetTimeouts.delete(newIframe);
+        }
+        
+        // Deactivate current iframe
+        if (activeIframe) {
+            const oldIframe = activeIframe;
+            const oldBaseUrl = activeBaseUrl;
+            
+            oldIframe.classList.remove('active');
+            
+            // Schedule reset to base URL after transition
+            if (oldBaseUrl) {
+                const timeoutId = setTimeout(() => {
+                    iframeResetTimeouts.delete(oldIframe);
+                    if (oldIframe.src !== oldBaseUrl) {
+                        oldIframe.src = oldBaseUrl;
+                    }
+                }, 250);
+                iframeResetTimeouts.set(oldIframe, timeoutId);
+            }
+        }
+        
+        newIframe.classList.add('active');
+        activeIframe = newIframe;
+        activeBaseUrl = newBaseUrl;
+    }
+
+    function setIframeIfPathChanged(newHref) {
+        const newBaseUrl = getBaseUrl(newHref);
+        const isNew = !iframesByBaseUrl.has(newBaseUrl);
+        const iframe = getOrCreateIframe(newBaseUrl, newHref);
+        
+        clearTimeout(ifUpdateTimeout);
+        
+        ifUpdateTimeout = setTimeout(() => {
+            if (!isNew && iframe.getAttribute('src') !== newHref) {
+                iframe.src = newHref;
+            }
+            
+            if (newBaseUrl !== activeBaseUrl) {
+                switchToIframe(iframe, newBaseUrl);
+            }
+        }, 50);
+    }
+
+    function setFontSize() {
+        const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+        const height = window.innerHeight;
+        
+        if (isMobilePortrait) fs = 5 + (height + height) / 75;
+        else fs = 5 + (height + height) / 100;
+        document.documentElement.style.fontSize = `${fs}px`;
+    }
+
+    function setSectionHeights() {
+        const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+        const height = isMobilePortrait ? window.innerHeight / 2 : window.innerHeight;
+        
+        document.querySelectorAll('section').forEach(section => {
+            section.style.minHeight = `${height}px`;
+        });
+    }
+
+    async function renderMarkdown() {
+        try {
+            const { section, file } = parseHash();
+            const fileToLoad = file ? file : 'README';
+
+            var title = document.title.split(" · ")[0];
+            document.title = (fileToLoad === "README") 
+                            ? title
+                            : `${title} · ${fileToLoad}`;
+
+            const response = await fetch(fileToLoad + ".md"); 
+            let text = await response.text();
+
+            // split sections by two empty lines
+            text = text.replace(/\s*\n\s*\n\s*\n\s*/g, '\n\n</section>\n\n<section>\n\n');
+            text = "<section>\n\n" + text + "\n\n</section>";
+            
+            // add class dontinflect to regular html links
+            text = text.replace(/<a\b([^>]*)>/gi, (m, attrs) => 
+                `<a${/class\s*=\s*["']([^"']*)["']/i.test(attrs) 
+                    ? attrs.replace(/class\s*=\s*["']([^"']*)["']/i, 
+                                    (m, c) => `class="${c} dontinflect"`) 
+                    : ` class="dontinflect"${attrs}`}>`
+            );
+
+            // render markdown into HTML           
+            let html = marked.parse(text);
+
+            // skip footer when on inflect page
+            if (document.URL != "https://uclab.fh-potsdam.de/inflect/") {
+                html = html + "\n<footer>a story made with <strong><a class='dontinflect' href='https://uclab.fh-potsdam.de/inflect/'>!nflect</a></strong></footer>";
+            }
+
+            document.querySelector('main').innerHTML = html;
+
+            transformInflectionImages();
+            setSectionHeights();
+            buildNavigation();
+            initializeObservers();
+            
+            // Track current file
+            currentFile = fileToLoad;
+
+            // Scroll to section if specified in hash
+            if (section) {
+                setTimeout(() => {
+                    const targetSection = document.getElementById(section);
+                    if (targetSection) {
+                        const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+                        if (isMobilePortrait) {
+                            const rect = targetSection.getBoundingClientRect();
+                            const scrollTop = window.scrollY + rect.top - (window.innerHeight / 2);
+                            window.scrollTo({ top: scrollTop, behavior: 'instant' });
+                        } else {
+                            targetSection.scrollIntoView({ behavior: 'instant' });
+                        }
+                    }
+                }, 100);
+            } else if (location.hostname == "localhost") {
+                // return to old position (localhost only)
+                window.scrollTo(0, sessionStorage.getItem("scrollPosition") || 0);
+            }
+        } catch (error) {
+            console.error('Error fetching or rendering the markdown file:', error);
+        }
+    }
+
+    let currentFile = null;
+
+    window.addEventListener('hashchange', function(event) {
+        const { section, file } = parseHash();
+        const newFile = file || 'README';
+        
+        // Only re-render if the file changed
+        if (newFile !== currentFile) {
+            event.preventDefault();
+            window.scrollTo(0, 0);
+            if (location.hostname == "localhost") sessionStorage.setItem("scrollPosition", 0);
+            renderMarkdown();
+        } else if (section) {
+            // Just scroll to section if only section changed
+            const targetSection = document.getElementById(section);
+            if (targetSection) {
+                const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+                if (isMobilePortrait) {
+                    const rect = targetSection.getBoundingClientRect();
+                    const scrollTop = window.scrollY + rect.top - (window.innerHeight / 2);
+                    window.scrollTo({ top: scrollTop, behavior: 'instant' });
+                } else {
+                    targetSection.scrollIntoView({ behavior: 'instant' });
+                }
+            }
+        }
+    });
+
+    document.addEventListener("scroll", (event) => {
+        if (location.hostname == "localhost") sessionStorage.setItem("scrollPosition", window.scrollY);
+        checkIfAtTop();
+        if (window.scrollY > 5) {
+            let scrollHint = document.querySelector('#scroll-hint');
+            if (!scrollHint) return;
+            scrollHint.classList.remove('animated');
+            setTimeout(function() { scrollHint.remove(); }, 500);
+        }    
+    });
+
+    window.addEventListener("beforeunload", function() {
+        if (location.hostname == "localhost") sessionStorage.setItem("scrollPosition", window.scrollY);
+    });
+
+    function transformInflectionImages() {
+        const images = document.querySelectorAll('img[alt="img"]');
+        images.forEach(img => {
+            const link = document.createElement('a');
+            link.href = img.getAttribute('src');
+            link.classList.add("img");
+            const p = img.closest('p');
+            p.replaceWith(link);
+        });
+    }
+
+    function initializeObservers() {
+        const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+        
+        const observer = new IntersectionObserver((entries) => {            
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {                    
+                    const visibleLink = entry.target;
+                    if (!visibleLink.classList.contains("dontinflect") && visibleLink.getAttribute("href") != "") {
+                        visibleLink.classList.add('active');
+                        setIframeIfPathChanged(visibleLink.href);
+                        document.getElementById('open-link').href = visibleLink.href;
+                    }
+                } else {
+                    entry.target.classList.remove("active");
+                }
+            });
+        }, {
+            rootMargin: isMobilePortrait ? "-50% 0px 0px 0px" : "0px"
+        });
+
+        // Only observe links inside main, not menu anchors
+        const inflectLinks = document.querySelectorAll('main a');
+        inflectLinks.forEach(link => {
+            observer.observe(link);
+
+            if (!link.classList.contains("dontinflect")) {
+                link.addEventListener('click', function(event) {                    
+                    document.querySelectorAll('main a').forEach(a => a.classList.remove('active'));
+                    link.classList.add('active');
+                    setIframeIfPathChanged(link.href);
+                    document.getElementById('open-link').href = link.href;
+                });
+            }
+        });
+    }
+
+    function scrollToNextSection() {
+        const sections = Array.from(document.querySelectorAll('main section'));
+        const target = sections.find(section => {
+            const rect = section.getBoundingClientRect();
+            return rect.top > 1;
+        });
+        if (target) target.scrollIntoView({ behavior: 'smooth' });            
+    }
+
+    function scrollToPreviousSection() {
+        const sections = Array.from(document.querySelectorAll('main section'));
+        for (let i = sections.length - 1; i >= 0; i--) {
+            const rect = sections[i].getBoundingClientRect();
+            if (rect.bottom < -1) {
+                sections[i].scrollIntoView({ behavior: 'smooth' });
+                break;
+            }
+        }
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            if (document.getElementById('menu').classList.contains('active')) {
+                toggleMenu();
+            } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                clearSectionHash();
+            }
+        } else if (
+            event.key === 'ArrowDown' ||
+            event.key === 'ArrowUp' ||
+            event.key === ' '
+        ) {
+            const goingDown = (
+                event.key === 'ArrowDown' ||
+                (event.key === ' ' && !event.shiftKey)
+            );
+
+            const goingUp = (
+                event.key === 'ArrowUp' ||
+                (event.key === ' ' && event.shiftKey)
+            );
+
+            event.preventDefault();
+            if (goingDown) scrollToNextSection();
+            else if (goingUp) scrollToPreviousSection();
+        }
+    });
+
+    let lastWidth = window.innerWidth;
+    let lastHeight = window.innerHeight;
+    const RESIZE_THRESHOLD = 350; 
+    
+    window.addEventListener('resize', function() {
+        const widthDiff = Math.abs(window.innerWidth - lastWidth);
+        const heightDiff = Math.abs(window.innerHeight - lastHeight);
+
+        if (widthDiff > RESIZE_THRESHOLD || heightDiff > RESIZE_THRESHOLD) {
+            const activeLink = document.querySelector('a.active');
+            const targetSection = activeLink ? activeLink.closest('section') : null;
+            
+            setFontSize();
+            setSectionHeights();            
+            
+            if (targetSection) targetSection.scrollIntoView({ behavior: 'instant' });            
+            
+            lastWidth = window.innerWidth;
+            lastHeight = window.innerHeight;                    
+        }
+    });
+
+    setFontSize();
+    renderMarkdown();
+
+  
+</script>
+
+</body>
+</html>

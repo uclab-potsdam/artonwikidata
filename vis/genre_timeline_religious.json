@@ -1,0 +1,1564 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "decade": "1000-01-01",
+        "count": 29,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1000-01-01",
+        "count": 16,
+        "genre": "religious"
+      },
+      {
+        "decade": "1000-01-01",
+        "count": 4,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1010-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1010-01-01",
+        "count": 0,
+        "genre": "religious"
+      },
+      {
+        "decade": "1010-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1020-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1020-01-01",
+        "count": 1,
+        "genre": "religious"
+      },
+      {
+        "decade": "1020-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1050-01-01",
+        "count": 2,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1050-01-01",
+        "count": 5,
+        "genre": "religious"
+      },
+      {
+        "decade": "1050-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1060-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1060-01-01",
+        "count": 1,
+        "genre": "religious"
+      },
+      {
+        "decade": "1060-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1080-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1080-01-01",
+        "count": 3,
+        "genre": "religious"
+      },
+      {
+        "decade": "1080-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1090-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1090-01-01",
+        "count": 50,
+        "genre": "religious"
+      },
+      {
+        "decade": "1090-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1100-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1100-01-01",
+        "count": 40,
+        "genre": "religious"
+      },
+      {
+        "decade": "1100-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1110-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1110-01-01",
+        "count": 26,
+        "genre": "religious"
+      },
+      {
+        "decade": "1110-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1120-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1120-01-01",
+        "count": 41,
+        "genre": "religious"
+      },
+      {
+        "decade": "1120-01-01",
+        "count": 4,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1130-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1130-01-01",
+        "count": 6,
+        "genre": "religious"
+      },
+      {
+        "decade": "1130-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1140-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1140-01-01",
+        "count": 38,
+        "genre": "religious"
+      },
+      {
+        "decade": "1140-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1150-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1150-01-01",
+        "count": 33,
+        "genre": "religious"
+      },
+      {
+        "decade": "1150-01-01",
+        "count": 4,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1160-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1160-01-01",
+        "count": 5,
+        "genre": "religious"
+      },
+      {
+        "decade": "1160-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1170-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1170-01-01",
+        "count": 11,
+        "genre": "religious"
+      },
+      {
+        "decade": "1170-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1180-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1180-01-01",
+        "count": 13,
+        "genre": "religious"
+      },
+      {
+        "decade": "1180-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1190-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1190-01-01",
+        "count": 4,
+        "genre": "religious"
+      },
+      {
+        "decade": "1190-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1200-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1200-01-01",
+        "count": 74,
+        "genre": "religious"
+      },
+      {
+        "decade": "1200-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1210-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1210-01-01",
+        "count": 8,
+        "genre": "religious"
+      },
+      {
+        "decade": "1210-01-01",
+        "count": 7,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1220-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1220-01-01",
+        "count": 10,
+        "genre": "religious"
+      },
+      {
+        "decade": "1220-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1230-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1230-01-01",
+        "count": 19,
+        "genre": "religious"
+      },
+      {
+        "decade": "1230-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1240-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1240-01-01",
+        "count": 70,
+        "genre": "religious"
+      },
+      {
+        "decade": "1240-01-01",
+        "count": 7,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1250-01-01",
+        "count": 6,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1250-01-01",
+        "count": 48,
+        "genre": "religious"
+      },
+      {
+        "decade": "1250-01-01",
+        "count": 4,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1260-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1260-01-01",
+        "count": 30,
+        "genre": "religious"
+      },
+      {
+        "decade": "1260-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1270-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1270-01-01",
+        "count": 98,
+        "genre": "religious"
+      },
+      {
+        "decade": "1270-01-01",
+        "count": 0,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1280-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1280-01-01",
+        "count": 48,
+        "genre": "religious"
+      },
+      {
+        "decade": "1280-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1290-01-01",
+        "count": 0,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1290-01-01",
+        "count": 75,
+        "genre": "religious"
+      },
+      {
+        "decade": "1290-01-01",
+        "count": 3,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1300-01-01",
+        "count": 7,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1300-01-01",
+        "count": 161,
+        "genre": "religious"
+      },
+      {
+        "decade": "1300-01-01",
+        "count": 3,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1310-01-01",
+        "count": 4,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1310-01-01",
+        "count": 113,
+        "genre": "religious"
+      },
+      {
+        "decade": "1310-01-01",
+        "count": 2,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1320-01-01",
+        "count": 3,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1320-01-01",
+        "count": 163,
+        "genre": "religious"
+      },
+      {
+        "decade": "1320-01-01",
+        "count": 5,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1330-01-01",
+        "count": 4,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1330-01-01",
+        "count": 211,
+        "genre": "religious"
+      },
+      {
+        "decade": "1330-01-01",
+        "count": 3,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1340-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1340-01-01",
+        "count": 169,
+        "genre": "religious"
+      },
+      {
+        "decade": "1340-01-01",
+        "count": 6,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1350-01-01",
+        "count": 5,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1350-01-01",
+        "count": 229,
+        "genre": "religious"
+      },
+      {
+        "decade": "1350-01-01",
+        "count": 5,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1360-01-01",
+        "count": 3,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1360-01-01",
+        "count": 163,
+        "genre": "religious"
+      },
+      {
+        "decade": "1360-01-01",
+        "count": 6,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1370-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1370-01-01",
+        "count": 166,
+        "genre": "religious"
+      },
+      {
+        "decade": "1370-01-01",
+        "count": 6,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1380-01-01",
+        "count": 1,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1380-01-01",
+        "count": 183,
+        "genre": "religious"
+      },
+      {
+        "decade": "1380-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1390-01-01",
+        "count": 4,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1390-01-01",
+        "count": 179,
+        "genre": "religious"
+      },
+      {
+        "decade": "1390-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1400-01-01",
+        "count": 8,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1400-01-01",
+        "count": 502,
+        "genre": "religious"
+      },
+      {
+        "decade": "1400-01-01",
+        "count": 4,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1410-01-01",
+        "count": 2,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1410-01-01",
+        "count": 308,
+        "genre": "religious"
+      },
+      {
+        "decade": "1410-01-01",
+        "count": 8,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1420-01-01",
+        "count": 8,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1420-01-01",
+        "count": 401,
+        "genre": "religious"
+      },
+      {
+        "decade": "1420-01-01",
+        "count": 3,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1430-01-01",
+        "count": 33,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1430-01-01",
+        "count": 465,
+        "genre": "religious"
+      },
+      {
+        "decade": "1430-01-01",
+        "count": 1,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1440-01-01",
+        "count": 27,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1440-01-01",
+        "count": 741,
+        "genre": "religious"
+      },
+      {
+        "decade": "1440-01-01",
+        "count": 9,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1450-01-01",
+        "count": 67,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1450-01-01",
+        "count": 1081,
+        "genre": "religious"
+      },
+      {
+        "decade": "1450-01-01",
+        "count": 5,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1460-01-01",
+        "count": 53,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1460-01-01",
+        "count": 620,
+        "genre": "religious"
+      },
+      {
+        "decade": "1460-01-01",
+        "count": 5,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1470-01-01",
+        "count": 171,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1470-01-01",
+        "count": 1083,
+        "genre": "religious"
+      },
+      {
+        "decade": "1470-01-01",
+        "count": 7,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1480-01-01",
+        "count": 171,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1480-01-01",
+        "count": 1475,
+        "genre": "religious"
+      },
+      {
+        "decade": "1480-01-01",
+        "count": 8,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1490-01-01",
+        "count": 215,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1490-01-01",
+        "count": 1347,
+        "genre": "religious"
+      },
+      {
+        "decade": "1490-01-01",
+        "count": 14,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1500-01-01",
+        "count": 460,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1500-01-01",
+        "count": 3077,
+        "genre": "religious"
+      },
+      {
+        "decade": "1500-01-01",
+        "count": 58,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1510-01-01",
+        "count": 523,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1510-01-01",
+        "count": 2860,
+        "genre": "religious"
+      },
+      {
+        "decade": "1510-01-01",
+        "count": 42,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1520-01-01",
+        "count": 985,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1520-01-01",
+        "count": 3485,
+        "genre": "religious"
+      },
+      {
+        "decade": "1520-01-01",
+        "count": 65,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1530-01-01",
+        "count": 966,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1530-01-01",
+        "count": 1756,
+        "genre": "religious"
+      },
+      {
+        "decade": "1530-01-01",
+        "count": 64,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1540-01-01",
+        "count": 971,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1540-01-01",
+        "count": 1488,
+        "genre": "religious"
+      },
+      {
+        "decade": "1540-01-01",
+        "count": 92,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1550-01-01",
+        "count": 1186,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1550-01-01",
+        "count": 1503,
+        "genre": "religious"
+      },
+      {
+        "decade": "1550-01-01",
+        "count": 61,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1560-01-01",
+        "count": 973,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1560-01-01",
+        "count": 811,
+        "genre": "religious"
+      },
+      {
+        "decade": "1560-01-01",
+        "count": 55,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1570-01-01",
+        "count": 1083,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1570-01-01",
+        "count": 980,
+        "genre": "religious"
+      },
+      {
+        "decade": "1570-01-01",
+        "count": 89,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1580-01-01",
+        "count": 832,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1580-01-01",
+        "count": 680,
+        "genre": "religious"
+      },
+      {
+        "decade": "1580-01-01",
+        "count": 83,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1590-01-01",
+        "count": 886,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1590-01-01",
+        "count": 913,
+        "genre": "religious"
+      },
+      {
+        "decade": "1590-01-01",
+        "count": 168,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1600-01-01",
+        "count": 1331,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1600-01-01",
+        "count": 2250,
+        "genre": "religious"
+      },
+      {
+        "decade": "1600-01-01",
+        "count": 463,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1610-01-01",
+        "count": 1701,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1610-01-01",
+        "count": 2130,
+        "genre": "religious"
+      },
+      {
+        "decade": "1610-01-01",
+        "count": 636,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1620-01-01",
+        "count": 2153,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1620-01-01",
+        "count": 2194,
+        "genre": "religious"
+      },
+      {
+        "decade": "1620-01-01",
+        "count": 830,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1630-01-01",
+        "count": 2980,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1630-01-01",
+        "count": 2061,
+        "genre": "religious"
+      },
+      {
+        "decade": "1630-01-01",
+        "count": 1053,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1640-01-01",
+        "count": 2749,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1640-01-01",
+        "count": 2176,
+        "genre": "religious"
+      },
+      {
+        "decade": "1640-01-01",
+        "count": 2044,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1650-01-01",
+        "count": 3435,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1650-01-01",
+        "count": 2888,
+        "genre": "religious"
+      },
+      {
+        "decade": "1650-01-01",
+        "count": 2713,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1660-01-01",
+        "count": 2550,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1660-01-01",
+        "count": 1339,
+        "genre": "religious"
+      },
+      {
+        "decade": "1660-01-01",
+        "count": 2055,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1670-01-01",
+        "count": 1948,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1670-01-01",
+        "count": 756,
+        "genre": "religious"
+      },
+      {
+        "decade": "1670-01-01",
+        "count": 1184,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1680-01-01",
+        "count": 1768,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1680-01-01",
+        "count": 519,
+        "genre": "religious"
+      },
+      {
+        "decade": "1680-01-01",
+        "count": 567,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1690-01-01",
+        "count": 1168,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1690-01-01",
+        "count": 481,
+        "genre": "religious"
+      },
+      {
+        "decade": "1690-01-01",
+        "count": 455,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1700-01-01",
+        "count": 2139,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1700-01-01",
+        "count": 1764,
+        "genre": "religious"
+      },
+      {
+        "decade": "1700-01-01",
+        "count": 503,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1710-01-01",
+        "count": 1377,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1710-01-01",
+        "count": 582,
+        "genre": "religious"
+      },
+      {
+        "decade": "1710-01-01",
+        "count": 293,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1720-01-01",
+        "count": 1473,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1720-01-01",
+        "count": 442,
+        "genre": "religious"
+      },
+      {
+        "decade": "1720-01-01",
+        "count": 316,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1730-01-01",
+        "count": 1442,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1730-01-01",
+        "count": 429,
+        "genre": "religious"
+      },
+      {
+        "decade": "1730-01-01",
+        "count": 207,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1740-01-01",
+        "count": 1764,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1740-01-01",
+        "count": 625,
+        "genre": "religious"
+      },
+      {
+        "decade": "1740-01-01",
+        "count": 333,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1750-01-01",
+        "count": 2927,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1750-01-01",
+        "count": 857,
+        "genre": "religious"
+      },
+      {
+        "decade": "1750-01-01",
+        "count": 370,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1760-01-01",
+        "count": 2104,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1760-01-01",
+        "count": 425,
+        "genre": "religious"
+      },
+      {
+        "decade": "1760-01-01",
+        "count": 247,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1770-01-01",
+        "count": 2290,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1770-01-01",
+        "count": 400,
+        "genre": "religious"
+      },
+      {
+        "decade": "1770-01-01",
+        "count": 384,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1780-01-01",
+        "count": 2690,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1780-01-01",
+        "count": 381,
+        "genre": "religious"
+      },
+      {
+        "decade": "1780-01-01",
+        "count": 588,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1790-01-01",
+        "count": 2686,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1790-01-01",
+        "count": 191,
+        "genre": "religious"
+      },
+      {
+        "decade": "1790-01-01",
+        "count": 422,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1800-01-01",
+        "count": 3662,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1800-01-01",
+        "count": 743,
+        "genre": "religious"
+      },
+      {
+        "decade": "1800-01-01",
+        "count": 532,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1810-01-01",
+        "count": 2535,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1810-01-01",
+        "count": 224,
+        "genre": "religious"
+      },
+      {
+        "decade": "1810-01-01",
+        "count": 516,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1820-01-01",
+        "count": 3115,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1820-01-01",
+        "count": 358,
+        "genre": "religious"
+      },
+      {
+        "decade": "1820-01-01",
+        "count": 688,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1830-01-01",
+        "count": 3451,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1830-01-01",
+        "count": 376,
+        "genre": "religious"
+      },
+      {
+        "decade": "1830-01-01",
+        "count": 872,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1840-01-01",
+        "count": 3297,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1840-01-01",
+        "count": 658,
+        "genre": "religious"
+      },
+      {
+        "decade": "1840-01-01",
+        "count": 1086,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1850-01-01",
+        "count": 3713,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1850-01-01",
+        "count": 666,
+        "genre": "religious"
+      },
+      {
+        "decade": "1850-01-01",
+        "count": 1942,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1860-01-01",
+        "count": 2542,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1860-01-01",
+        "count": 411,
+        "genre": "religious"
+      },
+      {
+        "decade": "1860-01-01",
+        "count": 1552,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1870-01-01",
+        "count": 3041,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1870-01-01",
+        "count": 418,
+        "genre": "religious"
+      },
+      {
+        "decade": "1870-01-01",
+        "count": 2293,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1880-01-01",
+        "count": 4115,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1880-01-01",
+        "count": 384,
+        "genre": "religious"
+      },
+      {
+        "decade": "1880-01-01",
+        "count": 2368,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1890-01-01",
+        "count": 4185,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1890-01-01",
+        "count": 766,
+        "genre": "religious"
+      },
+      {
+        "decade": "1890-01-01",
+        "count": 2223,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1900-01-01",
+        "count": 5307,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1900-01-01",
+        "count": 447,
+        "genre": "religious"
+      },
+      {
+        "decade": "1900-01-01",
+        "count": 2913,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1910-01-01",
+        "count": 4626,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1910-01-01",
+        "count": 285,
+        "genre": "religious"
+      },
+      {
+        "decade": "1910-01-01",
+        "count": 2014,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1920-01-01",
+        "count": 3747,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1920-01-01",
+        "count": 267,
+        "genre": "religious"
+      },
+      {
+        "decade": "1920-01-01",
+        "count": 1719,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1930-01-01",
+        "count": 3006,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1930-01-01",
+        "count": 226,
+        "genre": "religious"
+      },
+      {
+        "decade": "1930-01-01",
+        "count": 1241,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1940-01-01",
+        "count": 2195,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1940-01-01",
+        "count": 182,
+        "genre": "religious"
+      },
+      {
+        "decade": "1940-01-01",
+        "count": 1843,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1950-01-01",
+        "count": 1885,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1950-01-01",
+        "count": 175,
+        "genre": "religious"
+      },
+      {
+        "decade": "1950-01-01",
+        "count": 2055,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1960-01-01",
+        "count": 1502,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1960-01-01",
+        "count": 151,
+        "genre": "religious"
+      },
+      {
+        "decade": "1960-01-01",
+        "count": 1086,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1970-01-01",
+        "count": 1156,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1970-01-01",
+        "count": 90,
+        "genre": "religious"
+      },
+      {
+        "decade": "1970-01-01",
+        "count": 1217,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1980-01-01",
+        "count": 1077,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1980-01-01",
+        "count": 116,
+        "genre": "religious"
+      },
+      {
+        "decade": "1980-01-01",
+        "count": 891,
+        "genre": "landscape"
+      },
+      {
+        "decade": "1990-01-01",
+        "count": 663,
+        "genre": "portrait"
+      },
+      {
+        "decade": "1990-01-01",
+        "count": 60,
+        "genre": "religious"
+      },
+      {
+        "decade": "1990-01-01",
+        "count": 165,
+        "genre": "landscape"
+      },
+      {
+        "decade": "2000-01-01",
+        "count": 692,
+        "genre": "portrait"
+      },
+      {
+        "decade": "2000-01-01",
+        "count": 60,
+        "genre": "religious"
+      },
+      {
+        "decade": "2000-01-01",
+        "count": 270,
+        "genre": "landscape"
+      },
+      {
+        "decade": "2010-01-01",
+        "count": 201,
+        "genre": "portrait"
+      },
+      {
+        "decade": "2010-01-01",
+        "count": 19,
+        "genre": "religious"
+      },
+      {
+        "decade": "2010-01-01",
+        "count": 36,
+        "genre": "landscape"
+      },
+      {
+        "decade": "2020-01-01",
+        "count": 26,
+        "genre": "portrait"
+      },
+      {
+        "decade": "2020-01-01",
+        "count": 3,
+        "genre": "religious"
+      },
+      {
+        "decade": "2020-01-01",
+        "count": 5,
+        "genre": "landscape"
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2,
+    "clip": true,
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "temporal",
+      "title": "",
+      "scale": {
+        "domain": [
+          "1201",
+          "2000"
+        ]
+      }
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    },
+    "color": {
+      "field": "genre",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "portrait",
+          "religious",
+          "landscape"
+        ],
+        "range": [
+          "rgba(119, 119, 119)",
+          "#FF00D3",
+          "rgba(119, 119, 119)"
+        ]
+      }
+    },
+    "opacity": {
+      "condition": {
+        "test": "datum.genre === 'religious'",
+        "value": 1
+      },
+      "value": 0.3
+    },
+    "order": {
+      "condition": {
+        "test": "datum.genre === 'religious'",
+        "value": 1
+      },
+      "value": 0
+    }
+  },
+  "width": 300,
+  "height": 200
+}

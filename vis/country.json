@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "country": "France",
+        "count": 5002
+      },
+      {
+        "country": "Netherlands",
+        "count": 4812
+      },
+      {
+        "country": "Germany",
+        "count": 4507
+      },
+      {
+        "country": "United States",
+        "count": 4347
+      },
+      {
+        "country": "United Kingdom",
+        "count": 3437
+      },
+      {
+        "country": "Italy",
+        "count": 2856
+      },
+      {
+        "country": "Belgium",
+        "count": 2354
+      },
+      {
+        "country": "Spain",
+        "count": 1595
+      },
+      {
+        "country": "Roman Empire",
+        "count": 1172
+      },
+      {
+        "country": "Austria",
+        "count": 1137
+      },
+      {
+        "country": "Poland",
+        "count": 1068
+      },
+      {
+        "country": "Sweden",
+        "count": 962
+      },
+      {
+        "country": "Canada",
+        "count": 870
+      },
+      {
+        "country": "Denmark",
+        "count": 812
+      },
+      {
+        "country": "Czech Republic",
+        "count": 792
+      },
+      {
+        "country": "Switzerland",
+        "count": 619
+      },
+      {
+        "country": "Australia",
+        "count": 593
+      },
+      {
+        "country": "Norway",
+        "count": 570
+      },
+      {
+        "country": "Russia",
+        "count": 568
+      },
+      {
+        "country": "Margraviate of Brandenburg",
+        "count": 521
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#999999"
+  },
+  "encoding": {
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "sort": "-x",
+      "title": ""
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    }
+  },
+  "width": 300,
+  "height": 300
+}

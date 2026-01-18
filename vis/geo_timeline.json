@@ -1,0 +1,370 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "decade": 1500,
+        "percentage": 6.35,
+        "global_south": 8,
+        "total": 126
+      },
+      {
+        "decade": 1510,
+        "percentage": 6.67,
+        "global_south": 5,
+        "total": 75
+      },
+      {
+        "decade": 1520,
+        "percentage": 1.28,
+        "global_south": 1,
+        "total": 78
+      },
+      {
+        "decade": 1530,
+        "percentage": 7.07,
+        "global_south": 7,
+        "total": 99
+      },
+      {
+        "decade": 1540,
+        "percentage": 3.16,
+        "global_south": 3,
+        "total": 95
+      },
+      {
+        "decade": 1550,
+        "percentage": 5.43,
+        "global_south": 7,
+        "total": 129
+      },
+      {
+        "decade": 1560,
+        "percentage": 5.93,
+        "global_south": 8,
+        "total": 135
+      },
+      {
+        "decade": 1570,
+        "percentage": 2.82,
+        "global_south": 5,
+        "total": 177
+      },
+      {
+        "decade": 1580,
+        "percentage": 2.65,
+        "global_south": 6,
+        "total": 226
+      },
+      {
+        "decade": 1590,
+        "percentage": 4.03,
+        "global_south": 11,
+        "total": 273
+      },
+      {
+        "decade": 1600,
+        "percentage": 3.0,
+        "global_south": 11,
+        "total": 367
+      },
+      {
+        "decade": 1610,
+        "percentage": 3.76,
+        "global_south": 15,
+        "total": 399
+      },
+      {
+        "decade": 1620,
+        "percentage": 2.44,
+        "global_south": 9,
+        "total": 369
+      },
+      {
+        "decade": 1630,
+        "percentage": 2.71,
+        "global_south": 10,
+        "total": 369
+      },
+      {
+        "decade": 1640,
+        "percentage": 3.28,
+        "global_south": 9,
+        "total": 274
+      },
+      {
+        "decade": 1650,
+        "percentage": 2.43,
+        "global_south": 6,
+        "total": 247
+      },
+      {
+        "decade": 1660,
+        "percentage": 5.35,
+        "global_south": 13,
+        "total": 243
+      },
+      {
+        "decade": 1670,
+        "percentage": 3.91,
+        "global_south": 7,
+        "total": 179
+      },
+      {
+        "decade": 1680,
+        "percentage": 6.64,
+        "global_south": 16,
+        "total": 241
+      },
+      {
+        "decade": 1690,
+        "percentage": 3.43,
+        "global_south": 7,
+        "total": 204
+      },
+      {
+        "decade": 1700,
+        "percentage": 2.89,
+        "global_south": 7,
+        "total": 242
+      },
+      {
+        "decade": 1710,
+        "percentage": 3.07,
+        "global_south": 8,
+        "total": 261
+      },
+      {
+        "decade": 1720,
+        "percentage": 5.07,
+        "global_south": 15,
+        "total": 296
+      },
+      {
+        "decade": 1730,
+        "percentage": 3.0,
+        "global_south": 10,
+        "total": 333
+      },
+      {
+        "decade": 1740,
+        "percentage": 3.71,
+        "global_south": 15,
+        "total": 404
+      },
+      {
+        "decade": 1750,
+        "percentage": 3.9,
+        "global_south": 20,
+        "total": 513
+      },
+      {
+        "decade": 1760,
+        "percentage": 4.52,
+        "global_south": 21,
+        "total": 465
+      },
+      {
+        "decade": 1770,
+        "percentage": 4.15,
+        "global_south": 21,
+        "total": 506
+      },
+      {
+        "decade": 1780,
+        "percentage": 3.3,
+        "global_south": 21,
+        "total": 637
+      },
+      {
+        "decade": 1790,
+        "percentage": 2.64,
+        "global_south": 20,
+        "total": 757
+      },
+      {
+        "decade": 1800,
+        "percentage": 1.44,
+        "global_south": 19,
+        "total": 1315
+      },
+      {
+        "decade": 1810,
+        "percentage": 2.19,
+        "global_south": 35,
+        "total": 1598
+      },
+      {
+        "decade": 1820,
+        "percentage": 2.51,
+        "global_south": 43,
+        "total": 1713
+      },
+      {
+        "decade": 1830,
+        "percentage": 2.59,
+        "global_south": 39,
+        "total": 1508
+      },
+      {
+        "decade": 1840,
+        "percentage": 3.21,
+        "global_south": 58,
+        "total": 1807
+      },
+      {
+        "decade": 1850,
+        "percentage": 3.62,
+        "global_south": 85,
+        "total": 2347
+      },
+      {
+        "decade": 1860,
+        "percentage": 5.71,
+        "global_south": 158,
+        "total": 2765
+      },
+      {
+        "decade": 1870,
+        "percentage": 6.14,
+        "global_south": 165,
+        "total": 2689
+      },
+      {
+        "decade": 1880,
+        "percentage": 7.46,
+        "global_south": 203,
+        "total": 2723
+      },
+      {
+        "decade": 1890,
+        "percentage": 9.36,
+        "global_south": 252,
+        "total": 2692
+      },
+      {
+        "decade": 1900,
+        "percentage": 9.68,
+        "global_south": 255,
+        "total": 2635
+      },
+      {
+        "decade": 1910,
+        "percentage": 13.61,
+        "global_south": 277,
+        "total": 2035
+      },
+      {
+        "decade": 1920,
+        "percentage": 15.71,
+        "global_south": 392,
+        "total": 2495
+      },
+      {
+        "decade": 1930,
+        "percentage": 15.28,
+        "global_south": 355,
+        "total": 2324
+      },
+      {
+        "decade": 1940,
+        "percentage": 14.65,
+        "global_south": 326,
+        "total": 2226
+      },
+      {
+        "decade": 1950,
+        "percentage": 15.18,
+        "global_south": 270,
+        "total": 1779
+      },
+      {
+        "decade": 1960,
+        "percentage": 18.09,
+        "global_south": 191,
+        "total": 1056
+      },
+      {
+        "decade": 1970,
+        "percentage": 19.61,
+        "global_south": 122,
+        "total": 622
+      },
+      {
+        "decade": 1980,
+        "percentage": 11.11,
+        "global_south": 4,
+        "total": 36
+      }
+    ]
+  },
+  "transform": [
+    {
+      "filter": "datum.decade < 1980"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "color": "#FF00D3",
+    "strokeWidth": 2,
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "quantitative",
+      "title": "",
+      "scale": {
+        "domain": [
+          1500,
+          2000
+        ]
+      },
+      "axis": {
+        "format": "d",
+        "tickCount": 6
+      }
+    },
+    "y": {
+      "field": "percentage",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "format": ".0f"
+      },
+      "scale": {
+        "domain": [
+          0,
+          20
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "decade",
+        "type": "ordinal",
+        "title": "Decade"
+      },
+      {
+        "field": "percentage",
+        "type": "quantitative",
+        "title": "% Global South",
+        "format": ".1f"
+      },
+      {
+        "field": "global_south",
+        "type": "quantitative",
+        "title": "Non-Western painters",
+        "format": ","
+      },
+      {
+        "field": "total",
+        "type": "quantitative",
+        "title": "Total painters",
+        "format": ","
+      }
+    ]
+  },
+  "width": 400,
+  "height": 300
+}

@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "collection": "The Palace Museum",
+        "count": 46838
+      },
+      {
+        "collection": "Bavarian State Painting Collections",
+        "count": 18093
+      },
+      {
+        "collection": "Nationalmuseum",
+        "count": 17141
+      },
+      {
+        "collection": "Munich Central Collecting Point",
+        "count": 15491
+      },
+      {
+        "collection": "Cultural Heritage Agency of the Netherlands Art Collection",
+        "count": 14720
+      },
+      {
+        "collection": "Metropolitan Museum of Art",
+        "count": 13374
+      },
+      {
+        "collection": "National Trust",
+        "count": 12695
+      },
+      {
+        "collection": "National Museum in Warsaw",
+        "count": 12286
+      },
+      {
+        "collection": "Department of Paintings of the Louvre",
+        "count": 10562
+      },
+      {
+        "collection": "Anhui Museum",
+        "count": 10466
+      },
+      {
+        "collection": "Finnish National Gallery",
+        "count": 10095
+      },
+      {
+        "collection": "Smithsonian American Art Museum",
+        "count": 9348
+      },
+      {
+        "collection": "National Gallery of Armenia",
+        "count": 9035
+      },
+      {
+        "collection": "Zhejiang Provincial Museum",
+        "count": 8954
+      },
+      {
+        "collection": "Hermitage Museum",
+        "count": 8288
+      },
+      {
+        "collection": "Tate",
+        "count": 8273
+      },
+      {
+        "collection": "Slovak National Gallery",
+        "count": 8071
+      },
+      {
+        "collection": "Shanghai Museum",
+        "count": 8059
+      },
+      {
+        "collection": "Yale Center for British Art",
+        "count": 7806
+      },
+      {
+        "collection": "Tianjin Museum",
+        "count": 7493
+      },
+      {
+        "collection": "Other",
+        "count": 757023
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#999999"
+  },
+  "encoding": {
+    "y": {
+      "field": "collection",
+      "type": "nominal",
+      "sort": [
+        "The Palace Museum",
+        "Bavarian State Painting Collections",
+        "Nationalmuseum",
+        "Munich Central Collecting Point",
+        "Cultural Heritage Agency of the Netherlands Art Collection",
+        "Metropolitan Museum of Art",
+        "National Trust",
+        "National Museum in Warsaw",
+        "Department of Paintings of the Louvre",
+        "Anhui Museum",
+        "Finnish National Gallery",
+        "Smithsonian American Art Museum",
+        "National Gallery of Armenia",
+        "Zhejiang Provincial Museum",
+        "Hermitage Museum",
+        "Tate",
+        "Slovak National Gallery",
+        "Shanghai Museum",
+        "Yale Center for British Art",
+        "Tianjin Museum",
+        "Other"
+      ],
+      "title": ""
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": ""
+    }
+  },
+  "width": 300,
+  "height": 400
+}
