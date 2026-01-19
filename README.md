@@ -611,7 +611,7 @@ Every edit contributes to painting a more complete picture.
 
 [](img/#904,899,2827,2706&ff0000&&&grid.avif)
 
-This story is a case study of the Inflections Project, a collaboration between Marian Dörk and Johanna Drucker at the <a href="https://uclab.fh-potsdam.de">UCLAB</a> of <a href="https://www.fh-potsdam.de/">FH Potsdam</a>, with contributions from Theresa Eingartner, Christopher Pietsch, and Philipp Proff.
+This story is a case study of the Inflections Project, a collaboration between <a href="https://mariandoerk.de">Marian Dörk</a> and <a href="https://johannadrucker.net">Johanna Drucker</a> at the <a href="https://uclab.fh-potsdam.de">UCLAB</a> of <a href="https://www.fh-potsdam.de/">FH Potsdam</a>, with contributions from <a href="https://www.sueddeutsche.de/autoren/theresa-eingartner-li.3244698">Theresa Eingartner</a>, <a href="https://chrispie.com">Christopher Pietsch</a>, and <a href="https://philippproff.eu">Philipp Proff</a>.
 
 Special thanks to Viktoria Brüggemann for her feedback on an early version of the essay.
 
