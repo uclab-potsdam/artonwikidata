@@ -199,11 +199,11 @@
             66% { transform: translateY(0rem); }
         }
 
-        .hamburger-icon {
+        #menu-icon {
             pointer-events: all;
             position: fixed;
             height: 1.75rem;
-            width: 2rem;
+            width: 1.75rem;
             z-index: 1000;
             cursor: pointer;
             transition: all 0.2s;
@@ -215,15 +215,11 @@
             position: absolute;
             left: .33rem;
             top: .85rem;
-            width: 1.25rem;
+            width: 1rem;
             height: .1rem;
             background-color: #bbb;
             transition: all 0.2s;
         }
-
-        .hamburger-icon:hover div { background-color: #000; }
-
-        body.menu-open .hamburger-icon:hover div { background-color: #fff; }
 
         .menu-open .icon-1, .menu-open .icon-2, .menu-open .icon-3 {
             background-color: #ccc;
@@ -304,75 +300,24 @@
             font-weight: 500;
         }
 
-        .open-icon {
+        #open-icon {
             pointer-events: all;
-            position: fixed;
+            padding: 0;
+            position: absolute;
             height: 1.75rem;
-            width: 2rem;
-            z-index: 400;
+            width: 1.75rem;
+            z-index: 1100;
             cursor: pointer;
             transition: all 0.2s;
-            left: 65.25vw;
+            right: 0;
             top: 0rem;
+            opacity: 0;
+            background-color: white;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='translate(0,-2)'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-size: 66%;
+            background-position: center;
         }
-
-        .open-icon .arrow-stem {
-            position: absolute;
-            left: .425rem;
-            top: .5rem;
-            width: 1rem;
-            height: .1rem;
-            background-color: #bbb;
-            transition: all 0.2s;
-            transform: rotate(-45deg);
-            transform-origin: right center;
-        }
-
-        .open-icon .arrow-head-1,
-        .open-icon .arrow-head-2 {
-            position: absolute;
-            right: .575rem;
-            top: .45rem;
-            width: .6rem;
-            height: .1rem;
-            background-color: #bbb;
-            transition: all 0.2s;
-        }
-
-        .open-icon .arrow-head-1 {
-            transform: rotate(-90deg);
-            transform-origin: right top;
-            top: .45rem;
-
-        }
-
-        .open-icon .arrow-head-2 {
-            transform: rotate(0deg);
-            transform-origin: right top;
-            right: .475rem;    
-
-        }
-
-        .open-icon:hover .arrow-stem,
-        .open-icon:hover .arrow-head-1,
-        .open-icon:hover .arrow-head-2 {
-            background-color: #000;
-        }
-
-        .open-icon.nudge .arrow-stem,
-        .open-icon.nudge .arrow-head-1,
-        .open-icon.nudge .arrow-head-2 {
-            transform: translate(.15rem, -.15rem);
-        }
-
-        .open-icon.nudge .arrow-stem {
-            transform: translate(.15rem, -.15rem) rotate(-45deg);
-        }
-
-        .open-icon.nudge .arrow-head-1 {
-            transform: translate(.15rem, -.15rem) rotate(-90deg);
-        }
-        
 
         @media (max-width: 1000px) and (orientation: portrait) {
             #scroll-hint { width: 100%; font-size: 2rem;}
@@ -401,14 +346,14 @@
                 z-index: 1;
             }
 
-            .hamburger-icon {
+            #menu-icon {
                 right: 0rem;
                 top: 0rem;
                 z-index: 1000;  
                 background-color: white;              
             }
 
-            .menu-open .hamburger-icon {
+            .menu-open #menu-icon {
                 background-color: transparent;
             }
 
@@ -416,21 +361,27 @@
                 width: 100%;
                 top: 0;
                 height: 100vh;
-                padding: 5rem;
+                padding: 2.5rem 5rem;
             }
 
-            .open-icon {
-                left: unset;
-                right: 0rem;
-                top: calc(50vh);                
-                z-index: 400;
+            #open-icon {
+                left: 0;
+                opacity: 0;
+                transition: opacity 0.2s;
             }
 
-            .open-icon .arrow-stem {
-                transform: rotate(-45deg);
+            #open-icon.visible {
+                opacity: 1;
             }
 
         }
+
+        @media (hover: hover) {
+            #menu-icon:hover div { background-color: #000; }
+            body.menu-open #menu-icon:hover div { background-color: #fff; }
+            #ifwrap:hover #open-icon { opacity: 1; }            
+        }
+
 
     </style>
 </head>
@@ -439,25 +390,20 @@
 
 <div id="scroll-hint" class="animated">▼</div>
 
-<div class="hamburger-icon" id="icon" onclick="toggleMenu()">
+<div id="menu-icon" onclick="toggleMenu()">
     <div class="icon-1" id="a"></div>
     <div class="icon-2" id="b"></div>
     <div class="icon-3" id="c"></div>
     <div class="clear"></div>
 </div>
 
-<a class="open-icon" id="open-link" title="Open iframe in new tab" href="#" target="_blank">
-    <div class="arrow-stem"></div>
-    <div class="arrow-head-1"></div>
-    <div class="arrow-head-2"></div>
-</a>
-
 <div id="menu">
     <div id="anchors"></div>
 </div>
 
-<div id="ifwrap"><div id="ifoverlay"></div></div>
-
+<div id="ifwrap">
+    <a id="open-icon" title="Open iframe in new tab" href="#" target="_blank"></a>
+    <div id="ifoverlay"></div></div>
 <main></main>
 
 <script>
@@ -465,8 +411,11 @@
     let activeIframe = null;
     let activeBaseUrl = null;
     const ifwrap = document.getElementById('ifwrap');
+    const ifoverlay = document.getElementById('ifoverlay');
+    const openIcon = document.getElementById('open-icon');
     let ifUpdateTimeout = null;
     var fs = 16;
+    
     
     function toggleMenu() {
         document.getElementById("a").classList.toggle('a');
@@ -830,6 +779,10 @@
     document.addEventListener("scroll", (event) => {
         if (location.hostname == "localhost") sessionStorage.setItem("scrollPosition", window.scrollY);
         checkIfAtTop();
+        
+        openIcon.classList.remove('visible');
+        ifoverlay.classList.remove('tapped');
+        
         if (window.scrollY > 5) {
             let scrollHint = document.querySelector('#scroll-hint');
             if (!scrollHint) return;
@@ -863,7 +816,7 @@
                     if (!visibleLink.classList.contains("dontinflect") && visibleLink.getAttribute("href") != "") {
                         visibleLink.classList.add('active');
                         setIframeIfPathChanged(visibleLink.href);
-                        document.getElementById('open-link').href = visibleLink.href;
+                        document.getElementById('open-icon').href = visibleLink.href;
                     }
                 } else {
                     entry.target.classList.remove("active");
@@ -883,7 +836,7 @@
                     document.querySelectorAll('main a').forEach(a => a.classList.remove('active'));
                     link.classList.add('active');
                     setIframeIfPathChanged(link.href);
-                    document.getElementById('open-link').href = link.href;
+                    document.getElementById('open-icon').href = link.href;
                 });
             }
         });
@@ -959,6 +912,16 @@
             lastHeight = window.innerHeight;                    
         }
     });
+
+
+    ifoverlay.addEventListener('click', function(e) {
+        const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+        if (!isMobilePortrait) return;
+        
+        openIcon.classList.toggle('visible');
+        ifoverlay.classList.toggle('tapped');
+    });
+
 
     setFontSize();
     renderMarkdown();
