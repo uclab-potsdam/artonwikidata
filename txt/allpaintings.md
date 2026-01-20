@@ -45,6 +45,4 @@ Here are some other lists you can help with:
 
 […]
 
-_Excerpt of <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings">Wikidata:Introduction</a> - last edited on 25 June 2023._
-
- 
+_Excerpt of <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings">Wikidata:WikiProject sum of all paintings</a> - last edited on 7 May 2025._

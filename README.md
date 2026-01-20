@@ -598,11 +598,11 @@ It maintains clear guidelines for how paintings should be described, e.g., which
 And because this is linked open data, anyone is free to query it, visualize it, or build upon it, as we have done here.
 
 
-[](txt/#allpaintings&annotations=!0_secondary(728,186,153,0,0);open(723,107,0,102,153);structured(727,257,51,153,102);work(730,558,254,97,0))
+[](txt/#allpaintings&annotations=A(secondary(680,164,214,214,214),open(756,98,214,214,214),structured(779,198,214,214,214));!3_work(730,558,254,97,0))
 There is still a lot of work to be done: paintings missing creators, dates, materials, genres, or images. 
 
 
-[](txt/#allpaintings&annotations=secondary(728,186,153,0,0);open(723,107,0,102,153);structured(727,257,51,153,102);!3_work(725,393,254,97,0);help(730,545,255,176,0))
+[](txt/#allpaintings&annotations=A(secondary(680,164,214,214,214),open(756,98,214,214,214),structured(779,198,214,214,214));work(737,469,254,97,0);!0_help(741,731,255,176,0))
 You can help by picking a collection or an artist's oeuvre and filling in the gaps. 
 Every edit contributes to painting a more complete picture.
 
