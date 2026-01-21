@@ -535,6 +535,12 @@
     function initializeSectionObserver() {
         const sections = document.querySelectorAll('main section');
         const visibleSectionIndices = new Set();
+
+        const isMobilePortrait = window.matchMedia("(max-width: 1000px) and (orientation: portrait)").matches;
+    
+        const rootMargin = isMobilePortrait 
+            ? '-55% 0px -25% 0px' 
+            : '-20% 0px -60% 0px';
         
         const sectionObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -565,7 +571,7 @@
             currentActiveSection = chapter || null;
             updateActiveMenuItem(currentActiveSection);
         }, {
-            rootMargin: '-20% 0px -60% 0px'
+            rootMargin: rootMargin
         });
 
         sections.forEach(section => {
